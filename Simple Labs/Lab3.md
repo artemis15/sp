@@ -79,12 +79,12 @@ For this Step you need to change one of the standard values `(.col-md-4)` to hav
 - Preview the live version of your page to see your changes (not through the Designer. 
 
 ### Bonus Challenge:
-At the Portal record, assign “kb_view2” as your “KB home page”.<br/> 
-Change the navbar color on just the Knowledge page.<br/>
+- At the Portal record, assign “kb_view2” as your “KB home page”.<br/> 
+- Change the navbar color on just the Knowledge page.<br/>
 
 ### Bonus Challenge Solution:
-In page designer, navigate to kb_view2 and open.<br/>
-In the Page Properties, place this custom CSS code (to change to yellow, for instance):
+- In page designer, navigate to kb_view2 and open.<br/>
+- In the Page Properties, place this custom CSS code (to change to yellow, for instance):
 ```CSS
 .navbar-inverse {
 	background-color:#FFD100; //or use whatever color you like here

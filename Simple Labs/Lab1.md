@@ -1,4 +1,4 @@
-#### Lab 1: Create a New Portal 
+# Lab 1: Create a New Portal 
 ### Introduction
 In this lab you will create a custom portal with a custom page and populated with standard widgets. You will also get more familiar with Page Designer.
 

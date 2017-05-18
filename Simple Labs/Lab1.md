@@ -24,19 +24,19 @@ On your home page, create 3 containers:
 
 ![move to header](/assets/designer.jpg)<br/>
 ***•	For Container 1:*** 
-- o	Set to 2 columns, 8 by 4<br/>
+- Set to 2 columns, 8 by 4<br/>
    	HINT: Start with any 2 column options, then change the Column property of each to get to 8 by 4.
-- o	Apply a background image<br/>
+- Apply a background image<br/>
   	In the Container properties, upload a new image (http://bit.ly/SP_header - download the Large version)<br/>
   	Set background image to Cover (In the Container Properties – Background style)
 
 ***•	For Container 2:***
-- o	Set to 4 columns
-- o	In Container properties, apply a background of #DDDDDD to this container.
+- Set to 4 columns
+- In Container properties, apply a background of #DDDDDD to this container.
 
 ***•	For Container 3:***
-- o	Set to 2 columns
-- o	In Container properties, apply a background of #343d47 to this container
+- Set to 2 columns
+- In Container properties, apply a background of #343d47 to this container
 
 `NOTE`: At this point if you preview your page you won’t see anything as you have just put your containers in place, there is no content to actually expose the backgrounds and image you placed. Once you get through Step 5 you’ll see the page come to life.
 
@@ -44,20 +44,20 @@ On your home page, create 3 containers:
 Apply the following widgets to your containers:
 
 ***•For Container 1:***
-- o	Left column:<br/>
+- Left column:<br/>
    	Place an “HTML” widget with a value of “Welcome” in the HTML. 
    	Select-all and use the Paragraph dropdown (in the WYSIWYG editor) to select the “Heading 2” value. Note: This turns the “Welcome” text into an H2 value (CSS).
-- o	Right column: Place a “Simple List” widget with options of:<br/>
+- Right column: Place a “Simple List” widget with options of:<br/>
    	Table: kb_knowledge
    	Display Field: Short Description
 
 ***•	For Container 2:***
-- o	Put “Icon Link” widgets in each column.
-- o	Use a mix of Titles, Icons (Glyph), Bootstrap Colors and Templates for each widget
+- Put “Icon Link” widgets in each column.
+- Use a mix of Titles, Icons (Glyph), Bootstrap Colors and Templates for each widget
 
 ***•	For Container 3:***
-- o	Left column: Place an “HTML” widget with the text of “© 2017 inMorphis” in the Body
-- o	Right column: Place a “My Requests” widget
+- Left column: Place an “HTML” widget with the text of “© 2017 inMorphis” in the Body
+- Right column: Place a “My Requests” widget
 
  
 The result should look something like this:

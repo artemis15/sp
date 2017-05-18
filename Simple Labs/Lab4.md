@@ -32,7 +32,7 @@ With Page Designer open to your new page:
 - Open Widget Options:
   - Title = Recent Incidents
   - Table = incident
-  - Fields = Number, Short Description, Caller
+  - Fields = Number, Short Description, Caller<br/><br/>
   ***Right Column:***
 - Place a “Simple List” widget
 - Open Widget Options:

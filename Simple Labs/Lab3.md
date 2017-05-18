@@ -2,6 +2,7 @@
 ## Introduction
 In this lab you will use CSS to change elements on the page.<br/>
 Reference the same containers from Lab 1 for this next section:
+![move to header](/assets/welcome.png)<br/>
 ## Step 1: Update Font Color and Size of an Element on 1 Page
 
 ### Go to Service Portal > Service Portal Configuration (sp_config) > Page Designer > Your Home Page

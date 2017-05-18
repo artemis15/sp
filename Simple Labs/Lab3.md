@@ -1,6 +1,6 @@
 # Lab 3: CSS Updates
 ## Introduction
-In this lab you will use CSS to change elements on the page.
+In this lab you will use CSS to change elements on the page.<br/>
 Reference the same containers from Lab 1 for this next section:
 ## Step 1: Update Font Color and Size of an Element on 1 Page
 

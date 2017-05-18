@@ -19,19 +19,21 @@ h2 {<br/>
    font-size: 24px;<br/>
 }<br/><br/>
 - Try using any other declarations (http://www.w3schools.com/cssref)
-NOTE: this will only affect the H2 value of this page since the CSS was just applied to the Page Properties.
-Step 2: Change Link Colors for All Pages
+`NOTE:` This will only affect the H2 value of this page since the CSS was just applied to the Page Properties.
+## Step 2: Change Link Colors for All Pages
 
 Your goal for this step is to change ALL the link colors of your Portal to a new color.
 
-To accomplish this:
-•	Go to Service Portal > CSS. Create a new CSS file (i.e. custom.css)
-•	Because you’re trying to change the link colors, that is the “A” element in CSS. In your CSS page, put in something like this:
-a {
-   color: #FFD100; //or use whatever color you like here, this is Yellow
-}
-•	Go to Service Portal > Portals > Your Portal. Click through to the Stock theme. Apply that CSS file to your Theme (click Edit and move over your file)
-•	Preview the live version of your page to see your changes (not through the Designer)
+***To accomplish this:***
+- Go to Service Portal > CSS. Create a new CSS file (i.e. custom.css)
+Because you’re trying to change the link colors, that is the “A” element in CSS. In your CSS page, put in something like this:<br/><br/>
+a {<br/>
+   color: #FFD100; //or use whatever color you like here, this is Yellow<br/>
+}<br/><br/>
+### Go to Service Portal > Portals > Your Portal 
+- Click through to the Stock theme<br/>
+- Apply that CSS file to your Theme (click Edit and move over your file)
+- Preview the live version of your page to see your changes (not through the Designer)
 
 NOTE: sometimes you need to hard refresh so your CSS can reload if a previous declaration was changed. To do this, simply use Command+Shift+R.
 Step 3: Change Link Colors for Just 1 Column

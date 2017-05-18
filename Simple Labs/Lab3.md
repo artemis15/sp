@@ -20,7 +20,7 @@ h2 {
    font-size: 24px;
 }
 ```
-- Try using any other declarations (http://www.w3schools.com/cssref)
+- Try using any other declarations (http://www.w3schools.com/cssref)<br/>
 `NOTE:` This will only affect the H2 value of this page since the CSS was just applied to the Page Properties.
 ## Step 2: Change Link Colors for All Pages
 

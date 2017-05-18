@@ -56,7 +56,7 @@ Create an addition Message:<br/>
 
 Go preview your portal to see the English text.<br/> 
 Then go into the Platform View and update your user settings to Spanish (use the Settings gear in the platform view to switch):<br/>
-![move to header](/assets/gear.jpg)<br/>
+![move to header](/assets/newgear.jpg)<br/>
 NOTE: You might need to refresh your platform view after activating the Internationalization plugin.
 Reload the page to see the Spanish text instead. 
 

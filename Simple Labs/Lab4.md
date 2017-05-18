@@ -11,7 +11,7 @@ Click on Page Designer
 ## Step 2: Build your page layout
 With Page Designer open to your new page:
 - Add 1 additional Container so there are 2 total containers
-  - Container 1: apply a 2-column layout (6 by 6)
+  - Container 1: apply a 2-column layout (6 by 6)<br/>
   - Container 2: apply a 1-column layout (12)
 
 ## Step 3: Add your Page to your Menu
@@ -29,9 +29,9 @@ With Page Designer open to your new page:
  ***Left Column:***
 - Place a “Data Table from Instance Definition” widget
 - Open Widget Options:
-o Title = Recent Incidents
-o Table = incident
-o Fields = Number, Short Description, Caller
+  - Title = Recent Incidents
+  - Table = incident
+  - Fields = Number, Short Description, Caller
 ***Right Column:***
 - Place a “Simple List” widget
 - Open Widget Options:

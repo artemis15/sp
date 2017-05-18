@@ -50,9 +50,9 @@ Preview the live version of your page to see your changes (not through the Desig
 ***Create an addition Message:***
 -	Go to System UI > Messages
 -	Create a new Message:
-  o	Key = portal_welcome_home<br/>
-  o	Language = Spanish<br/>
-  o	Message = Bienvenido<br/>
+  - Key = portal_welcome_home<br/>
+  - Language = Spanish<br/>
+  - Message = Bienvenido<br/>
 
 Go preview your portal to see the English text.<br/> 
 Then go into the Platform View and update your user settings to Spanish (use the Settings gear in the platform view to switch):<br/>
@@ -72,9 +72,9 @@ Add a Module to your Service Portal application that is just a filtered list of 
 - Application menu = Service Portal<br/>
 - Order = 6000<br/>
 - Link Type:<br/>
-  o	Link type = List of Records<br/>
-  o	Table = Message [sys_ui_messages]<br/>
-  o	Filter = Key, starts with, “portal_”<br/>
+  - Link type = List of Records<br/>
+  - Table = Message [sys_ui_messages]<br/>
+  - Filter = Key, starts with, “portal_”<br/>
 - Submit
 
 Check under Service Portal for the “Portal Messages” module as the last value. Click on the module to expose a list of your portal messages. 

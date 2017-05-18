@@ -43,7 +43,7 @@ Preview the live version of your page to see your changes (not through the Desig
 -	Go to System Definition > Plugins<br/>
 -	Filter for Name = I18N: Internationalization<br/>
 -	Click Activate/Upgrade, then Activate in the pop-up window<br/>
--	Once complete, select “View Plugins List” to get back to *** System Definition > Plugins***<br/>
+-	Once complete, select “View Plugins List” to get back to ***System Definition > Plugins***<br/>
 -	Filter for Name = I18N: Spanish Translations<br/>
 -	Click Activate/Upgrade, then Activate in the pop-up window (will take a few minutes to finish)<br/>
 ------------------------------------------------------------------------------------------------------------

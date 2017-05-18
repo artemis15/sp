@@ -11,17 +11,17 @@ Click on Page Designer
 ## Step 2: Build your page layout
 With Page Designer open to your new page:
 - Add 1 additional Container so there are 2 total containers
-o Container 1: apply a 2-column layout (6 by 6)<br/>
-o Container 2: apply a 1-column layout (12)
+  - Container 1: apply a 2-column layout (6 by 6)
+  - Container 2: apply a 1-column layout (12)
 
 ## Step 3: Add your Page to your Menu
 ***Go to Service Portal > Portal > Your Portal***
 - Click through to the Main Menu (SP Header Menu)
 - Add a New Menu Item:<br/>
-o Label = Dashboard<br/>
-o Order = 500<br/>
-o Type = Page<br/>
-o Page = dashboard<br/>
+  - Label = Dashboard<br/>
+  - Order = 500<br/>
+  - Type = Page<br/>
+  - Page = dashboard<br/>
 
 ## Step 4: Add OOB Widgets to your Columns
 

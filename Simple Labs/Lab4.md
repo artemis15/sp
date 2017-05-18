@@ -1,10 +1,9 @@
 # Lab 4: Add Widgets
-Introduction
+## Introduction
 In this lab you will create a new page, add it to your Menu and load it up with some OOB widgets.
-45 Minutes
 
-Step 1: Create a new Page
-Go to Service Portal > Service Portal Configuration (sp_config)
+## Step 1: Create a new Page
+***Go to Service Portal > Service Portal Configuration (sp_config)***
 •	Click on Page Designer
 •	Click the “Add a New Page” link
 •	Name = Dashboard, ID = dashboard

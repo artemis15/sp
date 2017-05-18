@@ -11,24 +11,24 @@ Click on Page Designer
 ## Step 2: Build your page layout
 With Page Designer open to your new page:
 - Add 1 additional Container so there are 2 total containers
- o	Container 1: apply a 2-column layout (6 by 6)
- o	Container 2: apply a 1-column layout (12)
+o Container 1: apply a 2-column layout (6 by 6)<br/>
+o Container 2: apply a 1-column layout (12)
 
-Step 3: Add your Page to your Menu
-Go to Service Portal > Portal > Your Portal
-Click through to the Main Menu (SP Header Menu)
-Add a New Menu Item:
-•	Label = Dashboard
-•	Order = 500
-•	Type = Page
-•	Page = dashboard
+## Step 3: Add your Page to your Menu
+***Go to Service Portal > Portal > Your Portal***
+- Click through to the Main Menu (SP Header Menu)
+- Add a New Menu Item:
+o Label = Dashboard
+o Order = 500
+o Type = Page
+o Page = dashboard
 
-Step 4: Add OOB Widgets to your Columns
+## Step 4: Add OOB Widgets to your Columns
 
-Container 1
-	Left Column:
-o	Place a “Data Table from Instance Definition” widget
-o	Open Widget Options:
+### Container 1
+- Left Column:
+o Place a “Data Table from Instance Definition” widget
+o Open Widget Options:
 	Title = Recent Incidents
 	Table = incident
 	Fields = Number, Short Description, Caller

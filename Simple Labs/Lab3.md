@@ -76,6 +76,7 @@ For this Step you need to change one of the standard values `(.col-md-4)` to hav
 `NOTE:` What this is doing is changing the OOB Bootstrap class of `.col-md-4`. Because you have changed this value at the CSS level 
 (as opposed to the Page or Container level) which is linked to your Portal (via the Theme), every time you have a column that is set to 4 for MD it will have this same value.
 - Preview the live version of your page to see your changes (not through the Designer) with a black background:
+![move to header](/assets/welcome.png)<br/>
 - To see it working on other columns, pick one of your other columns in one of your other containers and change the value of MD to 4     (from Column Properties). 
 - Preview the live version of your page to see your changes (not through the Designer. 
 

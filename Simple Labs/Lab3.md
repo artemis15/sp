@@ -27,8 +27,10 @@ h2 {
 Your goal for this step is to change ALL the link colors of your Portal to a new color.
 
 ***To accomplish this:***
-- Go to Service Portal > CSS. Create a new CSS file (i.e. custom.css)
-Because you’re trying to change the link colors, that is the “A” element in CSS. In your CSS page, put in something like this:
+- Go to Service Portal > CSS. 
+- Create a new CSS file (i.e. custom.css)
+Because you’re trying to change the link colors, that is the “A” element in CSS. <br/>
+In your CSS page, put in something like this:
 ```CSS
 a {
    color: #FFD100; //or use whatever color you like here, this is Yellow

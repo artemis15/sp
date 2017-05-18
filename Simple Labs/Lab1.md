@@ -25,10 +25,10 @@ On your home page, create 3 containers:
 ![move to header](/assets/designer.jpg)<br/>
 ***•	For Container 1:*** 
 - o	Set to 2 columns, 8 by 4
-- - 	HINT: Start with any 2 column options, then change the Column property of each to get to 8 by 4.
+   	HINT: Start with any 2 column options, then change the Column property of each to get to 8 by 4.
 - o	Apply a background image
-- - 	In the Container properties, upload a new image (http://bit.ly/SP_header - download the Large version)
-- - 	Set background image to Cover (In the Container Properties – Background style)
+  	In the Container properties, upload a new image (http://bit.ly/SP_header - download the Large version)
+  	Set background image to Cover (In the Container Properties – Background style)
 
 ***•	For Container 2:***
 - o	Set to 4 columns

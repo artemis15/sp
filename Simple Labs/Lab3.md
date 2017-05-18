@@ -58,7 +58,8 @@ You want to change the link colors in just THIS Column to Black (keeping the oth
 }
 ```
 - Next, head back to Page Designer > Your Home Page
-- Edit the Column Properties for the right column in Container 3. Add a class of “customlinks” and Save.
+- Edit the Column Properties for the right column in Container 3. 
+- Add a class of “customlinks” and Save.
 - Preview the live version of your page to see your changes (not through the Designer)
 
 ## Step 4: Change a Bootstrap Class Using CSS

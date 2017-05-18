@@ -12,8 +12,8 @@ Under Search Groups on the Portal record, Add a new value:
 •	Optional Label = HR Knowledge Base
 •	Page = kb_view2
 •	Conditions:
-o	Knowledge Base = Human Resources General Knowledge
-o	Workflow = Published
+-	Knowledge Base = Human Resources General Knowledge
+-	Workflow = Published
 
 Test on your live portal:
 •	Try the type ahead search with “Email”. You should see some addition KB article values included.

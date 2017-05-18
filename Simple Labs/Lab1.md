@@ -62,7 +62,7 @@ Apply the following widgets to your containers:
 
  
 The result should look something like this:
-![move to header](/assets/final1.jpg)<br/>
+![move to header](/assets/final1.png)<br/>
 
 `NOTE`: When viewing your page, it’s best to view outside of the designer. Use the quick link to open the page in your browser. The Designer doesn’t render your specific column and page CSS properties.
  

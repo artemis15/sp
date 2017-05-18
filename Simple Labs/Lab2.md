@@ -22,30 +22,30 @@ Test on your live portal:<br/>
 
 ## Step 2: Create a New Message for English
 
-Go to System UI > Messages
+### Go to System UI > Messages
 
-Create a new Message:<br/>
-•	Key = portal_welcome_home<br/>
-•	Language = English<br/>
-•	Message = Welcome<br/>
+***Create a new Message:***
+-	Key = portal_welcome_home
+-	Language = English
+-	Message = Welcome
 
-Go to Page Designer > Your Home Page <br/>
-•	Edit the HTML widget in Container 1<br/>
-•	Change the “Welcome” text value to “${portal_welcome_home}” (no quotes).<br/> <br/>
-`HINT`: Paste this value from the code view (< >).
+***Go to Page Designer > Your Home Page***
+-	Edit the HTML widget in Container 1
+-	Change the “Welcome” text value to “${portal_welcome_home}” (no quotes).
+- `HINT`: Paste this value from the code view (< >).
 
 Preview the live version of your page to see your changes (not through the Designer).
 
 
 ## Step 3: Create a New Message for Spanish
 
-Activate the Internationalization Plugin to turn on Spanish:<br/>
-•	Go to System Definition > Plugins<br/>
-•	Filter for Name = I18N: Internationalization<br/>
-•	Click Activate/Upgrade, then Activate in the pop-up window<br/>
-•	Once complete, select “View Plugins List” to get back to System Definition > Plugins<br/>
-•	Filter for Name = I18N: Spanish Translations<br/>
-•	Click Activate/Upgrade, then Activate in the pop-up window (will take a few minutes to finish)<br/>
+***Activate the Internationalization Plugin to turn on Spanish:***
+-	Go to System Definition > Plugins<br/>
+-	Filter for Name = I18N: Internationalization<br/>
+-	Click Activate/Upgrade, then Activate in the pop-up window<br/>
+-	Once complete, select “View Plugins List” to get back to System Definition > Plugins<br/>
+-	Filter for Name = I18N: Spanish Translations<br/>
+-	Click Activate/Upgrade, then Activate in the pop-up window (will take a few minutes to finish)<br/>
 
 Create an addition Message:<br/>
 •	Go to System UI > Messages<br/>

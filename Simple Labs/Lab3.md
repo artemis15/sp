@@ -35,17 +35,16 @@ a {<br/>
 - Apply that CSS file to your Theme (click Edit and move over your file)
 - Preview the live version of your page to see your changes (not through the Designer)
 
-NOTE: sometimes you need to hard refresh so your CSS can reload if a previous declaration was changed. To do this, simply use Command+Shift+R.
-Step 3: Change Link Colors for Just 1 Column
-
-In Container 3 is the My Requests widget from Lab 1. You want to change the link colors in just THIS Column to Black (keeping the other Column links the same from Step 2). 
-
-To accomplish this:
-•	Go to Service Portal > CSS > Your CSS File
-•	Add an addition element with a class of:
-.customlinks a {
-   color:#000000; //this is the value for Black
-}
+`NOTE:` sometimes you need to hard refresh so your CSS can reload if a previous declaration was changed. To do this, simply use Command+Shift+R.
+## Step 3: Change Link Colors for Just 1 Column
+In Container 3 is the My Requests widget from Lab 1. <br/>
+You want to change the link colors in just THIS Column to Black (keeping the other Column links the same from Step 2).<br/> 
+***To accomplish this:***
+- Go to Service Portal > CSS > Your CSS File
+- Add an addition element with a class of:<br/><br/>
+.customlinks a {<br/>
+   color:#000000; //this is the value for Black<br/>
+}<br/><br/>
 •	Next, head back to Page Designer > Your Home Page
 •	Edit the Column Properties for the right column in Container 3. Add a class of “customlinks” and Save.
 •	Preview the live version of your page to see your changes (not through the Designer)

@@ -11,7 +11,7 @@ In this lab you will add a new table to your Search Results and create a new Mes
  -	Table = kb_knowledge
  -	Optional Label = HR Knowledge Base
  -	Page = kb_view2
- -	Conditions:
+ -	Conditions:<br/>
    - Knowledge Base = Human Resources General Knowledge
    - Workflow = Published
 

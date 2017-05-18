@@ -11,7 +11,7 @@ In Container 1, left column is the HTML widget. <br/>
 Using CSS from Page Properties, your goal is to change the color and size of the “Welcome” text. 
 
 ***To accomplish this:***
-- Remember the CSS element of the “Welcome” text was defined as “H2” in a Lab 1 so you need to adjust the H2 value using CSS
+- Remember the CSS element of the “Welcome” text was defined as “H2” in a Lab 1 so you need to adjust the "H2" value using CSS
 - Also remember to view the page outside of the Designer (use the preview link)
 - Open Page Properties and locate the Page Specific CSS field
 - Here is a sample CSS value to change the H2 value:

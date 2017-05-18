@@ -62,3 +62,21 @@ Apply the following widgets to your containers:
 
  
 The result should look something like this:
+![move to header](/assets/final1.jpg)<br/>
+
+`NOTE`: When viewing your page, it’s best to view outside of the designer. Use the quick link to open the page in your browser. The Designer doesn’t render your specific column and page CSS properties.
+ 
+
+# Bonus Challenge: 
+Have one of your containers disappear on mobile. 
+
+## Bonus Challenge Solution:
+1.	Navigate to http://getbootstrap.com/css
+2.	Find the “Available classes” section on the page (on the page, click Command+F and search for the words “Available classes”)
+3.	You want the “hidden-xs” value
+4.	Navigate back to your container and place the “hidden-xs” value into the widget option of Parent Class. 
+`NOTE:` You do not need to include the period of the class when using class names within the Page Designer. So you would use “hidden-xs” versus “.hidden-xs”.
+5.	Test using the Preview function on the page designer.
+
+The idea is that you an include any of the available classes from Bootstrap within your containers / rows / columns / widgets to tap into the out-of-box functionality of Bootstrap within Service Portal. 
+

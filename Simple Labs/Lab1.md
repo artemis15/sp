@@ -4,9 +4,9 @@ In this lab you will create a custom portal with a custom page and populated wit
 
 ### Step 1: Create a new Portal
 Go to Service Portal > Portals
-•	Create a new record.
-•	Assign the “Stock” theme to your portal.
-•	Assign the “SP Header Menu” as your Main menu.
+Create a new record.
+Assign the “Stock” theme to your portal.
+Assign the “SP Header Menu” as your Main menu.
 
 ### Step 2: Create a new Page
 Go to Service Portal > Service Portal Configuration (sp_config)

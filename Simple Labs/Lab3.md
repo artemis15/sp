@@ -1,20 +1,19 @@
 # Lab 3: CSS Updates
-Introduction
+## Introduction
 In this lab you will use CSS to change elements on the page.
-45 Minutes
-
 Reference the same containers from Lab 1 for this next section:
-Step 1: Update Font Color and Size of an Element on 1 Page
+## Step 1: Update Font Color and Size of an Element on 1 Page
 
-Go to Service Portal > Service Portal Configuration (sp_config) > Page Designer > Your Home Page
+### Go to Service Portal > Service Portal Configuration (sp_config) > Page Designer > Your Home Page
 
-In Container 1, left column is the HTML widget. Using CSS from Page Properties, your goal is to change the color and size of the “Welcome” text. 
+In Container 1, left column is the HTML widget. <br/>
+Using CSS from Page Properties, your goal is to change the color and size of the “Welcome” text. 
 
-To accomplish this:
-•	Remember the CSS element of the “Welcome” text was defined as “H2” in a Lab 1 so you need to adjust the H2 value using CSS
-•	Also remember to view the page outside of the Designer (use the preview link)
-•	Open Page Properties and locate the Page Specific CSS field
-•	Here is a sample CSS value to change the H2 value:
+***To accomplish this:***
+- Remember the CSS element of the “Welcome” text was defined as “H2” in a Lab 1 so you need to adjust the H2 value using CSS
+- Also remember to view the page outside of the Designer (use the preview link)
+- Open Page Properties and locate the Page Specific CSS field
+- Here is a sample CSS value to change the H2 value:
 h2 {
    color: #FFD100; //or use whatever color you like here
    font-size: 24px;

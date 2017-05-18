@@ -3,16 +3,16 @@
 In this lab you will create a new page, add it to your Menu and load it up with some OOB widgets.
 
 ## Step 1: Create a new Page
-***Go to Service Portal > Service Portal Configuration (sp_config)***
-•	Click on Page Designer
-•	Click the “Add a New Page” link
-•	Name = Dashboard, ID = dashboard
+***Go to Service Portal > Service Portal Configuration (sp_config)*** <br/>
+Click on Page Designer
+-	Click the “Add a New Page” link
+-	Name = Dashboard, ID = dashboard
 
-Step 2: Build your page layout
+## Step 2: Build your page layout
 With Page Designer open to your new page:
-•	Add 1 additional Container so there are 2 total containers
-o	Container 1: apply a 2-column layout (6 by 6)
-o	Container 2: apply a 1-column layout (12)
+- Add 1 additional Container so there are 2 total containers
+ o	Container 1: apply a 2-column layout (6 by 6)
+ o	Container 2: apply a 1-column layout (12)
 
 Step 3: Add your Page to your Menu
 Go to Service Portal > Portal > Your Portal

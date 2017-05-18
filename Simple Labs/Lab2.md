@@ -65,7 +65,7 @@ Reload the page to see the Spanish text instead.
 ## Bonus Challenge: 
 Add a Module to your Service Portal application that is just a filtered list of your Portal Messages.
 
-## Bonus Challenge Solution: 
+### Bonus Challenge Solution: 
 ### Go to System Definition > Modules
 ***Create a New Module:***
 - Title = Portal Messages

@@ -32,11 +32,11 @@ On your home page, create 3 containers:
 
 ***For Container 2:***
 - Set to 4 columns
-- In Container properties, apply a background of #DDDDDD to this container.
+- In Container properties, apply a background of `#DDDDDD` to this container.
 
 ***For Container 3:***
 - Set to 2 columns
-- In Container properties, apply a background of #343d47 to this container
+- In Container properties, apply a background of `#343d47` to this container
 
 `NOTE`: At this point if you preview your page you won’t see anything as you have just put your containers in place, there is no content to actually expose the backgrounds and image you placed. Once you get through Step 5 you’ll see the page come to life.
 

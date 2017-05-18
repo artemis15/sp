@@ -28,19 +28,19 @@ Your goal for this step is to change ALL the link colors of your Portal to a new
 
 ***To accomplish this:***
 - Go to Service Portal > CSS. Create a new CSS file (i.e. custom.css)
-Because you’re trying to change the link colors, that is the “A” element in CSS. In your CSS page, put in something like this:<br/><br/>
+Because you’re trying to change the link colors, that is the “A” element in CSS. In your CSS page, put in something like this:
 ```CSS
 a {
    color: #FFD100; //or use whatever color you like here, this is Yellow
 }
 ```
-<br/><br/>
 ### Go to Service Portal > Portals > Your Portal 
 - Click through to the Stock theme<br/>
 - Apply that CSS file to your Theme (click Edit and move over your file)
 - Preview the live version of your page to see your changes (not through the Designer)
 
-`NOTE:` sometimes you need to hard refresh so your CSS can reload if a previous declaration was changed. To do this, simply use Command+Shift+R.
+`NOTE:` sometimes you need to hard refresh so your CSS can reload if a previous declaration was changed.<br/> 
+To do this, simply use Command+Shift+R.
 
 ## Step 3: Change Link Colors for Just 1 Column
 
@@ -48,39 +48,40 @@ In Container 3 is the My Requests widget from Lab 1. <br/>
 You want to change the link colors in just THIS Column to Black (keeping the other Column links the same from Step 2).<br/> 
 ***To accomplish this:***
 - Go to Service Portal > CSS > Your CSS File
-- Add an addition element with a class of:<br/><br/>
+- Add an addition element with a class of:
 ```CSS
 .customlinks a {
    color:#000000; //this is the value for Black<br/>
 }
 ```
-<br/><br/>
--	Next, head back to Page Designer > Your Home Page
--	Edit the Column Properties for the right column in Container 3. Add a class of “customlinks” and Save.
--	Preview the live version of your page to see your changes (not through the Designer)
+- Next, head back to Page Designer > Your Home Page
+- Edit the Column Properties for the right column in Container 3. Add a class of “customlinks” and Save.
+- Preview the live version of your page to see your changes (not through the Designer)
 
-Step 4: Change a Bootstrap Class Using CSS
-One of the features of Service Portal is you can overwrite the OOB Bootstrap classes at the Portal, Page and Widget level. For this Step you need to change one of the standard values (.col-md-4) to have a new value.
+## Step 4: Change a Bootstrap Class Using CSS
+One of the features of Service Portal is you can overwrite the OOB Bootstrap classes at the Portal, Page and Widget level. <br/>
+For this Step you need to change one of the standard values `(.col-md-4)` to have a new value.
 
-To accomplish this:
-•	Go to Service Portal > CSS > Your CSS File
-•	Assign a new value of:
+***To accomplish this:***
+- Go to Service Portal > CSS > Your CSS File
+- Assign a new value of:
 ```CSS
 .col-md-4 {
    background-color:#000000;
 }
 ```
-<br/><br/>
-NOTE: What this is doing is changing the OOB Bootstrap class of `.col-md-4`. Because you have changed this value at the CSS level (as opposed to the Page or Container level) which is linked to your Portal (via the Theme), every time you have a column that is set to 4 for MD it will have this same value.
-•	Preview the live version of your page to see your changes (not through the Designer) with a black background:
-•	To see it working on other columns, pick one of your other columns in one of your other containers and change the value of MD to 4 (from Column Properties). Preview the live version of your page to see your changes (not through the Designer. 
+`NOTE:` What this is doing is changing the OOB Bootstrap class of `.col-md-4`. Because you have changed this value at the CSS level<br/> 
+(as opposed to the Page or Container level) which is linked to your Portal (via the Theme), every time you have a column that is set to 4 for MD it will have this same value.
+- Preview the live version of your page to see your changes (not through the Designer) with a black background:
+- To see it working on other columns, pick one of your other columns in one of your other containers and change the value of MD to 4     (from Column Properties). 
+- Preview the live version of your page to see your changes (not through the Designer. 
 
-Bonus Challenge:
-At the Portal record, assign “kb_view2” as your “KB home page”. 
-Change the navbar color on just the Knowledge page.
+### Bonus Challenge:
+At the Portal record, assign “kb_view2” as your “KB home page”.<br/> 
+Change the navbar color on just the Knowledge page.<br/>
 
-Bonus Challenge Solution:
-In page designer, navigate to kb_view2 and open.
+### Bonus Challenge Solution:
+In page designer, navigate to kb_view2 and open.<br/>
 In the Page Properties, place this custom CSS code (to change to yellow, for instance):
 ```CSS
 .navbar-inverse {

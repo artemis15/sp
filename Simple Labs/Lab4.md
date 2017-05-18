@@ -33,7 +33,7 @@ With Page Designer open to your new page:
   - Title = Recent Incidents
   - Table = incident
   - Fields = Number, Short Description, Caller<br/>
-***Right Column:***
+  ***Right Column:***
 - Place a “Simple List” widget
 - Open Widget Options:
   - Table = hr_task

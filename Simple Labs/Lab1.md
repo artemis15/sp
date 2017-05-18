@@ -40,7 +40,8 @@ On your home page, create 3 containers:
 
 ## Step 5: Include Widgets
 Apply the following widgets to your containers:
-*** •	For Container 1:***
+***•For Container 1:***
+***Learn more:***
 - o	Left column:
 - - 	Place an “HTML” widget with a value of “Welcome” in the HTML. 
 - - 	Select-all and use the Paragraph dropdown (in the WYSIWYG editor) to select the “Heading 2” value. Note: This turns the “Welcome” text into an H2 value (CSS).

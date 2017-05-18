@@ -5,9 +5,9 @@ In this lab you will add a new table to your Search Results and create a new Mes
 
 ## Step 1: Add Additional Knowledge Base to Search Groups
 
- Go to Service Portal > Portals > Your Portal
+ ### Go to Service Portal > Portals > Your Portal
 
- Under Search Groups on the Portal record, Add a new value:<br/>
+ ***Under Search Groups on the Portal record, Add a new value:***
  -	Table = kb_knowledge
  -	Optional Label = HR Knowledge Base
  -	Page = kb_view2   
@@ -66,12 +66,12 @@ Reload the page to see the Spanish text instead.
 Add a Module to your Service Portal application that is just a filtered list of your Portal Messages.
 
 ## Bonus Challenge Solution: 
-•Go to System Definition > Modules
-•Create a New Module:<br/>
-•	Title = Portal Messages<br/>
-•	Application menu = Service Portal<br/>
-•	Order = 6000<br/>
-•	Link Type:<br/>
+### Go to System Definition > Modules
+*** Create a New Module:***
+- Title = Portal Messages
+- Application menu = Service Portal<br/>
+- Order = 6000<br/>
+- Link Type:<br/>
   o	Link type = List of Records<br/>
   o	Table = Message [sys_ui_messages]<br/>
   o	Filter = Key, starts with, “portal_”<br/>

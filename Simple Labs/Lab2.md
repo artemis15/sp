@@ -47,9 +47,9 @@ Preview the live version of your page to see your changes (not through the Desig
 -	Filter for Name = I18N: Spanish Translations<br/>
 -	Click Activate/Upgrade, then Activate in the pop-up window (will take a few minutes to finish)<br/>
 ------------------------------------------------------------------------------------------------------------
-Create an addition Message:<br/>
-•	Go to System UI > Messages<br/>
-•	Create a new Message:
+***Create an addition Message:***
+-	Go to System UI > Messages
+-	Create a new Message:
   o	Key = portal_welcome_home<br/>
   o	Language = Spanish<br/>
   o	Message = Bienvenido<br/>
@@ -57,17 +57,17 @@ Create an addition Message:<br/>
 Go preview your portal to see the English text.<br/> 
 Then go into the Platform View and update your user settings to Spanish (use the Settings gear in the platform view to switch):<br/>
 ![move to header](/assets/newgear.jpg)<br/>
-NOTE: You might need to refresh your platform view after activating the Internationalization plugin.
+'NOTE:' You might need to refresh your platform view after activating the Internationalization plugin.
 Reload the page to see the Spanish text instead. 
 
-HINT: make sure to switch BACK to English!
+ 'HINT': make sure to switch BACK to English!
 
 ## Bonus Challenge: 
 Add a Module to your Service Portal application that is just a filtered list of your Portal Messages.
 
 ## Bonus Challenge Solution: 
-Go to System Definition > Modules
-Create a New Module:<br/>
+•Go to System Definition > Modules
+•Create a New Module:<br/>
 •	Title = Portal Messages<br/>
 •	Application menu = Service Portal<br/>
 •	Order = 6000<br/>

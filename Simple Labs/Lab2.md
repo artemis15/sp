@@ -16,8 +16,8 @@ In this lab you will add a new table to your Search Results and create a new Mes
    - Workflow = Published
 
 Test on your live portal:<br/>
-•	Try the type ahead search with “Email”. You should see some addition KB article values included.<br/>
-•	Try the search results page to see the Label as a filter.
+-	Try the type ahead search with “Email”. You should see some addition KB article values included.<br/>
+-	Try the search results page to see the Label as a filter.
 
 
 ## Step 2: Create a New Message for English

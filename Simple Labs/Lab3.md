@@ -18,7 +18,7 @@ Using CSS from Page Properties, your goal is to change the color and size of the
 h2 {<br/>
    color: #FFD100; //or use whatever color you like here<br/>
    font-size: 24px;<br/>
-}````
+}```
 - Try using any other declarations (http://www.w3schools.com/cssref)
 `NOTE:` This will only affect the H2 value of this page since the CSS was just applied to the Page Properties.
 ## Step 2: Change Link Colors for All Pages

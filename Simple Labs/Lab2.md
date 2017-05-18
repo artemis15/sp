@@ -8,12 +8,12 @@ In this lab you will add a new table to your Search Results and create a new Mes
  Go to Service Portal > Portals > Your Portal
 
  Under Search Groups on the Portal record, Add a new value:<br/>
- •	Table = kb_knowledge<br/>
- •	Optional Label = HR Knowledge Base<br/>
- •	Page = kb_view2<br/>
- •	Conditions:<br/>
-  - Knowledge Base = Human Resources General Knowledge<br/>
-  - Workflow = Published
+ -	Table = kb_knowledge
+ -	Optional Label = HR Knowledge Base
+ -	Page = kb_view2
+ -	Conditions:
+   - Knowledge Base = Human Resources General Knowledge
+   - Workflow = Published
 
 Test on your live portal:<br/>
 •	Try the type ahead search with “Email”. You should see some addition KB article values included.<br/>

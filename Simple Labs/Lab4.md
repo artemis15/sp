@@ -6,8 +6,8 @@ In this lab you will create a new page, add it to your Menu and load it up with 
 ***Go to Service Portal > Service Portal Configuration (sp_config)*** <br/>
 - Click on Page Designer
 -	Click the “Add a New Page” link<br/>
-  - Name = Dashboard <br/>
-  - ID = dashboard<br/>
+   - Name = Dashboard <br/>
+   - ID = dashboard<br/>
 
 ## Step 2: Build your page layout
 With Page Designer open to your new page:

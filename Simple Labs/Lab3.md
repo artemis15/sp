@@ -28,7 +28,7 @@ Your goal for this step is to change ALL the link colors of your Portal to a new
 
 ***To accomplish this:***
 - Go to Service Portal > CSS. 
-- Create a new CSS file (i.e. custom.css)
+- Create a new CSS file (i.e. custom.css)<br/>
 Because you’re trying to change the link colors, that is the “A” element in CSS. <br/>
 In your CSS page, put in something like this:
 ```CSS

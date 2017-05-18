@@ -32,7 +32,7 @@ Create a new Message:<br/>
 Go to Page Designer > Your Home Page <br/>
 •	Edit the HTML widget in Container 1<br/>
 •	Change the “Welcome” text value to “${portal_welcome_home}” (no quotes).<br/> <br/>
-HINT: Paste this value from the code view (< >).
+`HINT`: Paste this value from the code view (< >).
 
 Preview the live version of your page to see your changes (not through the Designer).
 

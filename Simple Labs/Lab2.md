@@ -15,7 +15,7 @@ In this lab you will add a new table to your Search Results and create a new Mes
    -	Knowledge Base = Human Resources General Knowledge 
    -	Workflow = Published 
 
-Test on your live portal:<br/>
+***Test on your live portal:***
 -	Try the type ahead search with “Email”. You should see some addition KB article values included.<br/>
 -	Try the search results page to see the Label as a filter.
 
@@ -67,7 +67,7 @@ Add a Module to your Service Portal application that is just a filtered list of 
 
 ## Bonus Challenge Solution: 
 ### Go to System Definition > Modules
-*** Create a New Module:***
+***Create a New Module:***
 - Title = Portal Messages
 - Application menu = Service Portal<br/>
 - Order = 6000<br/>

@@ -24,10 +24,10 @@ On your home page, create 3 containers:
 
 ![move to header](/assets/designer.jpg)<br/>
 ***•	For Container 1:*** 
-- o	Set to 2 columns, 8 by 4
+- o	Set to 2 columns, 8 by 4<br/>
    	HINT: Start with any 2 column options, then change the Column property of each to get to 8 by 4.
-- o	Apply a background image
-  	In the Container properties, upload a new image (http://bit.ly/SP_header - download the Large version)
+- o	Apply a background image<br/>
+  	In the Container properties, upload a new image (http://bit.ly/SP_header - download the Large version)<br/>
   	Set background image to Cover (In the Container Properties – Background style)
 
 ***•	For Container 2:***
@@ -44,12 +44,12 @@ On your home page, create 3 containers:
 Apply the following widgets to your containers:
 
 ***•For Container 1:***
-- o	Left column:
-- - 	Place an “HTML” widget with a value of “Welcome” in the HTML. 
-- - 	Select-all and use the Paragraph dropdown (in the WYSIWYG editor) to select the “Heading 2” value. Note: This turns the “Welcome” text into an H2 value (CSS).
-- o	Right column: Place a “Simple List” widget with options of:
-- - 	Table: kb_knowledge
-- - 	Display Field: Short Description
+- o	Left column:<br/>
+   	Place an “HTML” widget with a value of “Welcome” in the HTML. 
+   	Select-all and use the Paragraph dropdown (in the WYSIWYG editor) to select the “Heading 2” value. Note: This turns the “Welcome” text into an H2 value (CSS).
+- o	Right column: Place a “Simple List” widget with options of:<br/>
+   	Table: kb_knowledge
+   	Display Field: Short Description
 
 ***•	For Container 2:***
 - o	Put “Icon Link” widgets in each column.

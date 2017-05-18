@@ -1,5 +1,4 @@
-# Service Portal 100 Lab Guide
-Lab 3: CSS Updates
+# Lab 3: CSS Updates
 Introduction
 In this lab you will use CSS to change elements on the page.
 45 Minutes

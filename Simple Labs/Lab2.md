@@ -75,7 +75,7 @@ Add a Module to your Service Portal application that is just a filtered list of 
   o	Link type = List of Records<br/>
   o	Table = Message [sys_ui_messages]<br/>
   o	Filter = Key, starts with, “portal_”<br/>
-•	Submit
+- Submit
 
 Check under Service Portal for the “Portal Messages” module as the last value. Click on the module to expose a list of your portal messages. 
 

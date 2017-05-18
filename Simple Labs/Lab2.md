@@ -1,9 +1,9 @@
 # Lab 2: Search Groups and Messages
 Introduction
 In this lab you will add a new table to your Search Results and create a new Message to be used within a widget.
-30 Minutes
 
-Step 1: Add Additional Knowledge Base to Search Groups
+
+## Step 1: Add Additional Knowledge Base to Search Groups
 
 Go to Service Portal > Portals > Your Portal
 

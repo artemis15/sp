@@ -13,7 +13,7 @@
 - Remember the `$sp.do?id=<page_id>` trick?
 
 ### Lab Validation:
-***Your new test page with your cloned widget will look something like this.*** 
+***Your new test page with your cloned widget will look something like this.***  <br/> 
 Test it out by adding a known stock code (e.g. NOW).
 
 # Lab 1.2: Adding Options to the Widget

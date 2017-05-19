@@ -118,8 +118,8 @@ displayed in red if the price is 60 or below or green for anything higher.<br/><
   - You will need to remove the inline style for “color” of the price option
 
 ***Once you’re done, this is how it will/should look like:*** 
-![move to header](/assets/realtimesymbol.png) <br/>
-![move to header](/assets/realtimesymbol.png) <br/>
+![move to header](/assets/realtimesymbol1.png) <br/>
+![move to header](/assets/realtimesymbol2.png) <br/>
 
 ###  …And with that, you’ve successfully completed Lab 1 
 

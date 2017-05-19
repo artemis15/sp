@@ -1,4 +1,4 @@
-# Lab 2.1: Create a Bootstrap Table
+# Lab 3.1: Create a Bootstrap Table
 This lab will teach you how to load data, in that case active HR Case records, into a table.<br/>
 Let’s start with building the HTML for a Bootstrap table, before we load data to populate the table with.<br/> <br/>
 You can find documentation on how to create Bootstrap tables here:
@@ -63,7 +63,7 @@ Here is the HTML for that example:
 </div>
 
 ```
-# Lab 2.2: Writing the Server Script
+# Lab 3.2: Writing the Server Script
 
 Before we start adding AngularJS to our form, let’s make sure we have all the data we need. <br/>
 
@@ -123,7 +123,7 @@ It awaits an array, so we are initializing an hrCases array that we are populati
 
 })();
 ```
-# Lab 2.3: Adding AngularJS to the Bootstrap form
+# Lab 3.3: Adding AngularJS to the Bootstrap form
 Now that we have our data object populated, let’s access that data in the HTML section.
 
 ### Step 1 – ng-repeat over the table headings
@@ -160,7 +160,7 @@ If you would not do that you would have to write:
 <td>{{case.short_description}}</td>
 … etc. 
 ```
-# Lab 2.4: Adding a Record Watcher to the list
+# Lab 3.4: Adding a Record Watcher to the list
 - Just replace your client script with the following code snippet:
 ```javascript
 function(spUtil, $scope) {

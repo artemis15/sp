@@ -21,6 +21,7 @@ In this lab you will create a custom process flow with a custom page and populat
       </div>
     </div>
   </div>
+ </div>
 ```
 <br/>
 
@@ -121,3 +122,6 @@ In this lab you will create a custom process flow with a custom page and populat
 - In Page designer, Place `Process Flow` widget inside a container > row > Column at top location.
 - View paget from following link `http://instance-name.service-now.com/sp?id=process_flow`. End result will be like below:<br/>
 ![move to header](/assets/process_flow.PNG)<br/>
+
+# Challenge
+- Embed `process flow` widget with `Form` widget

@@ -64,7 +64,7 @@ Test it out by adding a known stock code (e.g. NOW). <br/><br/>
 Open your test page, and again test it out.<br/> 
 This time, open your test page with an actual portal associated (e.g. sp). <br/>
 ***The page should look something like this:***
-
+![move to header](/assets/realtimestock.png)<br/>
 
 # Lab 1.3: Adding Widget specific CSS-SCSS
 

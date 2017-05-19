@@ -26,6 +26,7 @@ We will write the widget in the following order:<br/>
 ***Your form should look something like this.***  <br/><br/>
 ### Bonus: 
 - Add a Link to Terms & Conditions and make them open up in a modal.
+That Terms & Conditions can live directly in the Widget HTML or you can try to use an Angular Template (Create the Modal HTML in the ng-template Related List on the Widget level and use that as the modal target).
 
 # Lab 3.2: Writing the Server Script
 
@@ -195,16 +196,14 @@ function validateRegistration(email) {
 
 	//abort if user already exists
 	if (userExists(email)) {
-		data.message = gs.getMessage("There is already a user record with that email address. 
-    Please pick another one or reset your password via the 'Login' form.");
+		data.message = gs.getMessage("There is already a user record with that email address.Please pick another one or reset your password via the 'Login' form.");
 		data.status = "error";
 		isNoDuplicate = false;
 	}
 
 	//abort if registration already exists
 	if (registrationExists(email)) {
-		data.message = gs.getMessage("There is already a pending registration request for that email address.
-		Please pick another one or reset your password via the 'Login' form.");
+		data.message = gs.getMessage("There is already a pending registration request for that email address.Please pick another one or reset your password via the 'Login' form.");
 		data.status = "error";
 		isNoDuplicate = false;
 	}

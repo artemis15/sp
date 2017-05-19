@@ -22,25 +22,23 @@ We will write the widget in the following order:<br/>
 
 `Hint:`Use Bootstrap form builders to quickly create forms, e.g.: http://bootsnipp.com/forms
 
-Lab Validation:
-Your form should look something like this.
-Bonus: Add a Link to Terms & Conditions and make them open up in a modal.
-That Terms & Conditions can live directly in the Widget HTML or you can try to use an Angular Template 
-(Create the Modal HTML in the ng-template Related List on the Widget level and use that as the modal target).
-Lab 3.2: Writing the Server Script
+### Lab Validation:
+***Your form should look something like this.***  <br/><br/>
+### Bonus: 
+- Add a Link to Terms & Conditions and make them open up in a modal.
 
-Before we start adding AngularJS to our form, let’s make sure we have all the data we need.
+# Lab 3.2: Writing the Server Script
 
-HINT: Do not copy/paste this code from the Box preview, open up the Word document, copy it in the correct widget field, mark everything (Cmd + A) and then format the code with Shift + Tab.
+Before we start adding AngularJS to our form, let’s make sure we have all the data we need. <br/><br/>
+`HINT:` Do not copy/paste this code from the Box preview, open up the Word document, copy it in the correct widget field, mark everything (Cmd + A) and then format the code with Shift + Tab.<br/><br/>
 
-Step 1 – Loading the Events from the Event Table:
-To load events we are using some standard GlideRecord magic.
-Be aware that the Server Script is already executed when you load a page (and the widgets).
-For us that means that we obviously only want to load the Events initially. 
+## Step 1 – Loading the Events from the Event Table:
+To load events we are using some standard GlideRecord magic.<br/>
+Be aware that the Server Script is already executed when you load a page (and the widgets).<br/> 
 When a user submits the form we do not need to load the events again, for this we are adding the if(!input) check – 
-so only when the form loads and the input object is therefore not defined yet, we will execute the GlideRecord script.
+so only when the form loads and the input object is therefore not defined yet, we will execute the GlideRecord script. <br/>
 
-
+```javascript
 /* Get Events for Event Select Box. Only load them initially */
 	if(!input) {
 		var events = [];
@@ -60,7 +58,7 @@ grEvent.addQuery(“u_active”, true);
 		//make events available to the client
 		data.events = events;
 	}
-
+```
 ng-repeat on the HTML side awaits an array so we are initializing an events array that we are 
 populating by iterating over the GlideRecord result.
 

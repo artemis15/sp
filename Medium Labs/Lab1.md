@@ -11,7 +11,7 @@
 `Hint:` You can save the widget by pressing Command + S.
 
 - Open the test page in a new tab without a portal associated. 
-- Remember the `$sp.do?id=<page_id>` trick?
+***Remember the `$sp.do?id=<page_id>` trick?***
 
 ### Lab Validation:
 ***Your new test page with your cloned widget will look something like this.***  <br/>

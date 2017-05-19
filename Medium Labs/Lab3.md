@@ -82,8 +82,7 @@ function validateRegistration(email) {
 
 	//abort if registration already exists
 	if (registrationExists(email)) {
-		data.message = gs.getMessage("There is already a pending registration request for that email address.
-		Please pick another one or reset your password via the 'Login' form.");
+		data.message = gs.getMessage("There is already a pending registration request for that email address.Please pick another one or reset your password via the 'Login' form.");
 		data.status = "error";
 		isNoDuplicate = false;
 	}
@@ -129,9 +128,7 @@ grHackathonReg.setValue('u_company', input.company);
 
 	if (!gs.nil(userRegSysId)) {
 		data.status = "success";
-		data.message = gs.getMessage("Your registration has been submitted. 
-		You will be redirected to the homepage in a few seconds. 
-		If you are not being redirected click on the Logo and you will get back to the homepage.");
+		data.message = gs.getMessage("Your registration has been submitted. You will be redirected to the homepage in a few seconds. If you are not being redirected click on the Logo and you will get back to the homepage.");
 	} else {
 		data.status = "error";
 	}
@@ -181,9 +178,7 @@ grHackathonReg.setValue('u_state', 'pending');
 
 			if (!gs.nil(userRegSysId)) {
 				data.status = "success";
-				data.message = gs.getMessage("Your registration has been submitted. 
-				You will be redirected to the homepage in a few seconds. 
-                         If you are not being redirected click on the Logo and you will get back to the homepage.");
+				data.message = gs.getMessage("Your registration has been submitted. You will be redirected to the homepage in a few seconds.If you are not being redirected click on the Logo and you will get back to the homepage.");
 			} else {
 				data.status = "error";
 			}
@@ -234,26 +229,29 @@ function userExists(email) {
 return usr.hasNext();
 }
 ```
-Lab 3.3: Adding the Client Script
+# Lab 3.3: Adding the Client Script
 The Client Script serves as the Angular Controller. 
 
-Step 1 – Initializing the Controller
-The first thing we do is to initialize c by adding the following line (if it is not already there):
+## Step 1 – Initializing the Controller
+The first thing we do is to initialize c by adding the following line (if it is not already there): <br/>
 var c = this;
-Step 2 – Writing the Submit Form function
-Our Submit function should take a parameter called isValid. 
+## Step 2 – Writing the Submit Form function
+Our Submit function should take a parameter called isValid. <br/>
 The value in this variable is determined by the call of our submit function within the ng-submit that we defined in the HTML Template.
-
-Our function call should therefore look like this:
+Our function call should therefore look like this: <br/>
+```javascript
 c.submitForm = function(isValid) {
-Now that we sent the form we actually want to trigger the validation. 
-We already set a variable in the HTML which was called submitted.
-Let’s set this one in the client script by adding the following line:
+```
+Now that we sent the form we actually want to trigger the validation. <br/> 
+We already set a variable in the HTML which was called submitted. <br/>
+Let’s set this one in the client script by adding the following line: <br/>
+```javascript
 c.submitted = true;
-After we have done this it’s time to prepare the data object with our values from the form, 
-but only in case our form is valid – if not, then we obviously do not want to do anything.
+```
+After we have done this it’s time to prepare the data object with our values from the form, but only in case our form is valid – if not, then we obviously do not want to do anything.<br/>
 
-This is how we do it: 
+This is how we do it:  <br/>
+```javascript
 // check to make sure the form is completely valid
 if (isValid) {
 
@@ -267,37 +265,35 @@ c.data.eventSysId = c.select_event.sys_id;
 c.data.comments = c.comments;
 
 }
-Now that we assigned our form variables to the data object our Server Script
-will have access to this data the moment we add a simple line:
+```
+Now that we assigned our form variables to the data object our Server Script will have access to this data the moment we add a simple line:
+```javascript
 c.server.update();
-If you do not want to do anything after that you are good, 
-but in our example we also want to show the user if the registration was successful or not. 
-To achieve that we are adding a Promise to the update function.
+```
+If you do not want to do anything after that you are good, but in our example we also want to show the user if the registration was successful or not. <br/>
+To achieve that we are adding a Promise to the update function. <br/>
+```javascript
 c.server.update().then(function(response) {
-
 if (response.status == 'success') {
 $('#errorMessage').hide();
-
 c.success = response.message;
 
 setTimeout(function() { 
 	window.location.href = "?id=index";
 }, 5000);
 
-
 } else if (response.status == 'error') {
 c.message = response.message;
 }
 });
-The promise function evaluates a status variable that will also be set by the server script.
-In case we ran into an error before the first thing we do is hide the errorMessage <div> with jQuery.
+```
+The promise function evaluates a status variable that will also be set by the server script. <br/>
+In case we ran into an error before the first thing we do is hide the errorMessage <div> with jQuery. <br/>
 
-After that we populate the success variable with the message that we also set in the Server Script. 
-That will cause our success <div> to show up since we now have a value for this variable.
+After that we populate the success variable with the message that we also set in the Server Script. <br/>
+That will cause our success "<div>" to show up since we now have a value for this variable. <br/>
 
-setTimeout is a method calls a function or evaluates an expression after a specified number of milliseconds. 
-In our case we are using the window object of the Browser to redirect the user to the index page after 5 seconds.
-Lab 3.4: Adding AngularJS to the Bootstrap form
+# Lab 3.4: Adding AngularJS to the Bootstrap form
 Step 1 – ng-model
 The first thing we do is that we will add the ng-model directive to all our input fields. 
 Example:

@@ -1,5 +1,6 @@
 # Lab 1.1: Clone Stock Widget
-Go to Service Portal -> Service Portal Configuration, open the Widget Editor and open the Stock widget
+### Go to Service Portal -> Service Portal Configuration 
+#### open the Widget Editor and open the Stock widget
 
 Click on the menu and choose Clone “Stock”. Give the new widget a name of My Stock and check the Create test page. Then click Submit.
 

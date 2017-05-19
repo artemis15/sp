@@ -75,14 +75,16 @@ function validateRegistration(email) {
 
 	//abort if user already exists
 	if (userExists(email)) {
-		data.message = gs.getMessage("There is already a user record with that email address. Please pick another one or reset your password via the 'Login' form.");
+		data.message = gs.getMessage("There is already a user record with that email address.
+		Please pick another one or reset your password via the 'Login' form.");
 		data.status = "error";
 		isNoDuplicate = false;
 	}
 
 	//abort if registration already exists
 	if (registrationExists(email)) {
-		data.message = gs.getMessage("There is already a pending registration request for that email address. Please pick another one or reset your password via the 'Login' form.");
+		data.message = gs.getMessage("There is already a pending registration request for that email address.
+		Please pick another one or reset your password via the 'Login' form.");
 		data.status = "error";
 		isNoDuplicate = false;
 	}
@@ -128,7 +130,9 @@ grHackathonReg.setValue('u_company', input.company);
 
 	if (!gs.nil(userRegSysId)) {
 		data.status = "success";
-		data.message = gs.getMessage("Your registration has been submitted. You will be redirected to the homepage in a few seconds. If you are not being redirected click on the Logo and you will get back to the homepage.");
+		data.message = gs.getMessage("Your registration has been submitted. 
+		You will be redirected to the homepage in a few seconds. 
+		If you are not being redirected click on the Logo and you will get back to the homepage.");
 	} else {
 		data.status = "error";
 	}
@@ -178,8 +182,9 @@ grHackathonReg.setValue('u_state', 'pending');
 
 			if (!gs.nil(userRegSysId)) {
 				data.status = "success";
-				data.message = gs.getMessage("Your registration has been submitted. You will be redirected to the homepage in a few seconds. 
-        If you are not being redirected click on the Logo and you will get back to the homepage.");
+				data.message = gs.getMessage("Your registration has been submitted. 
+				You will be redirected to the homepage in a few seconds. 
+                         If you are not being redirected click on the Logo and you will get back to the homepage.");
 			} else {
 				data.status = "error";
 			}
@@ -204,7 +209,8 @@ function validateRegistration(email) {
 
 	//abort if registration already exists
 	if (registrationExists(email)) {
-		data.message = gs.getMessage("There is already a pending registration request for that email address. Please pick another one or reset your password via the 'Login' form.");
+		data.message = gs.getMessage("There is already a pending registration request for that email address.
+		Please pick another one or reset your password via the 'Login' form.");
 		data.status = "error";
 		isNoDuplicate = false;
 	}

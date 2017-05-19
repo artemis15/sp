@@ -105,12 +105,12 @@ Notice how even though the title is not set, the h2 tag is still rendered and oc
 ***So how do we check if the option is set or not?***
 Take a look at how the span element that contains the localized text ${Requesting stock price}. <br/>
 This element is using a special AngularJS directive called ng-if. <br/>
-Once you’re done, the page should look something like this with `NO `visible empty space.
+Once you’re done, the page should look something like this with `NO `visible empty space.<br/><br/><br/>
 ![move to header](/assets/servicenow1.4.1.png) <br/>
 
 # Lab 1.5: Challenge – Applying Dynamic Classes
 
-See if you can fly solo and modify your widget so that the price is <br/>
+See if you can fly solo and modify your widget so that the price is 
 displayed in red if the price is 60 or below or green for anything higher.<br/><br/>
 `Hints:`
   - You will need to work with another AngularJS directive called ng-class

@@ -57,7 +57,7 @@ Test it out by adding a known stock code (e.g. NOW). <br/><br/>
   - Price CSS:	color: green;  font-size: 30px
   - Image CSS:	border: 5px solid green; border-radius: 5px; padding: 5px; <br/><br/>
 ![move to header](/assets/realtime.png)<br/> <br/>
-- reload the page 
+- reload the page <br/>
 ***you can immediately see the title you added above.***
 
 ### Lab Validation:

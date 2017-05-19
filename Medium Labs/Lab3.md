@@ -9,7 +9,7 @@ We will write the widget in the following order:<br/>
 - Write the Server Script
 - Write the Client Script
 - Add AngularJS to the form
-
+----------------------------------------------------------------------------------------------------------------------------------------
 # Lab 3.1: Create a Bootstrap Form 
  - Create a Bootstrap form with the following fields:
    - First Name (Text Input)
@@ -27,7 +27,7 @@ We will write the widget in the following order:<br/>
 ### Bonus: 
 - Add a Link to Terms & Conditions and make them open up in a modal.
 That Terms & Conditions can live directly in the Widget HTML or you can try to use an Angular Template (Create the Modal HTML in the ng-template Related List on the Widget level and use that as the modal target).
-
+----------------------------------------------------------------------------------------------------------------------------------------
 # Lab 3.2: Writing the Server Script
 
 Before we start adding AngularJS to our form, let’s make sure we have all the data we need. <br/><br/>
@@ -228,6 +228,7 @@ function userExists(email) {
 return usr.hasNext();
 }
 ```
+----------------------------------------------------------------------------------------------------------------------------------------
 # Lab 3.3: Adding the Client Script
 The Client Script serves as the Angular Controller. 
 
@@ -293,7 +294,7 @@ In case we ran into an error before the first thing we do is hide the errorMessa
 
 After that we populate the success variable with the message that we also set in the Server Script. <br/>
 That will cause our success ```<div>``` to show up since we now have a value for this variable. <br/>
-
+----------------------------------------------------------------------------------------------------------------------------------------
 # Lab 3.4: Adding AngularJS to the Bootstrap form
 ## Step 1: ng-model
 The first thing we do is that we will add the ng-model directive to all our input fields. 
@@ -321,9 +322,9 @@ The conditions for showing that element are:<br/>
 - The first name within the registration form is invalid (true if the field is empty since we set required to true)
 - Our form has to be submitted 
 (this is a value we are going to set in Lab 1.3 – Writing the Client Script, but you can already set this here)<br/><br/>
-`Hint:` All our error messages will only appear when the user clicks the Register Now button <br/><br/> 
-(this will be controlled via the Client Script from Lab 1.3). 
+`Hint:` All our error messages will only appear when the user clicks the Register Now button <br/><br/>  
 Right now we are just adding the validations. <br/><br/>
+
 ```CSS
 ng-minlength & ng-maxlength:
 ```
@@ -382,6 +383,7 @@ This basically reads like for every event in `c.data.events `(which we will popu
 print out the event.name of each event as a Select option.<br/>
 
 This Select Box won’t be populated with anything until we write our Server Script, but we can already prepare it.
+----------------------------------------------------------------------------------------------------------------------------------------
 # Lab 3.5: Adding the CSS 
 
 Add the following lines into your CSS section since we are using some of the classes:

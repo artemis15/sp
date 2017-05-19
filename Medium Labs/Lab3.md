@@ -180,4 +180,4 @@ We are basically just telling it to watch the HR Case table and only records wit
 
 If you want you can add some styling to your table, e.g. by adding the panel class to the top ```<div>``` element.
 
-With that you successfully completed Lab 3  
+## With that you successfully completed Lab 3  

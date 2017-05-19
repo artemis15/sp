@@ -301,7 +301,6 @@ Example:
 ```HTML
 <input type="text" ng-model="c.first_name" value="" class="form-control" name="first_name" id="first_name" placeholder="First Name" ng-required="true"/>
 ```
-<br/>
 ## Step 2: ng-submit
 The next step is to add a function that should be executed on the client when the user submits the form.<br/>
 We are using the ng-submit directive for this. <br/>

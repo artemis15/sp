@@ -11,14 +11,14 @@ We will write the widget in the following order:<br/>
 - Add AngularJS to the form
 
 # Lab 3.1: Create a Bootstrap Form 
-  - Create a Bootstrap form with the following fields:
-  - First Name (Text Input)
-  -	Last Name (Text Input)
-  -	Company (Text Input)
-  -	E-Mail (Text Input)
-  -	Event (Select Basic)
-  -	Comments (Input Text Area)
-  -	A Submit Button
+ - Create a Bootstrap form with the following fields:
+   - First Name (Text Input)
+   -	Last Name (Text Input)
+   -	Company (Text Input)
+   -	E-Mail (Text Input)
+   -	Event (Select Basic)
+   -	Comments (Input Text Area)
+   -	A Submit Button
 
 `Hint:`Use Bootstrap form builders to quickly create forms, e.g.: http://bootsnipp.com/forms
 

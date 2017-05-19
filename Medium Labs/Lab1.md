@@ -25,7 +25,8 @@ Test it out by adding a known stock code (e.g. NOW). <br/><br/>
 - Create 3 new options:
   - Label: Title		  Name: title 		Type: string
   - Label: Price:CSS	Name: price_css	Type: string
-  - Label: Image CSS	Name: image_css	Type: string
+  - Label: Image CSS	Name: image_css	Type: string <br/><br/>
+  ![move to header](/assets/options.png)<br/>
 
 - Click Save and then reload the page.
 

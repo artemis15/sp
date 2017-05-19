@@ -1,0 +1,16 @@
+#registerNow {
+  background: #D3232C;
+  border-color: #D3232C;
+}
+
+.noresize {
+  resize: none; 
+}
+
+.vresize {
+  resize: vertical; 
+}
+  
+.hresize {
+  resize: horizontal;  
+}  

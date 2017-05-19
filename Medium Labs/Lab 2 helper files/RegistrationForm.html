@@ -1,0 +1,67 @@
+<form class="form-signin" name="registration" ng-submit="c.submitForm(registration.$valid)" role="form" novalidate>
+
+  <div ng-if="c.message" id="errorMessage" class="alert alert-danger" role="alert">{{c.message}}</div>
+  <div ng-if="c.success" id="successMessage" class="alert alert-success" role="alert">{{c.success}}</div>
+
+
+  <div class="list-group list-group-sm">
+    <!-- First Name -->
+    <div class="list-group-item" ng-class="{ 'has-error' : registration.first_name.$invalid && c.submitted}">
+      <label for="first_name" class="sr-only">First Name</label>
+      <input type="text" ng-model="c.first_name" value="" class="form-control" name="first_name" id="first_name" placeholder="First Name" ng-required="true"/>  
+      <p ng-show="registration.first_name.$invalid && c.submitted" class="help-block">Your First Name is required.</p>
+    </div>
+
+    <!-- Last Name -->
+    <div class="list-group-item" ng-class="{ 'has-error' : registration.last_name.$invalid && c.submitted }">
+      <label for="last_name" class="sr-only">Last Name</label>
+      <input type="text" ng-model="c.last_name" value="" class="form-control" name="last_name" id="last_name" placeholder="Last Name" ng-required="true" />
+      <p ng-show="registration.last_name.$invalid && c.submitted" class="help-block">Your Last Name is required.</p>
+    </div>
+
+    <!-- Company -->
+    <div class="list-group-item" ng-class="{ 'has-error' : registration.company.$invalid && c.submitted }">
+      <label for="company" class="sr-only">Company</label>
+      <input type="text" ng-model="c.company" value="" class="form-control" id="company" name="company" placeholder="Company" ng-required="true" ng-minlength="3" ng-maxlength="10"/>
+      <p ng-show="registration.company.$error.minlength && c.submitted" class="help-block">Company is too short.</p>
+      <p ng-show="registration.company.$error.maxlength && c.submitted" class="help-block">Company is too long.</p>
+      <p ng-show="registration.company.$invalid && c.submitted" class="help-block">Your Company is required.</p>
+    </div>
+
+    <!-- Email -->
+    <div class="list-group-item" ng-class="{ 'has-error' : registration.email.$invalid && c.submitted}">      
+      <label for="email" class="sr-only">E-Mail</label>
+      <input type="email" name="email" class="form-control" placeholder="E-Mail" ng-model="c.email" ng-required="true">
+      <p ng-show="registration.email.$invalid && c.submitted" class="help-block">Enter a valid email.</p>
+    </div>
+
+
+    <!-- Comments -->
+    <div class="list-group-item">      
+      <label for="email" class="sr-only">Comments</label>
+      <textarea class="form-control vresize" id="textarea" name="textarea" ng-model="c.comments" placeholder="Let us know if there is anything that you want to have covered."></textarea>
+    </div>
+  </div>
+
+
+  <!-- Event Select Box -->
+  <div class="list-group-item" ng-class="{ 'has-error' : registration.select_event.$invalid && c.submitted }">
+    <label class="list-group-item no-border" for="select_team">Event</label>
+    <select id="select_event" name="select_event" class="form-control" ng-model="c.select_event" ng-options="event.name for event in c.data.events" ng-required="true">
+      <option value="" disabled>-- Choose an Event --</option>
+    </select>
+    <p ng-show="registration.select_event.$invalid && c.submitted" class="help-block">Please select an event.</p>
+  </div>
+
+
+  <!-- Privacy Policy & Terms conditions -->
+  <div class="list-group list-group-sm">
+    <div class="list-group-item">      
+      <p style="margin: 0 0 0px">Read our <a href="/hackathon_terms.do" target="_blank">Hackathon Terms &amp; Conditions</a></p>
+    </div>
+  </div>
+
+
+  <button type="submit" id="registerNow" class="btn btn-lg btn-primary btn-block">Register Now</button>
+
+</form>

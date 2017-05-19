@@ -112,5 +112,10 @@ In this lab you will create a custom process flow with a custom page and populat
 ```
 <br/>
 
-## Create a new Page
+## Step 1: Create a new Page
+***Go to Service Portal > Page > Click New***
+- Name: process_flow - Test Page
+- ID: process_flow
+- Click on `Submit` button.
+- Once submitted, Click on `Open in Page Designer` related link
 

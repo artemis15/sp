@@ -5,7 +5,7 @@
 - Click on the menu and choose Clone “Stock”. 
 - Give the new widget a name of My Stock 
 - check the Create test page 
-- Submit <br/>
+- Submit <br/><br/>
 ![move to header](/assets/clone.png)<br/>
 
 `Hint:` You can save the widget by pressing Command + S.
@@ -14,8 +14,9 @@
 - Remember the `$sp.do?id=<page_id>` trick?
 
 ### Lab Validation:
-***Your new test page with your cloned widget will look something like this.***  <br/> 
-Test it out by adding a known stock code (e.g. NOW).
+***Your new test page with your cloned widget will look something like this.***  <br/>
+Test it out by adding a known stock code (e.g. NOW). <br/><br/>
+![move to header](/assets/stock.png)<br/>
 
 # Lab 1.2: Adding Options to the Widget
 

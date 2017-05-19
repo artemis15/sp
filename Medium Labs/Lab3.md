@@ -233,7 +233,9 @@ The Client Script serves as the Angular Controller.
 
 ## Step 1 – Initializing the Controller
 The first thing we do is to initialize c by adding the following line (if it is not already there): <br/>
+```javascript
 var c = this;
+```
 ## Step 2 – Writing the Submit Form function
 Our Submit function should take a parameter called isValid. <br/>
 The value in this variable is determined by the call of our submit function within the ng-submit that we defined in the HTML Template.
@@ -287,10 +289,10 @@ c.message = response.message;
 });
 ```
 The promise function evaluates a status variable that will also be set by the server script. <br/>
-In case we ran into an error before the first thing we do is hide the errorMessage `<div>` with jQuery. <br/>
+In case we ran into an error before the first thing we do is hide the errorMessage ```<div>``` with jQuery. <br/>
 
 After that we populate the success variable with the message that we also set in the Server Script. <br/>
-That will cause our success `<div>` to show up since we now have a value for this variable. <br/>
+That will cause our success ```<div>``` to show up since we now have a value for this variable. <br/>
 
 # Lab 3.4: Adding AngularJS to the Bootstrap form
 ## Step 1 – ng-model

@@ -294,7 +294,9 @@ In case we ran into an error before the first thing we do is hide the errorMessa
 
 After that we populate the success variable with the message that we also set in the Server Script. <br/>
 That will cause our success ```<div>``` to show up since we now have a value for this variable. <br/>
+
 ----------------------------------------------------------------------------------------------------------------------------------------
+
 # Lab 3.4: Adding AngularJS to the Bootstrap form
 ## Step 1: ng-model
 The first thing we do is that we will add the ng-model directive to all our input fields. 

@@ -294,41 +294,46 @@ After that we populate the success variable with the message that we also set in
 That will cause our success `<div>` to show up since we now have a value for this variable. <br/>
 
 # Lab 3.4: Adding AngularJS to the Bootstrap form
-Step 1 – ng-model
+## Step 1 – ng-model
 The first thing we do is that we will add the ng-model directive to all our input fields. 
 Example:
 ```HTML
 <input type="text" ng-model="c.first_name" value="" class="form-control" name="first_name" id="first_name" placeholder="First Name" ng-required="true"/>
 ```
 <br/>
-Step 2 – ng-submit
-The next step is to add a function that should be executed on the client when the user submits the form.
-
-We are using the ng-submit directive for this. 
-Make sure that the name of your form is passed in as a parameter to the submitForm function. 
-$valid is an AngularJS property that tells whether an item is valid based on the rules that we will place.
-Example: 
+## Step 2 – ng-submit
+The next step is to add a function that should be executed on the client when the user submits the form.<br/>
+We are using the ng-submit directive for this. <br/>
+Make sure that the name of your form is passed in as a parameter to the submitForm function.<br/> 
+$valid is an AngularJS property that tells whether an item is valid based on the rules that we will place.<br/><br/>
+### Example: 
+```HTML
 <form name="registration" ng-submit="c.submitForm(registration.$valid)" role="form" novalidate>
-Step 3 – Form validation with AngularJS & Bootstrap
-ng-required:
-Let’s assume you added ng-required to the First Name input field,
+```
+## Step 3 – Form validation with AngularJS & Bootstrap
+### ng-required:
+Let’s assume you added ng-required to the First Name input field, <br/>
+```HTML
 <p ng-show="registration.first_name.$invalid && c.submitted" class="help-block">Your First Name is required.</p>
-Within that <p> tag we utilize the ng-show directive to determine when to show our error message. 
-The conditions for showing that element are:
-•	The first name within the registration form is invalid (true if the field is empty since we set required to true)
-•	Our form has to be submitted 
-(this is a value we are going to set in Lab 1.3 – Writing the Client Script, but you can already set this here)
-Hint: All our error messages will only appear when the user clicks the Register Now button 
+```
+Within that ```<p>``` tag we utilize the ng-show directive to determine when to show our error message.<br/> 
+The conditions for showing that element are:<br/>
+- The first name within the registration form is invalid (true if the field is empty since we set required to true)
+- Our form has to be submitted 
+(this is a value we are going to set in Lab 1.3 – Writing the Client Script, but you can already set this here)<br/><br/>
+`Hint:` All our error messages will only appear when the user clicks the Register Now button <br/><br/> 
 (this will be controlled via the Client Script from Lab 1.3). 
-Right now we are just adding the validations.
+Right now we are just adding the validations. <br/><br/>
+```CSS
 ng-minlength & ng-maxlength:
-With using ng-min/maxlength we can determine the minimum or maximum characters for a field.
+```
+With using ng-min/maxlength we can determine the minimum or maximum characters for a field. <br/>
 
-$error is an object hash, containing references to controls or forms with failing validators (e.g. minlength or maxlength).
+$error is an object hash, containing references to controls or forms with failing validators (e.g. minlength or maxlength).<br/><br/>
 
-Hint: you will find all $error properties here (search for $error):
-https://docs.angularjs.org/api/ng/type/form.FormController
-Example:
+`Hint:` you will find all $error properties here (search for $error): https://docs.angularjs.org/api/ng/type/form.FormController
+### Example:
+```HTML
 <!-- Company -->
 <div class="list-group-item">      
 <input type="text" ng-model="c.company" value="" class="form-control" id="company" name="company" placeholder="Company" ng-required="true" ng-minlength="3" ng-maxlength="10"/>
@@ -338,42 +343,49 @@ Example:
 <p ng-show="registration.company.$error.maxlength && c.submitted" class="help-block">Company is too long.</p>
 <p ng-show="registration.company.$invalid && c.submitted" class="help-block">Your Company is required.</p>
 </div>
-Step 4 – Adding a Message Block
-When the user submits the form and everything was good (or not) we want to show the result of the transaction immediately.
-For this we are going to use Bootstrap Alerts.
+```
+## Step 4 – Adding a Message Block
+When the user submits the form and everything was good (or not) we want to show the result of the transaction immediately. <br/>
+For this we are going to use Bootstrap Alerts.<br/>
+```HTML
 <div ng-if="c.message" id="errorMessage" class="alert alert-danger" role="alert">{{c.message}}</div>
 
 <div ng-if="c.success" id="successMessage" class="alert alert-success" role="alert">{{c.success}}</div>
-The message and success variables are both set on the client. We can access them by using the AngularJS {{ c.myVariable }} notation.
+```
+The message and success variables are both set on the client. We can access them by using the AngularJS `{{ c.myVariable }}` notation.
 
-Hint: There is also another way of binding variables which can increase performance, but which is only a one-way binding (meaning that this variable is going to be undefined once we return to the server). 
-The notation is: ::c.myVariable. 
+`Hint:` There is also another way of binding variables which can increase performance, but which is only a one-way binding (meaning that this variable is going to be undefined once we return to the server). <br/>
+The notation is:  `::c.myVariable.`  <br/>
 
-For more information read up on this here:
-https://www.binpress.com/tutorial/speeding-up-angular-js-with-simple-optimizations/135
+For more information read up on this here: https://www.binpress.com/tutorial/speeding-up-angular-js-with-simple-optimizations/135
 
-Step 5 – Adding (CSS) Classes conditionally: 
-When we run into an error on a specific field we want to add according error handling classes to the input field.
-Do achieve that we use the ng-class directive.
+## Step 5 – Adding (CSS) Classes conditionally: 
+When we run into an error on a specific field we want to add according error handling classes to the input field. <br/>
+Do achieve that we use the ng-class directive. <br/>
 
-What we are doing here is adding the class has-error WHEN the last_name field is invalid AND our form has been submitted.
+What we are doing here is adding the class has-error WHEN the last_name field is invalid AND our form has been submitted.<br/>
+```HTML
 <!-- Last Name -->
 <div class="list-group-item" ng-class="{ 'has-error' : registration.last_name.$invalid && c.submitted }">      
 <input type="text" ng-model="c.last_name" value="" class="form-control" name="last_name" id="last_name" placeholder="Last Name" ng-required="true" />
 <p ng-show="registration.last_name.$invalid && c.submitted" class="help-block">Your Last Name is required.</p>
 </div>
-Step 6 – Loading our Events from the Server
+```
+## Step 6 – Loading our Events from the Server
 To populate our Select Variable we make use of the ng-options directive.
+```HTML
 <select id="select_event" name="select_event" class="form-control" ng-model="c.select_event" ng-options="event.name for event in c.data.events" ng-required="true">
 <option value="" disabled>-- Choose an Event --</option>
 </select>
-This basically reads like for every event in c.data.events (which we will populate from our Server Script) 
-print out the event.name of each event as a Select option.
+```
+This basically reads like for every event in `c.data.events `(which we will populate from our Server Script)<br/> 
+print out the event.name of each event as a Select option.<br/>
 
 This Select Box won’t be populated with anything until we write our Server Script, but we can already prepare it.
-Lab 3.5: Adding the CSS 
+# Lab 3.5: Adding the CSS 
 
 Add the following lines into your CSS section since we are using some of the classes:
+```CSS
 #registerNow {
   background: #D3232C;
   border-color: #D3232C;
@@ -395,3 +407,4 @@ Add the following lines into your CSS section since we are using some of the cla
   top: 10px;
   right: 10px;
 }
+```

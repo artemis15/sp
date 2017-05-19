@@ -25,7 +25,8 @@ You will create that table in a new Widget.
 
 
 ### Lab Validation:
-***Your table should look something like this.***
+***Your table should look something like this.*** <br/><br/>
+![move to header](/assets/tableservice.png)<br/>
 
 Let’s change this by loading data and adding AngularJS after.<br/>
 

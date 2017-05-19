@@ -12,3 +12,10 @@ In this space, we are going to learn service portal step by step.
   - [Lab 2: Bootstrap Form](Medium%20Labs/Lab2.md)
   - [Lab 3: Custom Table](Medium%20Labs/Lab3.md)
   
++ Step 3: [Advance Labs](Advance%20Labs)
+  - [Lab 1 : Creating Process flow in service portal](Advance%20Labs/Creating%20Process%20Flow.md)
+  - [Lab 2: Real-time DataTable Widget - Part-I](Advance%20Labs/Real_Time_DataTable_Part_1.md)
+  - [Lab 3: Real-time DataTable Widget - Part-II](Advance%20Labs/Real%20Time%20DataTable%20-%20Part%202.md)
+  - [Lab 3: Tabbed-view DataTable Widget](Advance%20Labs/Tabbed_grouped_DataList.md)
+  
+  > In case of any issue, please let us know

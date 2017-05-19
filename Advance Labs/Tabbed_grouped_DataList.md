@@ -313,4 +313,4 @@ function($scope,$location) {
 ***Verify the end result***<br/>
 ![move to header](/assets/tabbed_dt.png)<br/>
 
-## Hurray!!! Lab is done
+## Hurray!!! Lab is done :)

@@ -77,4 +77,4 @@ spUtil.recordWatch($scope, "incident", "active=true", function(name, data) {
 ```
 <br/>
 - End result will be something like below:<br/>
-![move to header](/assets/reat-time-1.png)<br/>
+![move to header](/assets/realdt1.png)<br/>

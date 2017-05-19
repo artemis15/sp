@@ -121,7 +121,7 @@ if(validateRegistration(input.email)){
 	grHackathonReg.setValue('u_first_name', input.first_name);
 	grHackathonReg.setValue('u_last_name', input.last_name);
 	grHackathonReg.setValue('u_email', input.email);
-grHackathonReg.setValue('u_company', input.company);
+        grHackathonReg.setValue('u_company', input.company);
 	grHackathonReg.setValue('u_event', input.eventSysId);
 	grHackathonReg.setValue('u_state', 'pending');
 	grHackathonReg.setValue('u_comments', input.comments);
@@ -173,7 +173,7 @@ Your final server script should now look like this:
 			grHackathonReg.setValue('u_email', input.email);
 			grHackathonReg.setValue('u_company', input.company);
 			grHackathonReg.setValue('u_event', input.eventSysId);
-grHackathonReg.setValue('u_state', 'pending');
+                        grHackathonReg.setValue('u_state', 'pending');
 			grHackathonReg.setValue('u_comments', input.comments);
 			var userRegSysId = grHackathonReg.insert();
 
@@ -381,9 +381,10 @@ To populate our Select Variable we make use of the ng-options directive.
 ```
 This basically reads like for every event in `c.data.events `(which we will populate from our Server Script)<br/> 
 print out the event.name of each event as a Select option.<br/>
-
 This Select Box won’t be populated with anything until we write our Server Script, but we can already prepare it.
+
 ----------------------------------------------------------------------------------------------------------------------------------------
+
 # Lab 3.5: Adding the CSS 
 
 Add the following lines into your CSS section since we are using some of the classes:

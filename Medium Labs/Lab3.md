@@ -75,7 +75,7 @@ function validateRegistration(email) {
 
 	//abort if user already exists
 	if (userExists(email)) {
-		data.message = gs.getMessage("There is already a user record with that email address.
+		data.message = gs.getMessage("There is already a user record with that email address
 		Please pick another one or reset your password via the 'Login' form.");
 		data.status = "error";
 		isNoDuplicate = false;

@@ -49,8 +49,8 @@ Test it out by adding a known stock code (e.g. NOW). <br/><br/>
 - Click Save.
 
 ***Open or reload the test page again***
-- Right-click + CTRL on the widget instance and select Instance Options: <br/>
-![move to header](/assets/symbol.png)<br/>
+- Right-click + CTRL on the widget instance and select Instance Options: <br/><br/><br/>
+![move to header](/assets/symbol.png)<br/><br/><br/>
 
 - Enter some text for the Title and then some CSS style to Price CSS and Image CSS option and Click Save.
   - Title:	 	Realtime Stock

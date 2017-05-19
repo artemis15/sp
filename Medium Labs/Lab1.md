@@ -101,7 +101,7 @@ For this, it’s best to add an additional check to ensure the option has a valu
 - Modify the instance options and clear the text for the Title. 
 Notice how even though the title is not set, the h2 tag is still rendered and occupies a visible “empty” space on the page.<br/><br/> 
 `Hint:` You can use your browser’s Inspect functionality for this.<br/><br/><br/>
-![move to header](/assets/servicenow1.4.jpg) <br/>
+![move to header](/assets/serivenow1.4.jpg) <br/>
 ***So how do we check if the option is set or not?***
 Take a look at how the span element that contains the localized text ${Requesting stock price}. <br/>
 This element is using a special AngularJS directive called ng-if. <br/>
@@ -117,9 +117,9 @@ displayed in red if the price is 60 or below or green for anything higher.<br/><
   - You will need to specify new classes in the CSS-SCSS section of the widget
   - You will need to remove the inline style for “color” of the price option
 
-***Once you’re done, this is how it will/should look like:*** 
-![move to header](/assets/realtimesymbol1.png) <br/>
-![move to header](/assets/realtimesymbol2.png) <br/>
+***Once you’re done, this is how it will/should look like:*** <br/><br/><br/> 
+![move to header](/assets/realtimesymbol1.png) <br/><br/><br/>
+![move to header](/assets/realtimesymbol2.png) <br/><br/><br/>
 
 ###  …And with that, you’ve successfully completed Lab 1 
 

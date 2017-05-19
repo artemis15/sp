@@ -14,7 +14,7 @@ In this lab you will create a real-time datatable widget with a custom page.
 <div class="panel panel-success">
   <div class="panel-heading">My Incidents</div>
   <div class="panel-body">
-    <table class="table table-hover datatable" ui-jq="dataTable" id="mytable" ui-options="c.dataTableOpt">
+    <table class="table table-hover">
       <thead>
         <tr>
           <th>Number</th>
@@ -47,7 +47,34 @@ spUtil.recordWatch($scope, "incident", "active=true", function(name, data) {
 		//$log.log("name :"+name);
 		//$log.log("data: "+data);
 	});
+	c.showData = function(i)
+	{
+		alert(i.number);
+	};
   }
   ```
   <br/>
   
+***Server Side Script***
+- Copy and paste the below `code` in server-script section
+```javascript
+(function() {
+	/* populate the 'data' object */
+	/* e.g., data.table = $sp.getValue('table'); */
+	data.incidents=[];
+	var gr = new GlideRecord('incident');
+	gr.addActiveQuery();
+	gr.query();
+	while(gr.next())
+	{
+		var _d ={};
+		_d.number=gr.getValue('number');
+		_d.shortDescription = gr.getValue('short_description');
+		data.incidents.push(_d);
+	}
+	
+})();
+```
+<br/>
+- End result will be something like below:
+![move to header](/assets/real-time-1.PNG)<br/>

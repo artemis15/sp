@@ -1,12 +1,16 @@
 # Lab 1.1: Clone Stock Widget
 ### Go to Service Portal -> Service Portal Configuration 
-#### open the Widget Editor and open the Stock widget
+- open the Widget Editor
+- open the Stock widget
+- Click on the menu and choose Clone “Stock”. 
+- Give the new widget a name of My Stock 
+- check the Create test page 
+- Submit
 
-Click on the menu and choose Clone “Stock”. Give the new widget a name of My Stock and check the Create test page. Then click Submit.
+`Hint:` You can save the widget by pressing Command + S.
 
-Hint: You can save the widget by pressing Command + S.
-
-Open the test page in a new window or tab without a portal associated. Remember the $sp.do?id=<page_id> trick? 
+- Open the test page in a new tab without a portal associated. 
+- Remember the ``` javascript $sp.do?id=<page_id> ``` trick?
 
 
 

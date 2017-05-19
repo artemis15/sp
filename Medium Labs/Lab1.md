@@ -59,7 +59,7 @@ Test it out by adding a known stock code (e.g. NOW).
 ### Lab Validation:
 Open your test page, and again test it out.<br/> 
 This time, open your test page with an actual portal associated (e.g. sp). <br/>
-*** The page should look something like this:***
+***The page should look something like this:***
 
 
 # Lab 1.3: Adding Widget specific CSS-SCSS
@@ -83,33 +83,35 @@ Let’s now add some widget specific CSS-SCSS styling!
 - Click Save.
 
 
-Lab Validation:
-Open your test page within a portal (e.g. sp). The widget should look something like this with your new class applied:
+### Lab Validation:
+- Open your test page within a portal (e.g. sp). 
+- The widget should look something like this with your new class applied:
 
-Lab 1.4: Challenge – Working with Unspecified Options
-There may be a situation where the widget instance does not have 1 or more options set.
+
+# Lab 1.4: Challenge – Working with Unspecified Options
+
+There may be a situation where the widget instance does not have 1 or more options set.<br/>
 For this, it’s best to add an additional check to ensure the option has a value.
 
-Modify the instance options and clear the text for the Title. 
-Notice how even though the title is not set, the h2 tag is still rendered and occupies a visible “empty” space on the page. 
-Hint: You can use your browser’s Inspect functionality for this.
-So how do we check if the option is set or not?
-Take a look at how the span element that contains the localized text ${Requesting stock price}. 
-This element is using a special AngularJS directive called ng-if. 
-Once you’re done, the page should look something like this with NO visible empty space
+- Modify the instance options and clear the text for the Title. 
+Notice how even though the title is not set, the h2 tag is still rendered and occupies a visible “empty” space on the page.<br/><br/> 
+`Hint:` You can use your browser’s Inspect functionality for this.<br/><br/>
+***So how do we check if the option is set or not?***
+Take a look at how the span element that contains the localized text ${Requesting stock price}. <br/>
+This element is using a special AngularJS directive called ng-if. <br/>
+Once you’re done, the page should look something like this with `NO `visible empty space.
 
-Lab 1.5: Challenge – Applying Dynamic Classes
+# Lab 1.5: Challenge – Applying Dynamic Classes
 
-See if you can fly solo and modify your widget so that the price is 
-displayed in red if the price is 60 or below or green for anything higher.
-Hints:
-•	You will need to work with another AngularJS directive called ng-class
-•	You will need to specify new classes in the CSS-SCSS section of the widget
-•	You will need to remove the inline style for “color” of the price option
+See if you can fly solo and modify your widget so that the price is <br/>
+displayed in red if the price is 60 or below or green for anything higher.<br/><br/>
+`Hints:`
+  - You will need to work with another AngularJS directive called ng-class
+  - You will need to specify new classes in the CSS-SCSS section of the widget
+  - You will need to remove the inline style for “color” of the price option
+
+***Once you’re done, this is how it will/should look like:*** 
 
 
-Once you’re done, this is how it will/should look like: 
-
-
-…And with that, you’ve successfully completed Lab 1 
+###  …And with that, you’ve successfully completed Lab 1 
 

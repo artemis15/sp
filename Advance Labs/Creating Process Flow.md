@@ -21,8 +21,8 @@ In this lab you will create a custom process flow with a custom page and populat
       </div>
     </div>
   </div>
-```<br/>
-
+```
+<br/>
 ***CSS/SCSS***
 - Copy and paste below `CSS` in Widget's CSS/SCSS Section
 ```CSS

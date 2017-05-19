@@ -1,6 +1,6 @@
 ## Preparation
 Load, Preview & Commit the Backend Update Set:
-- Name: [SP-Enablement-HackathonRegistrationComponents.xml](SP-Enablement-HackathonRegistrationComponents.xml)
+- Name: [SP-Enablement-HackathonRegistrationComponents.xml](https://raw.githubusercontent.com/artemis15/service-portal/master/Medium%20Labs/SP-Enablement-HackathonRegistrationComponents.xml)
 
 ***This update set will provide you with the table & fields for the following labs.*** <br/>
 Create a Hackathon Registration Page, a Container and e.g. a 12 column layout where you will display your widget in.<br/>

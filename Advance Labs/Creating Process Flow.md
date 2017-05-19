@@ -120,4 +120,4 @@ In this lab you will create a custom process flow with a custom page and populat
 - Once submitted, Click on `Open in Page Designer` related link
 - In Page designer, Place `Process Flow` widget inside a container > row > Column at top location.
 - View paget from following link `http://instance-name.service-now.com/sp?id=process_flow`. End result will be like below:<br/>
-![move to header](/assets/process_flow.png)<br/>
+![move to header](/assets/process_flow.PNG)<br/>

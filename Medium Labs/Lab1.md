@@ -55,8 +55,8 @@ Test it out by adding a known stock code (e.g. NOW). <br/><br/>
 - Enter some text for the Title and then some CSS style to Price CSS and Image CSS option and Click Save.
   - Title:	 	Realtime Stock
   - Price CSS:	color: green;  font-size: 30px
-  - Image CSS:	border: 5px solid green; border-radius: 5px; padding: 5px;
-
+  - Image CSS:	border: 5px solid green; border-radius: 5px; padding: 5px; <br/><br/>
+![move to header](/assets/realtime.png)<br/> <br/>
 - reload the page 
 ***you can immediately see the title you added above.***
 

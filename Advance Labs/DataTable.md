@@ -37,6 +37,7 @@ In this lab you will create a real-time datatable widget with a custom page.
 ```
 <br/>
 ***Client Controller***
+- Copy and paste the below `code` in client-controller section
 ```javascript
 function($scope,spUtil,$log) {
  var c = this;

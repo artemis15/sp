@@ -24,6 +24,8 @@ We will write the widget in the following order:<br/>
 
 ### Lab Validation:
 ***Your form should look something like this.***  <br/><br/>
+![move to header](/assets/registernow.png)<br/>
+
 ### Bonus: 
 - Add a Link to Terms & Conditions and make them open up in a modal.
 That Terms & Conditions can live directly in the Widget HTML or you can try to use an Angular Template (Create the Modal HTML in the ng-template Related List on the Widget level and use that as the modal target).

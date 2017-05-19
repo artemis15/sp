@@ -295,14 +295,14 @@ After that we populate the success variable with the message that we also set in
 That will cause our success ```<div>``` to show up since we now have a value for this variable. <br/>
 
 # Lab 3.4: Adding AngularJS to the Bootstrap form
-## Step 1 – ng-model
+## Step 1: ng-model
 The first thing we do is that we will add the ng-model directive to all our input fields. 
 Example:
 ```HTML
 <input type="text" ng-model="c.first_name" value="" class="form-control" name="first_name" id="first_name" placeholder="First Name" ng-required="true"/>
 ```
 <br/>
-## Step 2 – ng-submit
+## Step 2: ng-submit
 The next step is to add a function that should be executed on the client when the user submits the form.<br/>
 We are using the ng-submit directive for this. <br/>
 Make sure that the name of your form is passed in as a parameter to the submitForm function.<br/> 

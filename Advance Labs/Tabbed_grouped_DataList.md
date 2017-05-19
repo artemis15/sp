@@ -283,25 +283,11 @@ function($scope,$location) {
 		show_keywords: true
 	};
 
-	var widgetParamsApprovals = {
-		table: 'sysapproval_approver', 
-		fields: "number,cat_item,short_description,state",
-		o: data.o,
-		d: data.d,
-		filter: "approver=javascript:gs.getUserID()^state=requested", //sys_created_onONLast 3 months@javascript:gs.monthsAgoStart(3)@javascript:gs.endOfThisMonth()
-		window_size: 10,
-		view: 'sp',
-		title: gs.getMessage('Approvals'),
-		show_breadcrumbs: false,
-		show_keywords: true
-	};
-
 	data.dataTableWidgetIncOpen = $sp.getWidget('widget-data-table', widgetParamsIncOpen);
 	data.dataTableWidgetReqOpen = $sp.getWidget('widget-data-table', widgetParamsReqOpen);
 	data.dataTableWidgetIncClosed = $sp.getWidget('widget-data-table', widgetParamsIncClosed);
 	data.dataTableWidgetReqClosed = $sp.getWidget('widget-data-table', widgetParamsReqClosed);
-	data.dataTableWidgetApprovals = $sp.getWidget('widget-data-table', widgetParamsApprovals);
-
+	
 })();
 
 ```

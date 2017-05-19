@@ -99,7 +99,7 @@ For this, it’s best to add an additional check to ensure the option has a valu
 
 - Modify the instance options and clear the text for the Title. 
 Notice how even though the title is not set, the h2 tag is still rendered and occupies a visible “empty” space on the page.<br/><br/> 
-`Hint:` You can use your browser’s Inspect functionality for this.<br/><br/>
+`Hint:` You can use your browser’s Inspect functionality for this.<br/><br/><br/>
 ***So how do we check if the option is set or not?***
 Take a look at how the span element that contains the localized text ${Requesting stock price}. <br/>
 This element is using a special AngularJS directive called ng-if. <br/>

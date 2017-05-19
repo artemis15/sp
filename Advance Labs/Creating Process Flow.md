@@ -23,6 +23,7 @@ In this lab you will create a custom process flow with a custom page and populat
   </div>
 ```
 <br/>
+
 ***CSS/SCSS***
 - Copy and paste below `CSS` in Widget's CSS/SCSS Section
 ```CSS
@@ -80,7 +81,8 @@ In this lab you will create a custom process flow with a custom page and populat
     border: 2px solid #cc0;
 }
 
-```<br/>
+```
+<br/>
 
 ***Server Side Scripts***
 - Copy and Paste below `Server-Side Script` in Widget's Server Side Section
@@ -107,7 +109,8 @@ In this lab you will create a custom process flow with a custom page and populat
 			data.choices.push(_choiceLabel);
 		}
 })();
-```<br/>
+```
+<br/>
 
 ## Create a new Page
 

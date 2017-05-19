@@ -18,3 +18,41 @@ In this lab you will continue from [Real Time DataTable - Part 1](Real_Time_Data
 | 100 | URL| https://cdn.datatables.net/buttons/1.3.1/js/buttons.flash.min.js|
 | 110 | URL| //cdn.datatables.net/1.10.15/js/jquery.dataTables.min.js|
 | 120 | URL| https://cdn.datatables.net/1.10.12/js/dataTables.bootstrap.min.js|
+
+- Add the following `CSS Include` <br/>
+
+| Order | Source | Name & CSS File URL|
+| :------ | :----| :-------------------------------------------------------------------|
+| 100 | URL| https://cdn.datatables.net/1.10.12/css/dataTables.bootstrap.min.css|
+
+- Update dependency
+
+***Open `Real Time DataTable` widget and add `ui.utils` dependency from `dependency` related list***
+
+***Modify `HTML` Template***
+- Replace below code<br/>
+```HTML
+<table class="table table-hover">
+```
+<br/>
+
+`WITH`
+```HTML
+<table class="table table-hover datatable" ui-jq="dataTable" id="mytable" ui-options="c.dataTableOpt">
+```
+<br/>
+
+***Modify `Client-controller` Script***
+- Add below code
+```javascript
+c.dataTableOpt = {
+   //custom datatable options 
+  // or load data through ajax call also
+  "aLengthMenu": [[5,10, 25,50, 100,-1], [5,10,25, 50, 100,'All']]
+  };
+```
+<br/>
+
+***Verify Widget***
+- End result will look like below<br/>
+![move to header](/assets/realdt2.png)

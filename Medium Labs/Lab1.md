@@ -12,30 +12,27 @@
 - Open the test page in a new tab without a portal associated. 
 - Remember the `$sp.do?id=<page_id>` trick?
 
+### Lab Validation:
+***Your new test page with your cloned widget will look something like this.*** 
+Test it out by adding a known stock code (e.g. NOW).
 
+# Lab 1.2: Adding Options to the Widget
 
+- Back on the Widget Editor.
+- click on the menu and select Edit option schema.
+- Create 3 new options:
+  - Label: Title		  Name: title 		Type: string
+  - Label: Price:CSS	Name: price_css	Type: string
+  - Label: Image CSS	Name: image_css	Type: string
 
+- Click Save and then reload the page.
 
-Lab Validation:
-Your (awesome) new test page with your cloned widget will look something like this. Test it out by adding a known stock code (e.g. NOW).
+***Let’s now add those options to the HTML template:***
 
-Lab 1.2: Adding Options to the Widget
-
-Back on the Widget Editor, click on the menu and then select Edit option schema.
-
-Create 3 new options:
-•	Label: Title		Name: title 		Type: string
-•	Label: Price CSS	Name: price_css	Type: string
-•	Label: Image CSS	Name: image_css	Type: string
-
-Click Save and then reload the page.
-
-Let’s now add those options to the HTML template:
-
-1.	Add a h2 tag to the top of the HTML to display the title:
-
+- Add a h2 tag to the top of the HTML to display the title:
+```CSS
 <h2>{{::options.title}}</h2>
-
+```
 2.	Locate the span element where the price is displayed and add a new style attribute with the Price CSS option:
 <span style={{::options.price_css}}>{{c.data.price | currency:"$"}}</span>
 

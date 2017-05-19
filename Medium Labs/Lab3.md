@@ -297,8 +297,7 @@ That will cause our success `<div>` to show up since we now have a value for thi
 Step 1 – ng-model
 The first thing we do is that we will add the ng-model directive to all our input fields. 
 Example:
-```
-HTML
+```HTML
 <input type="text" ng-model="c.first_name" value="" class="form-control" name="first_name" id="first_name" placeholder="First Name" ng-required="true"/>
 ```
 <br/>

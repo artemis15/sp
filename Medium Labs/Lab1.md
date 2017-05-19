@@ -20,8 +20,8 @@ Test it out by adding a known stock code (e.g. NOW). <br/><br/>
 
 # Lab 1.2: Adding Options to the Widget
 
-- Back on the Widget Editor.
-- click on the menu and select Edit option schema.
+- Back on the Widget Editor
+- click on the menu and select Edit option schema
 - Create 3 new options:
   - Label: Title		  Name: title 		Type: string
   - Label: Price:CSS	Name: price_css	Type: string

@@ -310,5 +310,7 @@ function($scope,$location) {
 ### Create a new Page
 - Create a new page and embeded `Tabbed DataTable` widget inside it
 
-***Verify the end result***
+***Verify the end result***<br/>
+![move to header](assets/tabbed_dt.png)<br/>
 
+## Hurray!!! Lab is done

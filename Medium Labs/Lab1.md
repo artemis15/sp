@@ -6,7 +6,7 @@
 - Give the new widget a name of My Stock 
 - check the Create test page 
 - Submit
-![move to header](/assets/clone.png)<br/>
+![move to header](/assets/clone.png|height=20)<br/>
 
 `Hint:` You can save the widget by pressing Command + S.
 

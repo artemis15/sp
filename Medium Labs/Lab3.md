@@ -59,16 +59,17 @@ grEvent.addQuery(“u_active”, true);
 		data.events = events;
 	}
 ```
-ng-repeat on the HTML side awaits an array so we are initializing an events array that we are 
-populating by iterating over the GlideRecord result.
 
-Quite contrary to that we have a piece of code that we only want to execute when we have some input defined, 
-which is the case when the user submitted the form.
+<br/><br/>
+ng-repeat on the HTML side awaits an array so we are initializing an events array that we are 
+populating by iterating over the GlideRecord result.<br/>
+
 That piece of code should then do some validation against the Registration [u_hackathon_registration] 
 and the User [sys_user] table – here we will only check if
-the email address is already present in either one of the two tables. If yes we will 
-throw a duplicate error, if not we will actually start inserting the form data as a new record on the Registration table.
-So before we start inserting add the following code to your server script for validation:
+the email address is already present in either one of the two tables.<br/>
+If yes we will throw a duplicate error, if not we will actually start inserting the form data as a new record on the Registration table.
+So before we start inserting add the following code to your server script for validation: <br/>
+```javascript
 function validateRegistration(email) {
 	var isNoDuplicate = true;
 
@@ -106,7 +107,10 @@ function userExists(email) {
 
 	return usr.hasNext();
 }
+```
+
 The final piece is writing the GlideRecord part where we actually create a new registration record.
+```javascript
 /* Only execute when we have form input */
 if(input) {
 
@@ -124,8 +128,7 @@ grHackathonReg.setValue('u_company', input.company);
 
 	if (!gs.nil(userRegSysId)) {
 		data.status = "success";
-		data.message = gs.getMessage("Your registration has been submitted. You will be redirected to the homepage in a few seconds.
-    If you are not being redirected click on the Logo and you will get back to the homepage.");
+		data.message = gs.getMessage("Your registration has been submitted. You will be redirected to the homepage in a few seconds. If you are not being redirected click on the Logo and you will get back to the homepage.");
 	} else {
 		data.status = "error";
 	}
@@ -133,7 +136,10 @@ grHackathonReg.setValue('u_company', input.company);
 
 return data;
 }
+```
+
 Your final server script should now look like this:
+```javascript
 (function() {
 
 	/* Get Events for Event Select Box. Only load them initially */
@@ -222,6 +228,7 @@ function userExists(email) {
 	usr.query();
 return usr.hasNext();
 }
+```
 Lab 3.3: Adding the Client Script
 The Client Script serves as the Angular Controller. 
 

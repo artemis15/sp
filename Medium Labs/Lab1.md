@@ -89,7 +89,8 @@ Let’s now add some widget specific CSS-SCSS styling!
 
 ### Lab Validation:
 - Open your test page within a portal (e.g. sp). 
-- The widget should look something like this with your new class applied:
+- The widget should look something like this with your new class applied: <br/><br/>
+![move to header](/assets/servicenow.png) <br/>
 
 
 # Lab 1.4: Challenge – Working with Unspecified Options
@@ -100,10 +101,12 @@ For this, it’s best to add an additional check to ensure the option has a valu
 - Modify the instance options and clear the text for the Title. 
 Notice how even though the title is not set, the h2 tag is still rendered and occupies a visible “empty” space on the page.<br/><br/> 
 `Hint:` You can use your browser’s Inspect functionality for this.<br/><br/><br/>
+![move to header](/assets/servicenow1.4.jpg) <br/>
 ***So how do we check if the option is set or not?***
 Take a look at how the span element that contains the localized text ${Requesting stock price}. <br/>
 This element is using a special AngularJS directive called ng-if. <br/>
 Once you’re done, the page should look something like this with `NO `visible empty space.
+![move to header](/assets/servicenow1.4.1.png) <br/>
 
 # Lab 1.5: Challenge – Applying Dynamic Classes
 
@@ -115,7 +118,8 @@ displayed in red if the price is 60 or below or green for anything higher.<br/><
   - You will need to remove the inline style for “color” of the price option
 
 ***Once you’re done, this is how it will/should look like:*** 
-
+![move to header](/assets/realtimesymbol.png) <br/>
+![move to header](/assets/realtimesymbol.png) <br/>
 
 ###  …And with that, you’ve successfully completed Lab 1 
 

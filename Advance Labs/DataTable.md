@@ -36,6 +36,7 @@ In this lab you will create a real-time datatable widget with a custom page.
 </div>
 ```
 <br/>
+
 ***Client Controller***
 - Copy and paste the below `code` in client-controller section
 ```javascript

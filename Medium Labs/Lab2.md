@@ -416,4 +416,4 @@ Add the following lines into your CSS section since we are using some of the cla
 }
 ```
 
-#### …And with that, you’ve successfully completed Lab 1
+#### …And with that, you’ve successfully completed Lab 2

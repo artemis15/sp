@@ -1,0 +1,845 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<unload unload_date="2016-07-12 22:23:54">
+<sys_remote_update_set action="INSERT_OR_UPDATE">
+<application display_value="Global">global</application>
+<application_name>Global</application_name>
+<application_scope>global</application_scope>
+<application_version/>
+<collisions/>
+<commit_date/>
+<deleted/>
+<description>Contains the Hackathon Registration Registration &amp; Event tables &amp; fields for the SP Enablement Training.</description>
+<inserted/>
+<name>SP Enablement - Hackathon Registration</name>
+<origin_sys_id/>
+<release_date/>
+<remote_sys_id>f24e59f0132c26003e2250f82244b09a</remote_sys_id>
+<state>loaded</state>
+<summary/>
+<sys_class_name>sys_remote_update_set</sys_class_name>
+<sys_created_by>frank.schuster</sys_created_by>
+<sys_created_on>2016-07-12 22:23:49</sys_created_on>
+<sys_id>0675124213e0a6003e2250f82244b0ad</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_updated_by>frank.schuster</sys_updated_by>
+<sys_updated_on>2016-07-12 22:23:49</sys_updated_on>
+<update_set display_value=""/>
+<update_source display_value=""/>
+<updated/>
+</sys_remote_update_set>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_dictionary_u_hackathon_registration_u_comments</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update><sys_dictionary action="INSERT_OR_UPDATE" element="u_comments" table="u_hackathon_registration"><active>true</active><array>false</array><attributes>edge_encryption_enabled=true</attributes><audit>false</audit><calculation/><choice>0</choice><choice_field/><choice_table/><column_label>Comments</column_label><comments/><create_roles/><default_value/><defaultsort/><delete_roles/><dependent/><dependent_on_field/><display>false</display><dynamic_creation>false</dynamic_creation><dynamic_creation_script/><dynamic_default_value/><dynamic_ref_qual/><element>u_comments</element><element_reference>false</element_reference><foreign_database/><internal_type display_value="String">string</internal_type><mandatory>false</mandatory><max_length>1000</max_length><name>u_hackathon_registration</name><next_element/><primary>false</primary><read_only>false</read_only><read_roles/><reference/><reference_cascade_rule/><reference_floats>false</reference_floats><reference_key/><reference_qual/><reference_qual_condition/><reference_type/><sizeclass/><spell_check>false</spell_check><staged>false</staged><sys_class_name>sys_dictionary</sys_class_name><sys_created_by>frank.schuster</sys_created_by><sys_created_on>2016-07-12 09:48:28</sys_created_on><sys_customer_update>false</sys_customer_update><sys_id>11982fb11320a6003e2250f82244b0c4</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Comments</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_replace_on_upgrade>false</sys_replace_on_upgrade><sys_scope display_value="Global">global</sys_scope><sys_update_name>sys_dictionary_u_hackathon_registration_u_comments</sys_update_name><sys_updated_by>frank.schuster</sys_updated_by><sys_updated_on>2016-07-12 09:48:28</sys_updated_on><table_reference>false</table_reference><text_index>false</text_index><unique>false</unique><use_dependent_field>false</use_dependent_field><use_dynamic_default>false</use_dynamic_default><use_reference_qualifier>simple</use_reference_qualifier><virtual>false</virtual><widget/><write_roles/><xml_view>false</xml_view></sys_dictionary></record_update>]]></payload>
+<remote_update_set display_value="SP Enablement - Hackathon Registration">0675124213e0a6003e2250f82244b0ad</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>frank.schuster</sys_created_by>
+<sys_created_on>2016-07-12 22:23:49</sys_created_on>
+<sys_id>0275124213e0a6003e2250f82244b0ae</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_updated_by>frank.schuster</sys_updated_by>
+<sys_updated_on>2016-07-12 22:23:49</sys_updated_on>
+<table>u_hackathon_registration</table>
+<target_name>Hackathon Registration.Comments</target_name>
+<type>Dictionary</type>
+<update_domain>global</update_domain>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_ui_application_6f80a534132c26003e2250f82244b08f</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ui_application"><sys_ui_application action="INSERT_OR_UPDATE"><active>true</active><hint/><name>Hackathon Registration</name><order/><roles/><sys_class_name>sys_ui_application</sys_class_name><sys_created_by>frank.schuster</sys_created_by><sys_created_on>2016-07-08 21:20:13</sys_created_on><sys_customer_update>true</sys_customer_update><sys_domain>global</sys_domain><sys_domain_path/><sys_id>6f80a534132c26003e2250f82244b08f</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Hackathon Registration</sys_name><sys_overrides/><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_replace_on_upgrade>false</sys_replace_on_upgrade><sys_scope display_value="Global">global</sys_scope><sys_update_name>sys_ui_application_6f80a534132c26003e2250f82244b08f</sys_update_name><sys_updated_by>frank.schuster</sys_updated_by><sys_updated_on>2016-07-08 21:20:13</sys_updated_on></sys_ui_application></record_update>]]></payload>
+<remote_update_set display_value="SP Enablement - Hackathon Registration">0675124213e0a6003e2250f82244b0ad</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>frank.schuster</sys_created_by>
+<sys_created_on>2016-07-12 22:23:49</sys_created_on>
+<sys_id>0275124213e0a6003e2250f82244b0af</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_updated_by>frank.schuster</sys_updated_by>
+<sys_updated_on>2016-07-12 22:23:49</sys_updated_on>
+<table/>
+<target_name>Hackathon Registration</target_name>
+<type>Application Menu</type>
+<update_domain>global</update_domain>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_dictionary_u_hackathon_registration_u_first_name</name>
+<payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update&gt;&lt;sys_dictionary action="INSERT_OR_UPDATE" element="u_first_name" table="u_hackathon_registration"&gt;&lt;active&gt;true&lt;/active&gt;&lt;array&gt;false&lt;/array&gt;&lt;attributes/&gt;&lt;audit&gt;false&lt;/audit&gt;&lt;calculation&gt;&lt;![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]&gt;&lt;/calculation&gt;&lt;choice/&gt;&lt;choice_field/&gt;&lt;choice_table/&gt;&lt;column_label&gt;First Name&lt;/column_label&gt;&lt;comments/&gt;&lt;create_roles/&gt;&lt;default_value/&gt;&lt;defaultsort/&gt;&lt;delete_roles/&gt;&lt;dependent/&gt;&lt;dependent_on_field/&gt;&lt;display&gt;false&lt;/display&gt;&lt;dynamic_creation&gt;false&lt;/dynamic_creation&gt;&lt;dynamic_creation_script/&gt;&lt;dynamic_default_value/&gt;&lt;dynamic_ref_qual/&gt;&lt;element&gt;u_first_name&lt;/element&gt;&lt;element_reference&gt;false&lt;/element_reference&gt;&lt;foreign_database/&gt;&lt;internal_type display_value="String"&gt;string&lt;/internal_type&gt;&lt;mandatory&gt;false&lt;/mandatory&gt;&lt;max_length&gt;40&lt;/max_length&gt;&lt;name&gt;u_hackathon_registration&lt;/name&gt;&lt;next_element/&gt;&lt;primary&gt;false&lt;/primary&gt;&lt;read_only&gt;false&lt;/read_only&gt;&lt;read_roles/&gt;&lt;reference/&gt;&lt;reference_cascade_rule/&gt;&lt;reference_floats&gt;false&lt;/reference_floats&gt;&lt;reference_key/&gt;&lt;reference_qual/&gt;&lt;reference_qual_condition/&gt;&lt;reference_type/&gt;&lt;sizeclass/&gt;&lt;spell_check&gt;false&lt;/spell_check&gt;&lt;staged&gt;false&lt;/staged&gt;&lt;sys_class_name&gt;sys_dictionary&lt;/sys_class_name&gt;&lt;sys_created_by&gt;frank.schuster&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2016-07-08 21:20:12&lt;/sys_created_on&gt;&lt;sys_customer_update&gt;true&lt;/sys_customer_update&gt;&lt;sys_id&gt;ce7e59f0132c26003e2250f82244b0ec&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_name&gt;First Name&lt;/sys_name&gt;&lt;sys_package display_value="Global" source="global"&gt;global&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_replace_on_upgrade&gt;false&lt;/sys_replace_on_upgrade&gt;&lt;sys_scope display_value="Global"&gt;global&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_dictionary_u_hackathon_registration_u_first_name&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;frank.schuster&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2016-07-08 21:20:12&lt;/sys_updated_on&gt;&lt;table_reference&gt;false&lt;/table_reference&gt;&lt;text_index&gt;false&lt;/text_index&gt;&lt;unique&gt;false&lt;/unique&gt;&lt;use_dependent_field&gt;false&lt;/use_dependent_field&gt;&lt;use_dynamic_default&gt;false&lt;/use_dynamic_default&gt;&lt;use_reference_qualifier&gt;simple&lt;/use_reference_qualifier&gt;&lt;virtual&gt;false&lt;/virtual&gt;&lt;widget/&gt;&lt;write_roles/&gt;&lt;xml_view&gt;false&lt;/xml_view&gt;&lt;/sys_dictionary&gt;&lt;/record_update&gt;</payload>
+<remote_update_set display_value="SP Enablement - Hackathon Registration">0675124213e0a6003e2250f82244b0ad</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>frank.schuster</sys_created_by>
+<sys_created_on>2016-07-12 22:23:49</sys_created_on>
+<sys_id>0675124213e0a6003e2250f82244b0ae</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_updated_by>frank.schuster</sys_updated_by>
+<sys_updated_on>2016-07-12 22:23:49</sys_updated_on>
+<table>u_hackathon_registration</table>
+<target_name>u_hackathon_registration.u_first_name</target_name>
+<type>Dictionary</type>
+<update_domain>global</update_domain>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_ui_module_e380a534132c26003e2250f82244b090</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ui_module"><sys_ui_module action="INSERT_OR_UPDATE"><active>true</active><application display_value="Hackathon Registration">6f80a534132c26003e2250f82244b08f</application><filter/><name>Hackathon Registrations</name><order/><path/><path_relative_to_root>false</path_relative_to_root><roles/><sys_class_name>sys_ui_module</sys_class_name><sys_created_by>frank.schuster</sys_created_by><sys_created_on>2016-07-08 21:20:13</sys_created_on><sys_customer_update>true</sys_customer_update><sys_domain>global</sys_domain><sys_domain_path/><sys_id>e380a534132c26003e2250f82244b090</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Hackathon Registrations</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_replace_on_upgrade>false</sys_replace_on_upgrade><sys_scope display_value="Global">global</sys_scope><sys_update_name>sys_ui_module_e380a534132c26003e2250f82244b090</sys_update_name><sys_updated_by>frank.schuster</sys_updated_by><sys_updated_on>2016-07-08 21:20:13</sys_updated_on><table>u_hackathon_registration</table><uncancelable>false</uncancelable><view_name/></sys_ui_module></record_update>]]></payload>
+<remote_update_set display_value="SP Enablement - Hackathon Registration">0675124213e0a6003e2250f82244b0ad</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>frank.schuster</sys_created_by>
+<sys_created_on>2016-07-12 22:23:49</sys_created_on>
+<sys_id>0675124213e0a6003e2250f82244b0af</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_updated_by>frank.schuster</sys_updated_by>
+<sys_updated_on>2016-07-12 22:23:49</sys_updated_on>
+<table>u_hackathon_registration</table>
+<target_name>Hackathon Registrations</target_name>
+<type>Module</type>
+<update_domain>global</update_domain>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_app_module_e380a534132c26003e2250f82244b08f</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_app_module"><sys_app_module action="INSERT_OR_UPDATE"><active>true</active><application display_value="Hackathon Registration">6b80a534132c26003e2250f82244b08e</application><assessment/><content_page/><device_type/><filter/><hint/><homepage/><image/><link_type>LIST</link_type><map_page/><mobile_title>Hackathon Registrations</mobile_title><mobile_view_name>Mobile</mobile_view_name><name>u_hackathon_registration</name><order/><override_menu_roles>false</override_menu_roles><query/><report/><roles/><survey/><survey_overwrite>true</survey_overwrite><sys_class_name>sys_app_module</sys_class_name><sys_created_by>frank.schuster</sys_created_by><sys_created_on>2016-07-08 21:20:13</sys_created_on><sys_customer_update>true</sys_customer_update><sys_domain>global</sys_domain><sys_domain_path/><sys_id>e380a534132c26003e2250f82244b08f</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Hackathon Registrations</sys_name><sys_overrides/><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_replace_on_upgrade>false</sys_replace_on_upgrade><sys_scope display_value="Global">global</sys_scope><sys_update_name>sys_app_module_e380a534132c26003e2250f82244b08f</sys_update_name><sys_updated_by>frank.schuster</sys_updated_by><sys_updated_on>2016-07-08 21:20:13</sys_updated_on><timeline_page/><title>Hackathon Registrations</title><uncancelable>false</uncancelable><view_name/><window_name/></sys_app_module></record_update>]]></payload>
+<remote_update_set display_value="SP Enablement - Hackathon Registration">0675124213e0a6003e2250f82244b0ad</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>frank.schuster</sys_created_by>
+<sys_created_on>2016-07-12 22:23:49</sys_created_on>
+<sys_id>0a75124213e0a6003e2250f82244b0ad</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_updated_by>frank.schuster</sys_updated_by>
+<sys_updated_on>2016-07-12 22:23:49</sys_updated_on>
+<table>u_hackathon_registration</table>
+<target_name>Hackathon Registrations</target_name>
+<type>Module</type>
+<update_domain>global</update_domain>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_documentation_u_hackathon_event_u_event_name_en</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update><sys_documentation element="u_event_name" label="Event Name" language="en" table="u_hackathon_event"><sys_documentation action="INSERT_OR_UPDATE"><element>u_event_name</element><help/><hint/><label>Event Name</label><language>en</language><name>u_hackathon_event</name><plural>Event Names</plural><sys_class_name>sys_documentation</sys_class_name><sys_created_by>frank.schuster</sys_created_by><sys_created_on>2016-07-08 21:20:51</sys_created_on><sys_customer_update>false</sys_customer_update><sys_id>78b0e534132c26003e2250f82244b04a</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Event Name</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_replace_on_upgrade>false</sys_replace_on_upgrade><sys_scope display_value="Global">global</sys_scope><sys_update_name>sys_documentation_u_hackathon_event_u_event_name_en</sys_update_name><sys_updated_by>frank.schuster</sys_updated_by><sys_updated_on>2016-07-08 21:20:51</sys_updated_on><url/><url_target/></sys_documentation></sys_documentation></record_update>]]></payload>
+<remote_update_set display_value="SP Enablement - Hackathon Registration">0675124213e0a6003e2250f82244b0ad</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>frank.schuster</sys_created_by>
+<sys_created_on>2016-07-12 22:23:49</sys_created_on>
+<sys_id>0a75124213e0a6003e2250f82244b0ae</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_updated_by>frank.schuster</sys_updated_by>
+<sys_updated_on>2016-07-12 22:23:49</sys_updated_on>
+<table>u_hackathon_event</table>
+<target_name>Hackathon Event.Event Name</target_name>
+<type>Field Label</type>
+<update_domain>global</update_domain>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>ua_table_licensing_config_b780a534132c26003e2250f82244b09b</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="ua_table_licensing_config"><ua_table_licensing_config action="INSERT_OR_UPDATE"><is_fulfillment>false</is_fulfillment><name>u_hackathon_registration</name><owner_condition/><sys_class_name>ua_table_licensing_config</sys_class_name><sys_created_by>frank.schuster</sys_created_by><sys_created_on>2016-07-08 21:20:14</sys_created_on><sys_customer_update>true</sys_customer_update><sys_id>b780a534132c26003e2250f82244b09b</sys_id><sys_mod_count>0</sys_mod_count><sys_name>u_hackathon_registration</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_replace_on_upgrade>false</sys_replace_on_upgrade><sys_scope display_value="Global">global</sys_scope><sys_update_name>ua_table_licensing_config_b780a534132c26003e2250f82244b09b</sys_update_name><sys_updated_by>frank.schuster</sys_updated_by><sys_updated_on>2016-07-08 21:20:14</sys_updated_on></ua_table_licensing_config></record_update>]]></payload>
+<remote_update_set display_value="SP Enablement - Hackathon Registration">0675124213e0a6003e2250f82244b0ad</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>frank.schuster</sys_created_by>
+<sys_created_on>2016-07-12 22:23:49</sys_created_on>
+<sys_id>0a75124213e0a6003e2250f82244b0af</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_updated_by>frank.schuster</sys_updated_by>
+<sys_updated_on>2016-07-12 22:23:49</sys_updated_on>
+<table/>
+<target_name>u_hackathon_registration</target_name>
+<type>Table Subscription Configuration</type>
+<update_domain>global</update_domain>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_dictionary_u_hackathon_event_null</name>
+<payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update&gt;&lt;sys_dictionary action="INSERT_OR_UPDATE" element="" table="u_hackathon_event"&gt;&lt;active&gt;true&lt;/active&gt;&lt;array&gt;false&lt;/array&gt;&lt;attributes/&gt;&lt;audit&gt;false&lt;/audit&gt;&lt;calculation&gt;&lt;![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]&gt;&lt;/calculation&gt;&lt;choice/&gt;&lt;choice_field/&gt;&lt;choice_table/&gt;&lt;column_label/&gt;&lt;comments/&gt;&lt;create_roles/&gt;&lt;default_value/&gt;&lt;defaultsort/&gt;&lt;delete_roles/&gt;&lt;dependent/&gt;&lt;dependent_on_field/&gt;&lt;display&gt;false&lt;/display&gt;&lt;dynamic_creation&gt;false&lt;/dynamic_creation&gt;&lt;dynamic_creation_script/&gt;&lt;dynamic_default_value/&gt;&lt;dynamic_ref_qual/&gt;&lt;element/&gt;&lt;element_reference&gt;false&lt;/element_reference&gt;&lt;foreign_database/&gt;&lt;internal_type display_value="Collection"&gt;collection&lt;/internal_type&gt;&lt;mandatory&gt;false&lt;/mandatory&gt;&lt;max_length&gt;40&lt;/max_length&gt;&lt;name&gt;u_hackathon_event&lt;/name&gt;&lt;next_element/&gt;&lt;primary&gt;false&lt;/primary&gt;&lt;read_only&gt;false&lt;/read_only&gt;&lt;read_roles/&gt;&lt;reference/&gt;&lt;reference_cascade_rule/&gt;&lt;reference_floats&gt;false&lt;/reference_floats&gt;&lt;reference_key/&gt;&lt;reference_qual/&gt;&lt;reference_qual_condition/&gt;&lt;reference_type/&gt;&lt;sizeclass/&gt;&lt;spell_check&gt;false&lt;/spell_check&gt;&lt;staged&gt;false&lt;/staged&gt;&lt;sys_class_name&gt;sys_dictionary&lt;/sys_class_name&gt;&lt;sys_created_by&gt;frank.schuster&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2016-07-08 21:20:51&lt;/sys_created_on&gt;&lt;sys_customer_update&gt;true&lt;/sys_customer_update&gt;&lt;sys_id&gt;ecb0e534132c26003e2250f82244b047&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_name&gt;u_hackathon_event&lt;/sys_name&gt;&lt;sys_package display_value="Global" source="global"&gt;global&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_replace_on_upgrade&gt;false&lt;/sys_replace_on_upgrade&gt;&lt;sys_scope display_value="Global"&gt;global&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_dictionary_u_hackathon_event_null&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;frank.schuster&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2016-07-08 21:20:51&lt;/sys_updated_on&gt;&lt;table_reference&gt;false&lt;/table_reference&gt;&lt;text_index&gt;false&lt;/text_index&gt;&lt;unique&gt;false&lt;/unique&gt;&lt;use_dependent_field&gt;false&lt;/use_dependent_field&gt;&lt;use_dynamic_default&gt;false&lt;/use_dynamic_default&gt;&lt;use_reference_qualifier&gt;simple&lt;/use_reference_qualifier&gt;&lt;virtual&gt;false&lt;/virtual&gt;&lt;widget/&gt;&lt;write_roles/&gt;&lt;xml_view&gt;false&lt;/xml_view&gt;&lt;/sys_dictionary&gt;&lt;/record_update&gt;</payload>
+<remote_update_set display_value="SP Enablement - Hackathon Registration">0675124213e0a6003e2250f82244b0ad</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>frank.schuster</sys_created_by>
+<sys_created_on>2016-07-12 22:23:49</sys_created_on>
+<sys_id>0e75124213e0a6003e2250f82244b0ad</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_updated_by>frank.schuster</sys_updated_by>
+<sys_updated_on>2016-07-12 22:23:49</sys_updated_on>
+<table>u_hackathon_event</table>
+<target_name>Hackathon Event</target_name>
+<type>Dictionary</type>
+<update_domain>global</update_domain>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_documentation_u_hackathon_registration_u_event_en</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update><sys_documentation element="u_event" label="Event" language="en" table="u_hackathon_registration"><sys_documentation action="INSERT_OR_UPDATE"><element>u_event</element><help/><hint/><label>Event</label><language>en</language><name>u_hackathon_registration</name><plural>Events</plural><sys_class_name>sys_documentation</sys_class_name><sys_created_by>frank.schuster</sys_created_by><sys_created_on>2016-07-08 21:21:13</sys_created_on><sys_customer_update>false</sys_customer_update><sys_id>86c02934132c26003e2250f82244b091</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Event</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_replace_on_upgrade>false</sys_replace_on_upgrade><sys_scope display_value="Global">global</sys_scope><sys_update_name>sys_documentation_u_hackathon_registration_u_event_en</sys_update_name><sys_updated_by>frank.schuster</sys_updated_by><sys_updated_on>2016-07-08 21:21:13</sys_updated_on><url/><url_target/></sys_documentation></sys_documentation></record_update>]]></payload>
+<remote_update_set display_value="SP Enablement - Hackathon Registration">0675124213e0a6003e2250f82244b0ad</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>frank.schuster</sys_created_by>
+<sys_created_on>2016-07-12 22:23:49</sys_created_on>
+<sys_id>0e75124213e0a6003e2250f82244b0ae</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_updated_by>frank.schuster</sys_updated_by>
+<sys_updated_on>2016-07-12 22:23:49</sys_updated_on>
+<table>u_hackathon_registration</table>
+<target_name>Hackathon Registration.Event</target_name>
+<type>Field Label</type>
+<update_domain>global</update_domain>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_dictionary_u_hackathon_registration_u_company</name>
+<payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update&gt;&lt;sys_dictionary action="INSERT_OR_UPDATE" element="u_company" table="u_hackathon_registration"&gt;&lt;active&gt;true&lt;/active&gt;&lt;array&gt;false&lt;/array&gt;&lt;attributes/&gt;&lt;audit&gt;false&lt;/audit&gt;&lt;calculation&gt;&lt;![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]&gt;&lt;/calculation&gt;&lt;choice/&gt;&lt;choice_field/&gt;&lt;choice_table/&gt;&lt;column_label&gt;Company&lt;/column_label&gt;&lt;comments/&gt;&lt;create_roles/&gt;&lt;default_value/&gt;&lt;defaultsort/&gt;&lt;delete_roles/&gt;&lt;dependent/&gt;&lt;dependent_on_field/&gt;&lt;display&gt;false&lt;/display&gt;&lt;dynamic_creation&gt;false&lt;/dynamic_creation&gt;&lt;dynamic_creation_script/&gt;&lt;dynamic_default_value/&gt;&lt;dynamic_ref_qual/&gt;&lt;element&gt;u_company&lt;/element&gt;&lt;element_reference&gt;false&lt;/element_reference&gt;&lt;foreign_database/&gt;&lt;internal_type display_value="String"&gt;string&lt;/internal_type&gt;&lt;mandatory&gt;false&lt;/mandatory&gt;&lt;max_length&gt;40&lt;/max_length&gt;&lt;name&gt;u_hackathon_registration&lt;/name&gt;&lt;next_element/&gt;&lt;primary&gt;false&lt;/primary&gt;&lt;read_only&gt;false&lt;/read_only&gt;&lt;read_roles/&gt;&lt;reference/&gt;&lt;reference_cascade_rule/&gt;&lt;reference_floats&gt;false&lt;/reference_floats&gt;&lt;reference_key/&gt;&lt;reference_qual/&gt;&lt;reference_qual_condition/&gt;&lt;reference_type/&gt;&lt;sizeclass/&gt;&lt;spell_check&gt;false&lt;/spell_check&gt;&lt;staged&gt;false&lt;/staged&gt;&lt;sys_class_name&gt;sys_dictionary&lt;/sys_class_name&gt;&lt;sys_created_by&gt;frank.schuster&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2016-07-08 21:20:13&lt;/sys_created_on&gt;&lt;sys_customer_update&gt;true&lt;/sys_customer_update&gt;&lt;sys_id&gt;ccbe1df0132c26003e2250f82244b0d7&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_name&gt;Company&lt;/sys_name&gt;&lt;sys_package display_value="Global" source="global"&gt;global&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_replace_on_upgrade&gt;false&lt;/sys_replace_on_upgrade&gt;&lt;sys_scope display_value="Global"&gt;global&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_dictionary_u_hackathon_registration_u_company&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;frank.schuster&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2016-07-08 21:20:13&lt;/sys_updated_on&gt;&lt;table_reference&gt;false&lt;/table_reference&gt;&lt;text_index&gt;false&lt;/text_index&gt;&lt;unique&gt;false&lt;/unique&gt;&lt;use_dependent_field&gt;false&lt;/use_dependent_field&gt;&lt;use_dynamic_default&gt;false&lt;/use_dynamic_default&gt;&lt;use_reference_qualifier&gt;simple&lt;/use_reference_qualifier&gt;&lt;virtual&gt;false&lt;/virtual&gt;&lt;widget/&gt;&lt;write_roles/&gt;&lt;xml_view&gt;false&lt;/xml_view&gt;&lt;/sys_dictionary&gt;&lt;/record_update&gt;</payload>
+<remote_update_set display_value="SP Enablement - Hackathon Registration">0675124213e0a6003e2250f82244b0ad</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>frank.schuster</sys_created_by>
+<sys_created_on>2016-07-12 22:23:49</sys_created_on>
+<sys_id>4275124213e0a6003e2250f82244b0ae</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_updated_by>frank.schuster</sys_updated_by>
+<sys_updated_on>2016-07-12 22:23:49</sys_updated_on>
+<table>u_hackathon_registration</table>
+<target_name>u_hackathon_registration.u_company</target_name>
+<type>Dictionary</type>
+<update_domain>global</update_domain>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_ui_list_u_hackathon_event_null</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update><sys_ui_list parent="" relationship="" sys_domain="global" table="u_hackathon_event" version="2" view=""><sys_ui_list_element action="INSERT_OR_UPDATE"><average_value>false</average_value><element>u_event_name</element><list_id display_value="u_hackathon_event" element="NULL" name="u_hackathon_event" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">13022174132c26003e2250f82244b081</list_id><max_value>false</max_value><min_value>false</min_value><position>0</position><sum>false</sum><sys_created_by>frank.schuster</sys_created_by><sys_created_on>2016-07-08 21:26:46</sys_created_on><sys_id>17022174132c26003e2250f82244b081</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>frank.schuster</sys_updated_by><sys_updated_on>2016-07-08 21:26:46</sys_updated_on></sys_ui_list_element><sys_ui_list_element action="INSERT_OR_UPDATE"><average_value>false</average_value><element>u_active</element><list_id display_value="u_hackathon_event" element="NULL" name="u_hackathon_event" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">13022174132c26003e2250f82244b081</list_id><max_value>false</max_value><min_value>false</min_value><position>1</position><sum>false</sum><sys_created_by>frank.schuster</sys_created_by><sys_created_on>2016-07-08 21:26:46</sys_created_on><sys_id>97022174132c26003e2250f82244b081</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>frank.schuster</sys_updated_by><sys_updated_on>2016-07-08 21:26:46</sys_updated_on></sys_ui_list_element><sys_ui_list action="INSERT_OR_UPDATE"><average_value>false</average_value><element/><max_value>false</max_value><min_value>false</min_value><name>u_hackathon_event</name><parent/><position/><relationship/><sum>false</sum><sys_class_name>sys_ui_list</sys_class_name><sys_created_by>frank.schuster</sys_created_by><sys_created_on>2016-07-08 21:26:46</sys_created_on><sys_customer_update>true</sys_customer_update><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>13022174132c26003e2250f82244b081</sys_id><sys_mod_count>0</sys_mod_count><sys_name>u_hackathon_event</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_replace_on_upgrade>false</sys_replace_on_upgrade><sys_scope display_value="Global">global</sys_scope><sys_update_name>sys_ui_list_u_hackathon_event_null</sys_update_name><sys_updated_by>frank.schuster</sys_updated_by><sys_updated_on>2016-07-08 21:26:46</sys_updated_on><sys_user/><view display_value="Default view" name="NULL">Default view</view><view_name/></sys_ui_list></sys_ui_list></record_update>]]></payload>
+<remote_update_set display_value="SP Enablement - Hackathon Registration">0675124213e0a6003e2250f82244b0ad</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>frank.schuster</sys_created_by>
+<sys_created_on>2016-07-12 22:23:49</sys_created_on>
+<sys_id>4275124213e0a6003e2250f82244b0af</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_updated_by>frank.schuster</sys_updated_by>
+<sys_updated_on>2016-07-12 22:23:49</sys_updated_on>
+<table>u_hackathon_event</table>
+<target_name>Hackathon Event</target_name>
+<type>List Layout</type>
+<update_domain>global</update_domain>
+<update_set display_value=""/>
+<view>Default view</view>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_dictionary_u_hackathon_registration_u_last_name</name>
+<payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update&gt;&lt;sys_dictionary action="INSERT_OR_UPDATE" element="u_last_name" table="u_hackathon_registration"&gt;&lt;active&gt;true&lt;/active&gt;&lt;array&gt;false&lt;/array&gt;&lt;attributes/&gt;&lt;audit&gt;false&lt;/audit&gt;&lt;calculation&gt;&lt;![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]&gt;&lt;/calculation&gt;&lt;choice/&gt;&lt;choice_field/&gt;&lt;choice_table/&gt;&lt;column_label&gt;Last Name&lt;/column_label&gt;&lt;comments/&gt;&lt;create_roles/&gt;&lt;default_value/&gt;&lt;defaultsort/&gt;&lt;delete_roles/&gt;&lt;dependent/&gt;&lt;dependent_on_field/&gt;&lt;display&gt;false&lt;/display&gt;&lt;dynamic_creation&gt;false&lt;/dynamic_creation&gt;&lt;dynamic_creation_script/&gt;&lt;dynamic_default_value/&gt;&lt;dynamic_ref_qual/&gt;&lt;element&gt;u_last_name&lt;/element&gt;&lt;element_reference&gt;false&lt;/element_reference&gt;&lt;foreign_database/&gt;&lt;internal_type display_value="String"&gt;string&lt;/internal_type&gt;&lt;mandatory&gt;false&lt;/mandatory&gt;&lt;max_length&gt;40&lt;/max_length&gt;&lt;name&gt;u_hackathon_registration&lt;/name&gt;&lt;next_element/&gt;&lt;primary&gt;false&lt;/primary&gt;&lt;read_only&gt;false&lt;/read_only&gt;&lt;read_roles/&gt;&lt;reference/&gt;&lt;reference_cascade_rule/&gt;&lt;reference_floats&gt;false&lt;/reference_floats&gt;&lt;reference_key/&gt;&lt;reference_qual/&gt;&lt;reference_qual_condition/&gt;&lt;reference_type/&gt;&lt;sizeclass/&gt;&lt;spell_check&gt;false&lt;/spell_check&gt;&lt;staged&gt;false&lt;/staged&gt;&lt;sys_class_name&gt;sys_dictionary&lt;/sys_class_name&gt;&lt;sys_created_by&gt;frank.schuster&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2016-07-08 21:20:12&lt;/sys_created_on&gt;&lt;sys_customer_update&gt;true&lt;/sys_customer_update&gt;&lt;sys_id&gt;e39e99f0132c26003e2250f82244b06b&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_name&gt;Last Name&lt;/sys_name&gt;&lt;sys_package display_value="Global" source="global"&gt;global&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_replace_on_upgrade&gt;false&lt;/sys_replace_on_upgrade&gt;&lt;sys_scope display_value="Global"&gt;global&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_dictionary_u_hackathon_registration_u_last_name&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;frank.schuster&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2016-07-08 21:20:12&lt;/sys_updated_on&gt;&lt;table_reference&gt;false&lt;/table_reference&gt;&lt;text_index&gt;false&lt;/text_index&gt;&lt;unique&gt;false&lt;/unique&gt;&lt;use_dependent_field&gt;false&lt;/use_dependent_field&gt;&lt;use_dynamic_default&gt;false&lt;/use_dynamic_default&gt;&lt;use_reference_qualifier&gt;simple&lt;/use_reference_qualifier&gt;&lt;virtual&gt;false&lt;/virtual&gt;&lt;widget/&gt;&lt;write_roles/&gt;&lt;xml_view&gt;false&lt;/xml_view&gt;&lt;/sys_dictionary&gt;&lt;/record_update&gt;</payload>
+<remote_update_set display_value="SP Enablement - Hackathon Registration">0675124213e0a6003e2250f82244b0ad</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>frank.schuster</sys_created_by>
+<sys_created_on>2016-07-12 22:23:49</sys_created_on>
+<sys_id>4675124213e0a6003e2250f82244b0ae</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_updated_by>frank.schuster</sys_updated_by>
+<sys_updated_on>2016-07-12 22:23:49</sys_updated_on>
+<table>u_hackathon_registration</table>
+<target_name>u_hackathon_registration.u_last_name</target_name>
+<type>Dictionary</type>
+<update_domain>global</update_domain>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_ui_section_07c4ad74132c26003e2250f82244b086</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update><sys_ui_section caption="" section_id="07c4ad74132c26003e2250f82244b086" sys_domain="global" table="u_hackathon_registration" version="3" view=""><sys_ui_element action="INSERT_OR_UPDATE"><element>.begin_split</element><position>0</position><sys_created_by>frank.schuster</sys_created_by><sys_created_on>2016-07-12 09:48:28</sys_created_on><sys_id>15982fb11320a6003e2250f82244b0c6</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="NULL" display_value="" name="u_hackathon_registration" sys_domain="global" view="Default view">07c4ad74132c26003e2250f82244b086</sys_ui_section><sys_updated_by>frank.schuster</sys_updated_by><sys_updated_on>2016-07-12 09:48:28</sys_updated_on><sys_user/><type>.begin_split</type></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>u_first_name</element><position>1</position><sys_created_by>frank.schuster</sys_created_by><sys_created_on>2016-07-12 09:48:28</sys_created_on><sys_id>95982fb11320a6003e2250f82244b0c6</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="NULL" display_value="" name="u_hackathon_registration" sys_domain="global" view="Default view">07c4ad74132c26003e2250f82244b086</sys_ui_section><sys_updated_by>frank.schuster</sys_updated_by><sys_updated_on>2016-07-12 09:48:28</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>u_last_name</element><position>2</position><sys_created_by>frank.schuster</sys_created_by><sys_created_on>2016-07-12 09:48:28</sys_created_on><sys_id>19982fb11320a6003e2250f82244b0c6</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="NULL" display_value="" name="u_hackathon_registration" sys_domain="global" view="Default view">07c4ad74132c26003e2250f82244b086</sys_ui_section><sys_updated_by>frank.schuster</sys_updated_by><sys_updated_on>2016-07-12 09:48:28</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>u_company</element><position>3</position><sys_created_by>frank.schuster</sys_created_by><sys_created_on>2016-07-12 09:48:28</sys_created_on><sys_id>99982fb11320a6003e2250f82244b0c6</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="NULL" display_value="" name="u_hackathon_registration" sys_domain="global" view="Default view">07c4ad74132c26003e2250f82244b086</sys_ui_section><sys_updated_by>frank.schuster</sys_updated_by><sys_updated_on>2016-07-12 09:48:28</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>.split</element><position>4</position><sys_created_by>frank.schuster</sys_created_by><sys_created_on>2016-07-12 09:48:28</sys_created_on><sys_id>1d982fb11320a6003e2250f82244b0c6</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="NULL" display_value="" name="u_hackathon_registration" sys_domain="global" view="Default view">07c4ad74132c26003e2250f82244b086</sys_ui_section><sys_updated_by>frank.schuster</sys_updated_by><sys_updated_on>2016-07-12 09:48:28</sys_updated_on><sys_user/><type>.split</type></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>u_email</element><position>5</position><sys_created_by>frank.schuster</sys_created_by><sys_created_on>2016-07-12 09:48:28</sys_created_on><sys_id>9d982fb11320a6003e2250f82244b0c6</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="NULL" display_value="" name="u_hackathon_registration" sys_domain="global" view="Default view">07c4ad74132c26003e2250f82244b086</sys_ui_section><sys_updated_by>frank.schuster</sys_updated_by><sys_updated_on>2016-07-12 09:48:28</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>u_event</element><position>6</position><sys_created_by>frank.schuster</sys_created_by><sys_created_on>2016-07-12 09:48:28</sys_created_on><sys_id>11982fb11320a6003e2250f82244b0c7</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="NULL" display_value="" name="u_hackathon_registration" sys_domain="global" view="Default view">07c4ad74132c26003e2250f82244b086</sys_ui_section><sys_updated_by>frank.schuster</sys_updated_by><sys_updated_on>2016-07-12 09:48:28</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>u_state</element><position>7</position><sys_created_by>frank.schuster</sys_created_by><sys_created_on>2016-07-12 09:48:28</sys_created_on><sys_id>91982fb11320a6003e2250f82244b0c7</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="NULL" display_value="" name="u_hackathon_registration" sys_domain="global" view="Default view">07c4ad74132c26003e2250f82244b086</sys_ui_section><sys_updated_by>frank.schuster</sys_updated_by><sys_updated_on>2016-07-12 09:48:28</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>.end_split</element><position>8</position><sys_created_by>frank.schuster</sys_created_by><sys_created_on>2016-07-12 09:48:28</sys_created_on><sys_id>15982fb11320a6003e2250f82244b0c7</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="NULL" display_value="" name="u_hackathon_registration" sys_domain="global" view="Default view">07c4ad74132c26003e2250f82244b086</sys_ui_section><sys_updated_by>frank.schuster</sys_updated_by><sys_updated_on>2016-07-12 09:48:28</sys_updated_on><sys_user/><type>.end_split</type></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>u_comments</element><position>9</position><sys_created_by>frank.schuster</sys_created_by><sys_created_on>2016-07-12 09:48:28</sys_created_on><sys_id>95982fb11320a6003e2250f82244b0c7</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="NULL" display_value="" name="u_hackathon_registration" sys_domain="global" view="Default view">07c4ad74132c26003e2250f82244b086</sys_ui_section><sys_updated_by>frank.schuster</sys_updated_by><sys_updated_on>2016-07-12 09:48:28</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_section action="INSERT_OR_UPDATE"><caption/><header>false</header><name>u_hackathon_registration</name><roles/><sys_class_name>sys_ui_section</sys_class_name><sys_created_by>frank.schuster</sys_created_by><sys_created_on>2016-07-08 21:38:45</sys_created_on><sys_customer_update>true</sys_customer_update><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>07c4ad74132c26003e2250f82244b086</sys_id><sys_mod_count>0</sys_mod_count><sys_name>u_hackathon_registration</sys_name><sys_overrides/><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_replace_on_upgrade>false</sys_replace_on_upgrade><sys_scope display_value="Global">global</sys_scope><sys_update_name>sys_ui_section_07c4ad74132c26003e2250f82244b086</sys_update_name><sys_updated_by>frank.schuster</sys_updated_by><sys_updated_on>2016-07-08 21:38:45</sys_updated_on><sys_user/><title>true</title><view display_value="Default view" name="NULL">Default view</view><view_name/></sys_ui_section></sys_ui_section></record_update>]]></payload>
+<remote_update_set display_value="SP Enablement - Hackathon Registration">0675124213e0a6003e2250f82244b0ad</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>frank.schuster</sys_created_by>
+<sys_created_on>2016-07-12 22:23:49</sys_created_on>
+<sys_id>4675124213e0a6003e2250f82244b0af</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_updated_by>frank.schuster</sys_updated_by>
+<sys_updated_on>2016-07-12 22:23:49</sys_updated_on>
+<table>u_hackathon_registration</table>
+<target_name>Hackathon Registration</target_name>
+<type>Form Layout</type>
+<update_domain>global</update_domain>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_choice_u_hackathon_registration_u_state</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update><sys_choice action="INSERT_OR_UPDATE" field="u_state" table="u_hackathon_registration" version="3"><sys_choice action="INSERT_OR_UPDATE"><dependent_value/><element>u_state</element><hint/><inactive>false</inactive><label>Pending</label><language>en</language><name>u_hackathon_registration</name><sequence>1</sequence><sys_created_by>frank.schuster</sys_created_by><sys_created_on>2016-07-08 21:39:26</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>0de4ed74132c26003e2250f82244b089</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>frank.schuster</sys_updated_by><sys_updated_on>2016-07-08 21:39:26</sys_updated_on><value>pending</value></sys_choice><sys_choice action="INSERT_OR_UPDATE"><dependent_value/><element>u_state</element><hint/><inactive>false</inactive><label>Approved</label><language>en</language><name>u_hackathon_registration</name><sequence>2</sequence><sys_created_by>frank.schuster</sys_created_by><sys_created_on>2016-07-08 21:39:38</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>37f421b4132c26003e2250f82244b055</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>frank.schuster</sys_updated_by><sys_updated_on>2016-07-08 21:39:38</sys_updated_on><value>approved</value></sys_choice><sys_choice action="INSERT_OR_UPDATE"><dependent_value/><element>u_state</element><hint/><inactive>false</inactive><label>Rejected</label><language>en</language><name>u_hackathon_registration</name><sequence>3</sequence><sys_created_by>frank.schuster</sys_created_by><sys_created_on>2016-07-08 21:39:44</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>dd0521b4132c26003e2250f82244b056</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>frank.schuster</sys_updated_by><sys_updated_on>2016-07-08 21:39:44</sys_updated_on><value>rejected</value></sys_choice><sys_choice_set action="INSERT_OR_UPDATE"><element>u_state</element><name>u_hackathon_registration</name><sys_class_name>sys_choice_set</sys_class_name><sys_created_by>frank.schuster</sys_created_by><sys_created_on>2016-07-08 21:39:26</sys_created_on><sys_customer_update>false</sys_customer_update><sys_id>05f4ed74132c26003e2250f82244b0d9</sys_id><sys_mod_count>2</sys_mod_count><sys_name>u_state</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_replace_on_upgrade>false</sys_replace_on_upgrade><sys_scope display_value="Global">global</sys_scope><sys_update_name>sys_choice_u_hackathon_registration_u_state</sys_update_name><sys_updated_by>frank.schuster</sys_updated_by><sys_updated_on>2016-07-08 21:39:38</sys_updated_on></sys_choice_set></sys_choice></record_update>]]></payload>
+<remote_update_set display_value="SP Enablement - Hackathon Registration">0675124213e0a6003e2250f82244b0ad</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>frank.schuster</sys_created_by>
+<sys_created_on>2016-07-12 22:23:49</sys_created_on>
+<sys_id>4a75124213e0a6003e2250f82244b0ad</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_updated_by>frank.schuster</sys_updated_by>
+<sys_updated_on>2016-07-12 22:23:49</sys_updated_on>
+<table>u_hackathon_registration</table>
+<target_name>Hackathon Registration.State</target_name>
+<type>Choice list</type>
+<update_domain>global</update_domain>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_documentation_u_hackathon_event__en</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update><sys_documentation element="" label="Hackathon Event" language="en" table="u_hackathon_event"><sys_documentation action="INSERT_OR_UPDATE"><element/><help/><hint/><label>Hackathon Event</label><language>en</language><name>u_hackathon_event</name><plural>Hackathon Events</plural><sys_class_name>sys_documentation</sys_class_name><sys_created_by>frank.schuster</sys_created_by><sys_created_on>2016-07-08 21:20:51</sys_created_on><sys_customer_update>false</sys_customer_update><sys_id>30b0e534132c26003e2250f82244b04a</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Hackathon Event</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_replace_on_upgrade>false</sys_replace_on_upgrade><sys_scope display_value="Global">global</sys_scope><sys_update_name>sys_documentation_u_hackathon_event__en</sys_update_name><sys_updated_by>frank.schuster</sys_updated_by><sys_updated_on>2016-07-08 21:20:51</sys_updated_on><url/><url_target/></sys_documentation></sys_documentation></record_update>]]></payload>
+<remote_update_set display_value="SP Enablement - Hackathon Registration">0675124213e0a6003e2250f82244b0ad</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>frank.schuster</sys_created_by>
+<sys_created_on>2016-07-12 22:23:49</sys_created_on>
+<sys_id>4a75124213e0a6003e2250f82244b0ae</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_updated_by>frank.schuster</sys_updated_by>
+<sys_updated_on>2016-07-12 22:23:49</sys_updated_on>
+<table>u_hackathon_event</table>
+<target_name>Hackathon Event</target_name>
+<type>Field Label</type>
+<update_domain>global</update_domain>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_dictionary_u_hackathon_event_u_active</name>
+<payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update&gt;&lt;sys_dictionary action="INSERT_OR_UPDATE" element="u_active" table="u_hackathon_event"&gt;&lt;active&gt;true&lt;/active&gt;&lt;array&gt;false&lt;/array&gt;&lt;attributes/&gt;&lt;audit&gt;false&lt;/audit&gt;&lt;calculation&gt;&lt;![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]&gt;&lt;/calculation&gt;&lt;choice/&gt;&lt;choice_field/&gt;&lt;choice_table/&gt;&lt;column_label&gt;Active&lt;/column_label&gt;&lt;comments/&gt;&lt;create_roles/&gt;&lt;default_value/&gt;&lt;defaultsort/&gt;&lt;delete_roles/&gt;&lt;dependent/&gt;&lt;dependent_on_field/&gt;&lt;display&gt;false&lt;/display&gt;&lt;dynamic_creation&gt;false&lt;/dynamic_creation&gt;&lt;dynamic_creation_script/&gt;&lt;dynamic_default_value/&gt;&lt;dynamic_ref_qual/&gt;&lt;element&gt;u_active&lt;/element&gt;&lt;element_reference&gt;false&lt;/element_reference&gt;&lt;foreign_database/&gt;&lt;internal_type display_value=""&gt;boolean&lt;/internal_type&gt;&lt;mandatory&gt;false&lt;/mandatory&gt;&lt;max_length&gt;40&lt;/max_length&gt;&lt;name&gt;u_hackathon_event&lt;/name&gt;&lt;next_element/&gt;&lt;primary&gt;false&lt;/primary&gt;&lt;read_only&gt;false&lt;/read_only&gt;&lt;read_roles/&gt;&lt;reference/&gt;&lt;reference_cascade_rule/&gt;&lt;reference_floats&gt;false&lt;/reference_floats&gt;&lt;reference_key/&gt;&lt;reference_qual/&gt;&lt;reference_qual_condition/&gt;&lt;reference_type/&gt;&lt;sizeclass/&gt;&lt;spell_check&gt;false&lt;/spell_check&gt;&lt;staged&gt;false&lt;/staged&gt;&lt;sys_class_name&gt;sys_dictionary&lt;/sys_class_name&gt;&lt;sys_created_by&gt;frank.schuster&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2016-07-08 21:26:36&lt;/sys_created_on&gt;&lt;sys_customer_update&gt;true&lt;/sys_customer_update&gt;&lt;sys_id&gt;6af1ed34132c26003e2250f82244b0b7&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_name&gt;Active&lt;/sys_name&gt;&lt;sys_package display_value="Global" source="global"&gt;global&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_replace_on_upgrade&gt;false&lt;/sys_replace_on_upgrade&gt;&lt;sys_scope display_value="Global"&gt;global&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_dictionary_u_hackathon_event_u_active&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;frank.schuster&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2016-07-08 21:26:36&lt;/sys_updated_on&gt;&lt;table_reference&gt;false&lt;/table_reference&gt;&lt;text_index&gt;false&lt;/text_index&gt;&lt;unique&gt;false&lt;/unique&gt;&lt;use_dependent_field&gt;false&lt;/use_dependent_field&gt;&lt;use_dynamic_default&gt;false&lt;/use_dynamic_default&gt;&lt;use_reference_qualifier&gt;simple&lt;/use_reference_qualifier&gt;&lt;virtual&gt;false&lt;/virtual&gt;&lt;widget/&gt;&lt;write_roles/&gt;&lt;xml_view&gt;false&lt;/xml_view&gt;&lt;/sys_dictionary&gt;&lt;/record_update&gt;</payload>
+<remote_update_set display_value="SP Enablement - Hackathon Registration">0675124213e0a6003e2250f82244b0ad</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>frank.schuster</sys_created_by>
+<sys_created_on>2016-07-12 22:23:49</sys_created_on>
+<sys_id>4e75124213e0a6003e2250f82244b0ad</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_updated_by>frank.schuster</sys_updated_by>
+<sys_updated_on>2016-07-12 22:23:49</sys_updated_on>
+<table>u_hackathon_event</table>
+<target_name>Hackathon Event.Active</target_name>
+<type>Dictionary</type>
+<update_domain>global</update_domain>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_documentation_u_hackathon_registration_u_first_name_en</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update><sys_documentation element="u_first_name" label="First Name" language="en" table="u_hackathon_registration"><sys_documentation action="INSERT_OR_UPDATE"><element>u_first_name</element><help/><hint/><label>First Name</label><language>en</language><name>u_hackathon_registration</name><plural>First Names</plural><sys_class_name>sys_documentation</sys_class_name><sys_created_by>frank.schuster</sys_created_by><sys_created_on>2016-07-08 21:20:14</sys_created_on><sys_customer_update>false</sys_customer_update><sys_id>a380a534132c26003e2250f82244b094</sys_id><sys_mod_count>0</sys_mod_count><sys_name>First Name</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_replace_on_upgrade>false</sys_replace_on_upgrade><sys_scope display_value="Global">global</sys_scope><sys_update_name>sys_documentation_u_hackathon_registration_u_first_name_en</sys_update_name><sys_updated_by>frank.schuster</sys_updated_by><sys_updated_on>2016-07-08 21:20:14</sys_updated_on><url/><url_target/></sys_documentation></sys_documentation></record_update>]]></payload>
+<remote_update_set display_value="SP Enablement - Hackathon Registration">0675124213e0a6003e2250f82244b0ad</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>frank.schuster</sys_created_by>
+<sys_created_on>2016-07-12 22:23:49</sys_created_on>
+<sys_id>4e75124213e0a6003e2250f82244b0ae</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_updated_by>frank.schuster</sys_updated_by>
+<sys_updated_on>2016-07-12 22:23:49</sys_updated_on>
+<table>u_hackathon_registration</table>
+<target_name>Hackathon Registration.First Name</target_name>
+<type>Field Label</type>
+<update_domain>global</update_domain>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_dictionary_u_hackathon_registration_u_email</name>
+<payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update&gt;&lt;sys_dictionary action="INSERT_OR_UPDATE" element="u_email" table="u_hackathon_registration"&gt;&lt;active&gt;true&lt;/active&gt;&lt;array&gt;false&lt;/array&gt;&lt;attributes/&gt;&lt;audit&gt;false&lt;/audit&gt;&lt;calculation&gt;&lt;![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]&gt;&lt;/calculation&gt;&lt;choice/&gt;&lt;choice_field/&gt;&lt;choice_table/&gt;&lt;column_label&gt;E-Mail&lt;/column_label&gt;&lt;comments/&gt;&lt;create_roles/&gt;&lt;default_value/&gt;&lt;defaultsort/&gt;&lt;delete_roles/&gt;&lt;dependent/&gt;&lt;dependent_on_field/&gt;&lt;display&gt;false&lt;/display&gt;&lt;dynamic_creation&gt;false&lt;/dynamic_creation&gt;&lt;dynamic_creation_script/&gt;&lt;dynamic_default_value/&gt;&lt;dynamic_ref_qual/&gt;&lt;element&gt;u_email&lt;/element&gt;&lt;element_reference&gt;false&lt;/element_reference&gt;&lt;foreign_database/&gt;&lt;internal_type display_value="String"&gt;string&lt;/internal_type&gt;&lt;mandatory&gt;false&lt;/mandatory&gt;&lt;max_length&gt;40&lt;/max_length&gt;&lt;name&gt;u_hackathon_registration&lt;/name&gt;&lt;next_element/&gt;&lt;primary&gt;false&lt;/primary&gt;&lt;read_only&gt;false&lt;/read_only&gt;&lt;read_roles/&gt;&lt;reference/&gt;&lt;reference_cascade_rule/&gt;&lt;reference_floats&gt;false&lt;/reference_floats&gt;&lt;reference_key/&gt;&lt;reference_qual/&gt;&lt;reference_qual_condition/&gt;&lt;reference_type/&gt;&lt;sizeclass/&gt;&lt;spell_check&gt;false&lt;/spell_check&gt;&lt;staged&gt;false&lt;/staged&gt;&lt;sys_class_name&gt;sys_dictionary&lt;/sys_class_name&gt;&lt;sys_created_by&gt;frank.schuster&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2016-07-08 21:20:13&lt;/sys_created_on&gt;&lt;sys_customer_update&gt;true&lt;/sys_customer_update&gt;&lt;sys_id&gt;01ae99f0132c26003e2250f82244b06c&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_name&gt;E-Mail&lt;/sys_name&gt;&lt;sys_package display_value="Global" source="global"&gt;global&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_replace_on_upgrade&gt;false&lt;/sys_replace_on_upgrade&gt;&lt;sys_scope display_value="Global"&gt;global&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_dictionary_u_hackathon_registration_u_email&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;frank.schuster&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2016-07-08 21:20:13&lt;/sys_updated_on&gt;&lt;table_reference&gt;false&lt;/table_reference&gt;&lt;text_index&gt;false&lt;/text_index&gt;&lt;unique&gt;false&lt;/unique&gt;&lt;use_dependent_field&gt;false&lt;/use_dependent_field&gt;&lt;use_dynamic_default&gt;false&lt;/use_dynamic_default&gt;&lt;use_reference_qualifier&gt;simple&lt;/use_reference_qualifier&gt;&lt;virtual&gt;false&lt;/virtual&gt;&lt;widget/&gt;&lt;write_roles/&gt;&lt;xml_view&gt;false&lt;/xml_view&gt;&lt;/sys_dictionary&gt;&lt;/record_update&gt;</payload>
+<remote_update_set display_value="SP Enablement - Hackathon Registration">0675124213e0a6003e2250f82244b0ad</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>frank.schuster</sys_created_by>
+<sys_created_on>2016-07-12 22:23:49</sys_created_on>
+<sys_id>8275124213e0a6003e2250f82244b0ae</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_updated_by>frank.schuster</sys_updated_by>
+<sys_updated_on>2016-07-12 22:23:49</sys_updated_on>
+<table>u_hackathon_registration</table>
+<target_name>u_hackathon_registration.u_email</target_name>
+<type>Dictionary</type>
+<update_domain>global</update_domain>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_ui_list_u_hackathon_registration_null</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update><sys_ui_list parent="" relationship="" sys_domain="global" table="u_hackathon_registration" version="2" view=""><sys_ui_list_element action="INSERT_OR_UPDATE"><average_value>false</average_value><element>u_first_name</element><list_id display_value="u_hackathon_registration" element="NULL" name="u_hackathon_registration" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">2c09afb11320a6003e2250f82244b002</list_id><max_value>false</max_value><min_value>false</min_value><position>0</position><sum>false</sum><sys_created_by>frank.schuster</sys_created_by><sys_created_on>2016-07-12 09:50:20</sys_created_on><sys_id>2009afb11320a6003e2250f82244b003</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>frank.schuster</sys_updated_by><sys_updated_on>2016-07-12 09:50:20</sys_updated_on></sys_ui_list_element><sys_ui_list_element action="INSERT_OR_UPDATE"><average_value>false</average_value><element>u_last_name</element><list_id display_value="u_hackathon_registration" element="NULL" name="u_hackathon_registration" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">2c09afb11320a6003e2250f82244b002</list_id><max_value>false</max_value><min_value>false</min_value><position>1</position><sum>false</sum><sys_created_by>frank.schuster</sys_created_by><sys_created_on>2016-07-12 09:50:20</sys_created_on><sys_id>a009afb11320a6003e2250f82244b003</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>frank.schuster</sys_updated_by><sys_updated_on>2016-07-12 09:50:20</sys_updated_on></sys_ui_list_element><sys_ui_list_element action="INSERT_OR_UPDATE"><average_value>false</average_value><element>u_company</element><list_id display_value="u_hackathon_registration" element="NULL" name="u_hackathon_registration" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">2c09afb11320a6003e2250f82244b002</list_id><max_value>false</max_value><min_value>false</min_value><position>2</position><sum>false</sum><sys_created_by>frank.schuster</sys_created_by><sys_created_on>2016-07-12 09:50:20</sys_created_on><sys_id>2409afb11320a6003e2250f82244b003</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>frank.schuster</sys_updated_by><sys_updated_on>2016-07-12 09:50:20</sys_updated_on></sys_ui_list_element><sys_ui_list_element action="INSERT_OR_UPDATE"><average_value>false</average_value><element>u_email</element><list_id display_value="u_hackathon_registration" element="NULL" name="u_hackathon_registration" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">2c09afb11320a6003e2250f82244b002</list_id><max_value>false</max_value><min_value>false</min_value><position>3</position><sum>false</sum><sys_created_by>frank.schuster</sys_created_by><sys_created_on>2016-07-12 09:50:20</sys_created_on><sys_id>a409afb11320a6003e2250f82244b003</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>frank.schuster</sys_updated_by><sys_updated_on>2016-07-12 09:50:20</sys_updated_on></sys_ui_list_element><sys_ui_list_element action="INSERT_OR_UPDATE"><average_value>false</average_value><element>u_event</element><list_id display_value="u_hackathon_registration" element="NULL" name="u_hackathon_registration" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">2c09afb11320a6003e2250f82244b002</list_id><max_value>false</max_value><min_value>false</min_value><position>4</position><sum>false</sum><sys_created_by>frank.schuster</sys_created_by><sys_created_on>2016-07-12 09:50:20</sys_created_on><sys_id>2809afb11320a6003e2250f82244b003</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>frank.schuster</sys_updated_by><sys_updated_on>2016-07-12 09:50:20</sys_updated_on></sys_ui_list_element><sys_ui_list_element action="INSERT_OR_UPDATE"><average_value>false</average_value><element>u_comments</element><list_id display_value="u_hackathon_registration" element="NULL" name="u_hackathon_registration" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">2c09afb11320a6003e2250f82244b002</list_id><max_value>false</max_value><min_value>false</min_value><position>5</position><sum>false</sum><sys_created_by>frank.schuster</sys_created_by><sys_created_on>2016-07-12 09:50:20</sys_created_on><sys_id>a809afb11320a6003e2250f82244b003</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>frank.schuster</sys_updated_by><sys_updated_on>2016-07-12 09:50:20</sys_updated_on></sys_ui_list_element><sys_ui_list action="INSERT_OR_UPDATE"><average_value>false</average_value><element/><max_value>false</max_value><min_value>false</min_value><name>u_hackathon_registration</name><parent/><position/><relationship/><sum>false</sum><sys_class_name>sys_ui_list</sys_class_name><sys_created_by>frank.schuster</sys_created_by><sys_created_on>2016-07-12 09:50:20</sys_created_on><sys_customer_update>true</sys_customer_update><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>2c09afb11320a6003e2250f82244b002</sys_id><sys_mod_count>0</sys_mod_count><sys_name>u_hackathon_registration</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_replace_on_upgrade>false</sys_replace_on_upgrade><sys_scope display_value="Global">global</sys_scope><sys_update_name>sys_ui_list_u_hackathon_registration_null</sys_update_name><sys_updated_by>frank.schuster</sys_updated_by><sys_updated_on>2016-07-12 09:50:20</sys_updated_on><sys_user/><view display_value="Default view" name="NULL">Default view</view><view_name/></sys_ui_list></sys_ui_list></record_update>]]></payload>
+<remote_update_set display_value="SP Enablement - Hackathon Registration">0675124213e0a6003e2250f82244b0ad</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>frank.schuster</sys_created_by>
+<sys_created_on>2016-07-12 22:23:49</sys_created_on>
+<sys_id>8275124213e0a6003e2250f82244b0af</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_updated_by>frank.schuster</sys_updated_by>
+<sys_updated_on>2016-07-12 22:23:49</sys_updated_on>
+<table>u_hackathon_registration</table>
+<target_name>Hackathon Registration</target_name>
+<type>List Layout</type>
+<update_domain>global</update_domain>
+<update_set display_value=""/>
+<view>Default view</view>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_app_application_6b80a534132c26003e2250f82244b08e</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_app_application"><sys_app_application action="INSERT_OR_UPDATE"><active>true</active><category display_value="Custom Applications">e0355b31ef303000a61d5a3615c0fb78</category><description/><device_type>browser</device_type><hint/><name>Hackathon Registration</name><order>100</order><roles/><sys_class_name>sys_app_application</sys_class_name><sys_created_by>frank.schuster</sys_created_by><sys_created_on>2016-07-08 21:20:13</sys_created_on><sys_customer_update>true</sys_customer_update><sys_domain>global</sys_domain><sys_domain_path/><sys_id>6b80a534132c26003e2250f82244b08e</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Hackathon Registration</sys_name><sys_overrides/><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_replace_on_upgrade>false</sys_replace_on_upgrade><sys_scope display_value="Global">global</sys_scope><sys_update_name>sys_app_application_6b80a534132c26003e2250f82244b08e</sys_update_name><sys_updated_by>frank.schuster</sys_updated_by><sys_updated_on>2016-07-08 21:20:13</sys_updated_on><title>Hackathon Registration</title><view_name/></sys_app_application></record_update>]]></payload>
+<remote_update_set display_value="SP Enablement - Hackathon Registration">0675124213e0a6003e2250f82244b0ad</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>frank.schuster</sys_created_by>
+<sys_created_on>2016-07-12 22:23:49</sys_created_on>
+<sys_id>8675124213e0a6003e2250f82244b0ad</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_updated_by>frank.schuster</sys_updated_by>
+<sys_updated_on>2016-07-12 22:23:49</sys_updated_on>
+<table/>
+<target_name>Hackathon Registration</target_name>
+<type>Application Menu</type>
+<update_domain>global</update_domain>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_dictionary_u_hackathon_registration_u_state</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update><sys_dictionary action="INSERT_OR_UPDATE" element="u_state" table="u_hackathon_registration"><active>true</active><array>false</array><attributes>edge_encryption_enabled=true</attributes><audit>false</audit><calculation/><choice>1</choice><choice_field/><choice_table/><column_label>State</column_label><comments/><create_roles/><default_value/><defaultsort/><delete_roles/><dependent/><dependent_on_field/><display>false</display><dynamic_creation>false</dynamic_creation><dynamic_creation_script/><dynamic_default_value/><dynamic_ref_qual/><element>u_state</element><element_reference>false</element_reference><foreign_database/><internal_type display_value="String">string</internal_type><mandatory>false</mandatory><max_length>40</max_length><name>u_hackathon_registration</name><next_element/><primary>false</primary><read_only>false</read_only><read_roles/><reference/><reference_cascade_rule/><reference_floats>false</reference_floats><reference_key/><reference_qual/><reference_qual_condition/><reference_type/><sizeclass/><spell_check>false</spell_check><staged>false</staged><sys_class_name>sys_dictionary</sys_class_name><sys_created_by>frank.schuster</sys_created_by><sys_created_on>2016-07-08 21:39:01</sys_created_on><sys_customer_update>false</sys_customer_update><sys_id>76d4ad74132c26003e2250f82244b0fa</sys_id><sys_mod_count>0</sys_mod_count><sys_name>State</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_replace_on_upgrade>false</sys_replace_on_upgrade><sys_scope display_value="Global">global</sys_scope><sys_update_name>sys_dictionary_u_hackathon_registration_u_state</sys_update_name><sys_updated_by>frank.schuster</sys_updated_by><sys_updated_on>2016-07-08 21:39:01</sys_updated_on><table_reference>false</table_reference><text_index>false</text_index><unique>false</unique><use_dependent_field>false</use_dependent_field><use_dynamic_default>false</use_dynamic_default><use_reference_qualifier>simple</use_reference_qualifier><virtual>false</virtual><widget/><write_roles/><xml_view>false</xml_view></sys_dictionary></record_update>]]></payload>
+<remote_update_set display_value="SP Enablement - Hackathon Registration">0675124213e0a6003e2250f82244b0ad</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>frank.schuster</sys_created_by>
+<sys_created_on>2016-07-12 22:23:49</sys_created_on>
+<sys_id>8675124213e0a6003e2250f82244b0ae</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_updated_by>frank.schuster</sys_updated_by>
+<sys_updated_on>2016-07-12 22:23:49</sys_updated_on>
+<table>u_hackathon_registration</table>
+<target_name>Hackathon Registration.State</target_name>
+<type>Dictionary</type>
+<update_domain>global</update_domain>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_ui_section_a1e1ed34132c26003e2250f82244b009</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update><sys_ui_section caption="" section_id="a1e1ed34132c26003e2250f82244b009" sys_domain="global" table="u_hackathon_event" version="3" view=""><sys_ui_element action="INSERT_OR_UPDATE"><element>u_event_name</element><position>0</position><sys_created_by>frank.schuster</sys_created_by><sys_created_on>2016-07-08 21:26:06</sys_created_on><sys_id>29e1ed34132c26003e2250f82244b06f</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="NULL" display_value="" name="u_hackathon_event" sys_domain="global" view="Default view">a1e1ed34132c26003e2250f82244b009</sys_ui_section><sys_updated_by>frank.schuster</sys_updated_by><sys_updated_on>2016-07-08 21:26:06</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>u_active</element><position>1</position><sys_created_by>frank.schuster</sys_created_by><sys_created_on>2016-07-08 21:26:36</sys_created_on><sys_id>f4022174132c26003e2250f82244b055</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="NULL" display_value="" name="u_hackathon_event" sys_domain="global" view="Default view">a1e1ed34132c26003e2250f82244b009</sys_ui_section><sys_updated_by>frank.schuster</sys_updated_by><sys_updated_on>2016-07-08 21:26:36</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_section action="INSERT_OR_UPDATE"><caption/><header>false</header><name>u_hackathon_event</name><roles/><sys_class_name>sys_ui_section</sys_class_name><sys_created_by>frank.schuster</sys_created_by><sys_created_on>2016-07-08 21:26:06</sys_created_on><sys_customer_update>true</sys_customer_update><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>a1e1ed34132c26003e2250f82244b009</sys_id><sys_mod_count>0</sys_mod_count><sys_name>u_hackathon_event</sys_name><sys_overrides/><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_replace_on_upgrade>false</sys_replace_on_upgrade><sys_scope display_value="Global">global</sys_scope><sys_update_name>sys_ui_section_a1e1ed34132c26003e2250f82244b009</sys_update_name><sys_updated_by>frank.schuster</sys_updated_by><sys_updated_on>2016-07-08 21:26:06</sys_updated_on><sys_user/><title>true</title><view display_value="Default view" name="NULL">Default view</view><view_name/></sys_ui_section></sys_ui_section></record_update>]]></payload>
+<remote_update_set display_value="SP Enablement - Hackathon Registration">0675124213e0a6003e2250f82244b0ad</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>frank.schuster</sys_created_by>
+<sys_created_on>2016-07-12 22:23:49</sys_created_on>
+<sys_id>8675124213e0a6003e2250f82244b0af</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_updated_by>frank.schuster</sys_updated_by>
+<sys_updated_on>2016-07-12 22:23:49</sys_updated_on>
+<table>u_hackathon_event</table>
+<target_name>Hackathon Event</target_name>
+<type>Form Layout</type>
+<update_domain>global</update_domain>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_db_object_a57e1df0132c26003e2250f82244b0d2</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_db_object"><sys_db_object action="INSERT_OR_UPDATE"><access>public</access><actions_access>false</actions_access><alter_access>false</alter_access><client_scripts_access>false</client_scripts_access><configuration_access>false</configuration_access><create_access>false</create_access><create_access_controls>false</create_access_controls><delete_access>false</delete_access><extension_model/><is_extendable>false</is_extendable><label>Hackathon Registration</label><live_feed_enabled>false</live_feed_enabled><name>u_hackathon_registration</name><number_ref/><provider_class/><read_access>true</read_access><super_class/><sys_class_name>sys_db_object</sys_class_name><sys_created_by>frank.schuster</sys_created_by><sys_created_on>2016-07-08 21:20:13</sys_created_on><sys_customer_update>true</sys_customer_update><sys_id>a57e1df0132c26003e2250f82244b0d2</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Hackathon Registration</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_replace_on_upgrade>false</sys_replace_on_upgrade><sys_scope display_value="Global">global</sys_scope><sys_update_name>sys_db_object_a57e1df0132c26003e2250f82244b0d2</sys_update_name><sys_updated_by>frank.schuster</sys_updated_by><sys_updated_on>2016-07-08 21:20:13</sys_updated_on><update_access>false</update_access><user_role/><ws_access>true</ws_access></sys_db_object></record_update>]]></payload>
+<remote_update_set display_value="SP Enablement - Hackathon Registration">0675124213e0a6003e2250f82244b0ad</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>frank.schuster</sys_created_by>
+<sys_created_on>2016-07-12 22:23:49</sys_created_on>
+<sys_id>8a75124213e0a6003e2250f82244b0ad</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_updated_by>frank.schuster</sys_updated_by>
+<sys_updated_on>2016-07-12 22:23:49</sys_updated_on>
+<table>u_hackathon_registration</table>
+<target_name>Hackathon Registration</target_name>
+<type>Table</type>
+<update_domain>global</update_domain>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_documentation_u_hackathon_registration_u_company_en</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update><sys_documentation element="u_company" label="Company" language="en" table="u_hackathon_registration"><sys_documentation action="INSERT_OR_UPDATE"><element>u_company</element><help/><hint/><label>Company</label><language>en</language><name>u_hackathon_registration</name><plural>Companies</plural><sys_class_name>sys_documentation</sys_class_name><sys_created_by>frank.schuster</sys_created_by><sys_created_on>2016-07-08 21:20:14</sys_created_on><sys_customer_update>false</sys_customer_update><sys_id>a380a534132c26003e2250f82244b093</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Company</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_replace_on_upgrade>false</sys_replace_on_upgrade><sys_scope display_value="Global">global</sys_scope><sys_update_name>sys_documentation_u_hackathon_registration_u_company_en</sys_update_name><sys_updated_by>frank.schuster</sys_updated_by><sys_updated_on>2016-07-08 21:20:14</sys_updated_on><url/><url_target/></sys_documentation></sys_documentation></record_update>]]></payload>
+<remote_update_set display_value="SP Enablement - Hackathon Registration">0675124213e0a6003e2250f82244b0ad</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>frank.schuster</sys_created_by>
+<sys_created_on>2016-07-12 22:23:49</sys_created_on>
+<sys_id>8a75124213e0a6003e2250f82244b0ae</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_updated_by>frank.schuster</sys_updated_by>
+<sys_updated_on>2016-07-12 22:23:49</sys_updated_on>
+<table>u_hackathon_registration</table>
+<target_name>Hackathon Registration.Company</target_name>
+<type>Field Label</type>
+<update_domain>global</update_domain>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_dictionary_u_hackathon_event_u_event_name</name>
+<payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update&gt;&lt;sys_dictionary action="INSERT_OR_UPDATE" element="u_event_name" table="u_hackathon_event"&gt;&lt;active&gt;true&lt;/active&gt;&lt;array&gt;false&lt;/array&gt;&lt;attributes/&gt;&lt;audit&gt;false&lt;/audit&gt;&lt;calculation&gt;&lt;![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]&gt;&lt;/calculation&gt;&lt;choice/&gt;&lt;choice_field/&gt;&lt;choice_table/&gt;&lt;column_label&gt;Event Name&lt;/column_label&gt;&lt;comments/&gt;&lt;create_roles/&gt;&lt;default_value/&gt;&lt;defaultsort/&gt;&lt;delete_roles/&gt;&lt;dependent/&gt;&lt;dependent_on_field/&gt;&lt;display&gt;false&lt;/display&gt;&lt;dynamic_creation&gt;false&lt;/dynamic_creation&gt;&lt;dynamic_creation_script/&gt;&lt;dynamic_default_value/&gt;&lt;dynamic_ref_qual/&gt;&lt;element&gt;u_event_name&lt;/element&gt;&lt;element_reference&gt;false&lt;/element_reference&gt;&lt;foreign_database/&gt;&lt;internal_type display_value="String"&gt;string&lt;/internal_type&gt;&lt;mandatory&gt;false&lt;/mandatory&gt;&lt;max_length&gt;40&lt;/max_length&gt;&lt;name&gt;u_hackathon_event&lt;/name&gt;&lt;next_element/&gt;&lt;primary&gt;false&lt;/primary&gt;&lt;read_only&gt;false&lt;/read_only&gt;&lt;read_roles/&gt;&lt;reference/&gt;&lt;reference_cascade_rule/&gt;&lt;reference_floats&gt;false&lt;/reference_floats&gt;&lt;reference_key/&gt;&lt;reference_qual/&gt;&lt;reference_qual_condition/&gt;&lt;reference_type/&gt;&lt;sizeclass/&gt;&lt;spell_check&gt;false&lt;/spell_check&gt;&lt;staged&gt;false&lt;/staged&gt;&lt;sys_class_name&gt;sys_dictionary&lt;/sys_class_name&gt;&lt;sys_created_by&gt;frank.schuster&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2016-07-08 21:20:50&lt;/sys_created_on&gt;&lt;sys_customer_update&gt;true&lt;/sys_customer_update&gt;&lt;sys_id&gt;0a902df0132c26003e2250f82244b0dd&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_name&gt;Event Name&lt;/sys_name&gt;&lt;sys_package display_value="Global" source="global"&gt;global&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_replace_on_upgrade&gt;false&lt;/sys_replace_on_upgrade&gt;&lt;sys_scope display_value="Global"&gt;global&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_dictionary_u_hackathon_event_u_event_name&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;frank.schuster&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2016-07-08 21:20:50&lt;/sys_updated_on&gt;&lt;table_reference&gt;false&lt;/table_reference&gt;&lt;text_index&gt;false&lt;/text_index&gt;&lt;unique&gt;false&lt;/unique&gt;&lt;use_dependent_field&gt;false&lt;/use_dependent_field&gt;&lt;use_dynamic_default&gt;false&lt;/use_dynamic_default&gt;&lt;use_reference_qualifier&gt;simple&lt;/use_reference_qualifier&gt;&lt;virtual&gt;false&lt;/virtual&gt;&lt;widget/&gt;&lt;write_roles/&gt;&lt;xml_view&gt;false&lt;/xml_view&gt;&lt;/sys_dictionary&gt;&lt;/record_update&gt;</payload>
+<remote_update_set display_value="SP Enablement - Hackathon Registration">0675124213e0a6003e2250f82244b0ad</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>frank.schuster</sys_created_by>
+<sys_created_on>2016-07-12 22:23:49</sys_created_on>
+<sys_id>8e75124213e0a6003e2250f82244b0ad</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_updated_by>frank.schuster</sys_updated_by>
+<sys_updated_on>2016-07-12 22:23:49</sys_updated_on>
+<table>u_hackathon_event</table>
+<target_name>u_hackathon_event.u_event_name</target_name>
+<type>Dictionary</type>
+<update_domain>global</update_domain>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_documentation_u_hackathon_registration_u_last_name_en</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update><sys_documentation element="u_last_name" label="Last Name" language="en" table="u_hackathon_registration"><sys_documentation action="INSERT_OR_UPDATE"><element>u_last_name</element><help/><hint/><label>Last Name</label><language>en</language><name>u_hackathon_registration</name><plural>Last Names</plural><sys_class_name>sys_documentation</sys_class_name><sys_created_by>frank.schuster</sys_created_by><sys_created_on>2016-07-08 21:20:14</sys_created_on><sys_customer_update>false</sys_customer_update><sys_id>ab80a534132c26003e2250f82244b094</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Last Name</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_replace_on_upgrade>false</sys_replace_on_upgrade><sys_scope display_value="Global">global</sys_scope><sys_update_name>sys_documentation_u_hackathon_registration_u_last_name_en</sys_update_name><sys_updated_by>frank.schuster</sys_updated_by><sys_updated_on>2016-07-08 21:20:14</sys_updated_on><url/><url_target/></sys_documentation></sys_documentation></record_update>]]></payload>
+<remote_update_set display_value="SP Enablement - Hackathon Registration">0675124213e0a6003e2250f82244b0ad</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>frank.schuster</sys_created_by>
+<sys_created_on>2016-07-12 22:23:49</sys_created_on>
+<sys_id>8e75124213e0a6003e2250f82244b0ae</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_updated_by>frank.schuster</sys_updated_by>
+<sys_updated_on>2016-07-12 22:23:49</sys_updated_on>
+<table>u_hackathon_registration</table>
+<target_name>Hackathon Registration.Last Name</target_name>
+<type>Field Label</type>
+<update_domain>global</update_domain>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_dictionary_u_hackathon_registration_u_event</name>
+<payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update&gt;&lt;sys_dictionary action="INSERT_OR_UPDATE" element="u_event" table="u_hackathon_registration"&gt;&lt;active&gt;true&lt;/active&gt;&lt;array&gt;false&lt;/array&gt;&lt;attributes/&gt;&lt;audit&gt;false&lt;/audit&gt;&lt;calculation&gt;&lt;![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]&gt;&lt;/calculation&gt;&lt;choice/&gt;&lt;choice_field/&gt;&lt;choice_table/&gt;&lt;column_label&gt;Event&lt;/column_label&gt;&lt;comments/&gt;&lt;create_roles/&gt;&lt;default_value/&gt;&lt;defaultsort/&gt;&lt;delete_roles/&gt;&lt;dependent/&gt;&lt;dependent_on_field/&gt;&lt;display&gt;false&lt;/display&gt;&lt;dynamic_creation&gt;false&lt;/dynamic_creation&gt;&lt;dynamic_creation_script/&gt;&lt;dynamic_default_value/&gt;&lt;dynamic_ref_qual/&gt;&lt;element&gt;u_event&lt;/element&gt;&lt;element_reference&gt;false&lt;/element_reference&gt;&lt;foreign_database/&gt;&lt;internal_type display_value="Reference"&gt;reference&lt;/internal_type&gt;&lt;mandatory&gt;false&lt;/mandatory&gt;&lt;max_length&gt;32&lt;/max_length&gt;&lt;name&gt;u_hackathon_registration&lt;/name&gt;&lt;next_element/&gt;&lt;primary&gt;false&lt;/primary&gt;&lt;read_only&gt;false&lt;/read_only&gt;&lt;read_roles/&gt;&lt;reference display_value="" name="u_hackathon_event"&gt;u_hackathon_event&lt;/reference&gt;&lt;reference_cascade_rule/&gt;&lt;reference_floats&gt;false&lt;/reference_floats&gt;&lt;reference_key/&gt;&lt;reference_qual/&gt;&lt;reference_qual_condition/&gt;&lt;reference_type/&gt;&lt;sizeclass/&gt;&lt;spell_check&gt;false&lt;/spell_check&gt;&lt;staged&gt;false&lt;/staged&gt;&lt;sys_class_name&gt;sys_dictionary&lt;/sys_class_name&gt;&lt;sys_created_by&gt;frank.schuster&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2016-07-08 21:21:12&lt;/sys_created_on&gt;&lt;sys_customer_update&gt;true&lt;/sys_customer_update&gt;&lt;sys_id&gt;d3b02934132c26003e2250f82244b08e&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_name&gt;Event&lt;/sys_name&gt;&lt;sys_package display_value="Global" source="global"&gt;global&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_replace_on_upgrade&gt;false&lt;/sys_replace_on_upgrade&gt;&lt;sys_scope display_value="Global"&gt;global&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_dictionary_u_hackathon_registration_u_event&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;frank.schuster&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2016-07-08 21:21:12&lt;/sys_updated_on&gt;&lt;table_reference&gt;false&lt;/table_reference&gt;&lt;text_index&gt;false&lt;/text_index&gt;&lt;unique&gt;false&lt;/unique&gt;&lt;use_dependent_field&gt;false&lt;/use_dependent_field&gt;&lt;use_dynamic_default&gt;false&lt;/use_dynamic_default&gt;&lt;use_reference_qualifier&gt;simple&lt;/use_reference_qualifier&gt;&lt;virtual&gt;false&lt;/virtual&gt;&lt;widget/&gt;&lt;write_roles/&gt;&lt;xml_view&gt;false&lt;/xml_view&gt;&lt;/sys_dictionary&gt;&lt;/record_update&gt;</payload>
+<remote_update_set display_value="SP Enablement - Hackathon Registration">0675124213e0a6003e2250f82244b0ad</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>frank.schuster</sys_created_by>
+<sys_created_on>2016-07-12 22:23:49</sys_created_on>
+<sys_id>c275124213e0a6003e2250f82244b0ae</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_updated_by>frank.schuster</sys_updated_by>
+<sys_updated_on>2016-07-12 22:23:49</sys_updated_on>
+<table>u_hackathon_registration</table>
+<target_name>Hackathon Registration.Event</target_name>
+<type>Dictionary</type>
+<update_domain>global</update_domain>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_ui_module_a8b0e534132c26003e2250f82244b047</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ui_module"><sys_ui_module action="INSERT_OR_UPDATE"><active>true</active><application display_value="Hackathon Registration">6f80a534132c26003e2250f82244b08f</application><filter/><name>Hackathon Events</name><order/><path/><path_relative_to_root>false</path_relative_to_root><roles/><sys_class_name>sys_ui_module</sys_class_name><sys_created_by>frank.schuster</sys_created_by><sys_created_on>2016-07-08 21:20:51</sys_created_on><sys_customer_update>true</sys_customer_update><sys_domain>global</sys_domain><sys_domain_path/><sys_id>a8b0e534132c26003e2250f82244b047</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Hackathon Events</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_replace_on_upgrade>false</sys_replace_on_upgrade><sys_scope display_value="Global">global</sys_scope><sys_update_name>sys_ui_module_a8b0e534132c26003e2250f82244b047</sys_update_name><sys_updated_by>frank.schuster</sys_updated_by><sys_updated_on>2016-07-08 21:20:51</sys_updated_on><table>u_hackathon_event</table><uncancelable>false</uncancelable><view_name/></sys_ui_module></record_update>]]></payload>
+<remote_update_set display_value="SP Enablement - Hackathon Registration">0675124213e0a6003e2250f82244b0ad</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>frank.schuster</sys_created_by>
+<sys_created_on>2016-07-12 22:23:49</sys_created_on>
+<sys_id>c275124213e0a6003e2250f82244b0af</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_updated_by>frank.schuster</sys_updated_by>
+<sys_updated_on>2016-07-12 22:23:49</sys_updated_on>
+<table>u_hackathon_event</table>
+<target_name>Hackathon Events</target_name>
+<type>Module</type>
+<update_domain>global</update_domain>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_app_module_20b0e534132c26003e2250f82244b047</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_app_module"><sys_app_module action="INSERT_OR_UPDATE"><active>true</active><application display_value="Hackathon Registration">6b80a534132c26003e2250f82244b08e</application><assessment/><content_page/><device_type/><filter/><hint/><homepage/><image/><link_type>LIST</link_type><map_page/><mobile_title>Hackathon Events</mobile_title><mobile_view_name>Mobile</mobile_view_name><name>u_hackathon_event</name><order/><override_menu_roles>false</override_menu_roles><query/><report/><roles/><survey/><survey_overwrite>true</survey_overwrite><sys_class_name>sys_app_module</sys_class_name><sys_created_by>frank.schuster</sys_created_by><sys_created_on>2016-07-08 21:20:51</sys_created_on><sys_customer_update>true</sys_customer_update><sys_domain>global</sys_domain><sys_domain_path/><sys_id>20b0e534132c26003e2250f82244b047</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Hackathon Events</sys_name><sys_overrides/><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_replace_on_upgrade>false</sys_replace_on_upgrade><sys_scope display_value="Global">global</sys_scope><sys_update_name>sys_app_module_20b0e534132c26003e2250f82244b047</sys_update_name><sys_updated_by>frank.schuster</sys_updated_by><sys_updated_on>2016-07-08 21:20:51</sys_updated_on><timeline_page/><title>Hackathon Events</title><uncancelable>false</uncancelable><view_name/><window_name/></sys_app_module></record_update>]]></payload>
+<remote_update_set display_value="SP Enablement - Hackathon Registration">0675124213e0a6003e2250f82244b0ad</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>frank.schuster</sys_created_by>
+<sys_created_on>2016-07-12 22:23:49</sys_created_on>
+<sys_id>c675124213e0a6003e2250f82244b0ad</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_updated_by>frank.schuster</sys_updated_by>
+<sys_updated_on>2016-07-12 22:23:49</sys_updated_on>
+<table>u_hackathon_event</table>
+<target_name>Hackathon Events</target_name>
+<type>Module</type>
+<update_domain>global</update_domain>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_documentation_u_hackathon_event_u_active_en</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update><sys_documentation element="u_active" label="Active" language="en" table="u_hackathon_event"><sys_documentation action="INSERT_OR_UPDATE"><element>u_active</element><help/><hint/><label>Active</label><language>en</language><name>u_hackathon_event</name><plural>Active</plural><sys_class_name>sys_documentation</sys_class_name><sys_created_by>frank.schuster</sys_created_by><sys_created_on>2016-07-08 21:26:36</sys_created_on><sys_customer_update>false</sys_customer_update><sys_id>fc022174132c26003e2250f82244b055</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Active</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_replace_on_upgrade>false</sys_replace_on_upgrade><sys_scope display_value="Global">global</sys_scope><sys_update_name>sys_documentation_u_hackathon_event_u_active_en</sys_update_name><sys_updated_by>frank.schuster</sys_updated_by><sys_updated_on>2016-07-08 21:26:36</sys_updated_on><url/><url_target/></sys_documentation></sys_documentation></record_update>]]></payload>
+<remote_update_set display_value="SP Enablement - Hackathon Registration">0675124213e0a6003e2250f82244b0ad</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>frank.schuster</sys_created_by>
+<sys_created_on>2016-07-12 22:23:49</sys_created_on>
+<sys_id>c675124213e0a6003e2250f82244b0ae</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_updated_by>frank.schuster</sys_updated_by>
+<sys_updated_on>2016-07-12 22:23:49</sys_updated_on>
+<table>u_hackathon_event</table>
+<target_name>Hackathon Event.Active</target_name>
+<type>Field Label</type>
+<update_domain>global</update_domain>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>ua_table_licensing_config_b0b0e534132c26003e2250f82244b0da</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="ua_table_licensing_config"><ua_table_licensing_config action="INSERT_OR_UPDATE"><is_fulfillment>false</is_fulfillment><name>u_hackathon_event</name><owner_condition/><sys_class_name>ua_table_licensing_config</sys_class_name><sys_created_by>frank.schuster</sys_created_by><sys_created_on>2016-07-08 21:20:51</sys_created_on><sys_customer_update>true</sys_customer_update><sys_id>b0b0e534132c26003e2250f82244b0da</sys_id><sys_mod_count>0</sys_mod_count><sys_name>u_hackathon_event</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_replace_on_upgrade>false</sys_replace_on_upgrade><sys_scope display_value="Global">global</sys_scope><sys_update_name>ua_table_licensing_config_b0b0e534132c26003e2250f82244b0da</sys_update_name><sys_updated_by>frank.schuster</sys_updated_by><sys_updated_on>2016-07-08 21:20:51</sys_updated_on></ua_table_licensing_config></record_update>]]></payload>
+<remote_update_set display_value="SP Enablement - Hackathon Registration">0675124213e0a6003e2250f82244b0ad</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>frank.schuster</sys_created_by>
+<sys_created_on>2016-07-12 22:23:49</sys_created_on>
+<sys_id>c675124213e0a6003e2250f82244b0af</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_updated_by>frank.schuster</sys_updated_by>
+<sys_updated_on>2016-07-12 22:23:49</sys_updated_on>
+<table/>
+<target_name>u_hackathon_event</target_name>
+<type>Table Subscription Configuration</type>
+<update_domain>global</update_domain>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_db_object_b990e534132c26003e2250f82244b023</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_db_object"><sys_db_object action="INSERT_OR_UPDATE"><access>public</access><actions_access>false</actions_access><alter_access>false</alter_access><client_scripts_access>false</client_scripts_access><configuration_access>false</configuration_access><create_access>false</create_access><create_access_controls>false</create_access_controls><delete_access>false</delete_access><extension_model/><is_extendable>false</is_extendable><label>Hackathon Event</label><live_feed_enabled>false</live_feed_enabled><name>u_hackathon_event</name><number_ref/><provider_class/><read_access>true</read_access><super_class/><sys_class_name>sys_db_object</sys_class_name><sys_created_by>frank.schuster</sys_created_by><sys_created_on>2016-07-08 21:20:50</sys_created_on><sys_customer_update>true</sys_customer_update><sys_id>b990e534132c26003e2250f82244b023</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Hackathon Event</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_replace_on_upgrade>false</sys_replace_on_upgrade><sys_scope display_value="Global">global</sys_scope><sys_update_name>sys_db_object_b990e534132c26003e2250f82244b023</sys_update_name><sys_updated_by>frank.schuster</sys_updated_by><sys_updated_on>2016-07-08 21:20:50</sys_updated_on><update_access>false</update_access><user_role/><ws_access>true</ws_access></sys_db_object></record_update>]]></payload>
+<remote_update_set display_value="SP Enablement - Hackathon Registration">0675124213e0a6003e2250f82244b0ad</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>frank.schuster</sys_created_by>
+<sys_created_on>2016-07-12 22:23:49</sys_created_on>
+<sys_id>ca75124213e0a6003e2250f82244b0ad</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_updated_by>frank.schuster</sys_updated_by>
+<sys_updated_on>2016-07-12 22:23:49</sys_updated_on>
+<table>u_hackathon_event</table>
+<target_name>Hackathon Event</target_name>
+<type>Table</type>
+<update_domain>global</update_domain>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_documentation_u_hackathon_registration_u_email_en</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update><sys_documentation element="u_email" label="E-Mail" language="en" table="u_hackathon_registration"><sys_documentation action="INSERT_OR_UPDATE"><element>u_email</element><help/><hint/><label>E-Mail</label><language>en</language><name>u_hackathon_registration</name><plural>E-Mails</plural><sys_class_name>sys_documentation</sys_class_name><sys_created_by>frank.schuster</sys_created_by><sys_created_on>2016-07-08 21:20:14</sys_created_on><sys_customer_update>false</sys_customer_update><sys_id>ab80a534132c26003e2250f82244b093</sys_id><sys_mod_count>0</sys_mod_count><sys_name>E-Mail</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_replace_on_upgrade>false</sys_replace_on_upgrade><sys_scope display_value="Global">global</sys_scope><sys_update_name>sys_documentation_u_hackathon_registration_u_email_en</sys_update_name><sys_updated_by>frank.schuster</sys_updated_by><sys_updated_on>2016-07-08 21:20:14</sys_updated_on><url/><url_target/></sys_documentation></sys_documentation></record_update>]]></payload>
+<remote_update_set display_value="SP Enablement - Hackathon Registration">0675124213e0a6003e2250f82244b0ad</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>frank.schuster</sys_created_by>
+<sys_created_on>2016-07-12 22:23:49</sys_created_on>
+<sys_id>ca75124213e0a6003e2250f82244b0ae</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_updated_by>frank.schuster</sys_updated_by>
+<sys_updated_on>2016-07-12 22:23:49</sys_updated_on>
+<table>u_hackathon_registration</table>
+<target_name>Hackathon Registration.E-Mail</target_name>
+<type>Field Label</type>
+<update_domain>global</update_domain>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_dictionary_u_hackathon_registration_null</name>
+<payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update&gt;&lt;sys_dictionary action="INSERT_OR_UPDATE" element="" table="u_hackathon_registration"&gt;&lt;active&gt;true&lt;/active&gt;&lt;array&gt;false&lt;/array&gt;&lt;attributes/&gt;&lt;audit&gt;false&lt;/audit&gt;&lt;calculation&gt;&lt;![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]&gt;&lt;/calculation&gt;&lt;choice/&gt;&lt;choice_field/&gt;&lt;choice_table/&gt;&lt;column_label/&gt;&lt;comments/&gt;&lt;create_roles/&gt;&lt;default_value/&gt;&lt;defaultsort/&gt;&lt;delete_roles/&gt;&lt;dependent/&gt;&lt;dependent_on_field/&gt;&lt;display&gt;false&lt;/display&gt;&lt;dynamic_creation&gt;false&lt;/dynamic_creation&gt;&lt;dynamic_creation_script/&gt;&lt;dynamic_default_value/&gt;&lt;dynamic_ref_qual/&gt;&lt;element/&gt;&lt;element_reference&gt;false&lt;/element_reference&gt;&lt;foreign_database/&gt;&lt;internal_type display_value="Collection"&gt;collection&lt;/internal_type&gt;&lt;mandatory&gt;false&lt;/mandatory&gt;&lt;max_length&gt;40&lt;/max_length&gt;&lt;name&gt;u_hackathon_registration&lt;/name&gt;&lt;next_element/&gt;&lt;primary&gt;false&lt;/primary&gt;&lt;read_only&gt;false&lt;/read_only&gt;&lt;read_roles/&gt;&lt;reference/&gt;&lt;reference_cascade_rule/&gt;&lt;reference_floats&gt;false&lt;/reference_floats&gt;&lt;reference_key/&gt;&lt;reference_qual/&gt;&lt;reference_qual_condition/&gt;&lt;reference_type/&gt;&lt;sizeclass/&gt;&lt;spell_check&gt;false&lt;/spell_check&gt;&lt;staged&gt;false&lt;/staged&gt;&lt;sys_class_name&gt;sys_dictionary&lt;/sys_class_name&gt;&lt;sys_created_by&gt;frank.schuster&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2016-07-08 21:20:14&lt;/sys_created_on&gt;&lt;sys_customer_update&gt;true&lt;/sys_customer_update&gt;&lt;sys_id&gt;2b80a534132c26003e2250f82244b090&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_name&gt;u_hackathon_registration&lt;/sys_name&gt;&lt;sys_package display_value="Global" source="global"&gt;global&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_replace_on_upgrade&gt;false&lt;/sys_replace_on_upgrade&gt;&lt;sys_scope display_value="Global"&gt;global&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_dictionary_u_hackathon_registration_null&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;frank.schuster&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2016-07-08 21:20:14&lt;/sys_updated_on&gt;&lt;table_reference&gt;false&lt;/table_reference&gt;&lt;text_index&gt;false&lt;/text_index&gt;&lt;unique&gt;false&lt;/unique&gt;&lt;use_dependent_field&gt;false&lt;/use_dependent_field&gt;&lt;use_dynamic_default&gt;false&lt;/use_dynamic_default&gt;&lt;use_reference_qualifier&gt;simple&lt;/use_reference_qualifier&gt;&lt;virtual&gt;false&lt;/virtual&gt;&lt;widget/&gt;&lt;write_roles/&gt;&lt;xml_view&gt;false&lt;/xml_view&gt;&lt;/sys_dictionary&gt;&lt;/record_update&gt;</payload>
+<remote_update_set display_value="SP Enablement - Hackathon Registration">0675124213e0a6003e2250f82244b0ad</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>frank.schuster</sys_created_by>
+<sys_created_on>2016-07-12 22:23:49</sys_created_on>
+<sys_id>ce75124213e0a6003e2250f82244b0ad</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_updated_by>frank.schuster</sys_updated_by>
+<sys_updated_on>2016-07-12 22:23:49</sys_updated_on>
+<table>u_hackathon_registration</table>
+<target_name>Hackathon Registration</target_name>
+<type>Dictionary</type>
+<update_domain>global</update_domain>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_documentation_u_hackathon_registration__en</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update><sys_documentation element="" label="Hackathon Registration" language="en" table="u_hackathon_registration"><sys_documentation action="INSERT_OR_UPDATE"><element/><help/><hint/><label>Hackathon Registration</label><language>en</language><name>u_hackathon_registration</name><plural>Hackathon Registrations</plural><sys_class_name>sys_documentation</sys_class_name><sys_created_by>frank.schuster</sys_created_by><sys_created_on>2016-07-08 21:20:14</sys_created_on><sys_customer_update>false</sys_customer_update><sys_id>6b80a534132c26003e2250f82244b092</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Hackathon Registration</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_replace_on_upgrade>false</sys_replace_on_upgrade><sys_scope display_value="Global">global</sys_scope><sys_update_name>sys_documentation_u_hackathon_registration__en</sys_update_name><sys_updated_by>frank.schuster</sys_updated_by><sys_updated_on>2016-07-08 21:20:14</sys_updated_on><url/><url_target/></sys_documentation></sys_documentation></record_update>]]></payload>
+<remote_update_set display_value="SP Enablement - Hackathon Registration">0675124213e0a6003e2250f82244b0ad</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>frank.schuster</sys_created_by>
+<sys_created_on>2016-07-12 22:23:49</sys_created_on>
+<sys_id>ce75124213e0a6003e2250f82244b0ae</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_updated_by>frank.schuster</sys_updated_by>
+<sys_updated_on>2016-07-12 22:23:49</sys_updated_on>
+<table>u_hackathon_registration</table>
+<target_name>Hackathon Registration</target_name>
+<type>Field Label</type>
+<update_domain>global</update_domain>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+</unload>

@@ -13,7 +13,7 @@
 - Remember the `$sp.do?id=<page_id>` trick?
 
 ### Lab Validation:
-***Your new test page with your cloned widget will look something like this.*** 
+***Your new test page with your cloned widget will look something like this.***<br/> 
 Test it out by adding a known stock code (e.g. NOW).
 
 # Lab 1.2: Adding Options to the Widget
@@ -33,48 +33,54 @@ Test it out by adding a known stock code (e.g. NOW).
 ```CSS
 <h2>{{::options.title}}</h2>
 ```
-2.	Locate the span element where the price is displayed and add a new style attribute with the Price CSS option:
+- Locate the span element where the price is displayed 
+- add a new style attribute with the Price CSS option:
+```CSS
 <span style={{::options.price_css}}>{{c.data.price | currency:"$"}}</span>
-
-3.	Locate the img element where the stock image is displayed and add a new style with the Image CSS option:
+```
+- Locate the img element where the stock image is displayed
+- add a new style with the Image CSS option:
+```CSS
 <img style={{::options.image_css}} ng-src="http://chart.finance.yahoo.com/z?s={{c.data.symbol}}&t=1d&z=l"/>
+```
+- Click Save.
 
-Click Save.
+***Open or reload the test page again***
+- Right-click + CTRL on the widget instance and select Instance Options:
 
-Open or reload the test page again
-Right-click + CTRL on the widget instance and select Instance Options:
+- Enter some text for the Title and then some CSS style to Price CSS and Image CSS option and Click Save.
+  - Title:	 	Realtime Stock
+  - Price CSS:	color: green;  font-size: 30px
+  - Image CSS:	border: 5px solid green; border-radius: 5px; padding: 5px;
 
-Enter some text for the Title and then some CSS style to Price CSS and Image CSS option. Click Save.
+- reload the page 
+***you can immediately see the title you added above.***
 
-•	Title:	 	Realtime Stock
-•	Price CSS:	color: green;  font-size: 30px
-•	Image CSS:	border: 5px solid green; border-radius: 5px; padding: 5px;
+### Lab Validation:
+Open your test page, and again test it out.<br/> 
+This time, open your test page with an actual portal associated (e.g. sp). <br/>
+*** The page should look something like this:***
 
-reload the page 
-you can immediately see the title you added above.
 
-Lab Validation:
-Open your test page, and again test it out. This time, open your test page with an actual portal associated (e.g. sp). The page should look something like this: 
-Lab 1.3: Adding Widget specific CSS-SCSS
+# Lab 1.3: Adding Widget specific CSS-SCSS
 
 Let’s now add some widget specific CSS-SCSS styling!
 
-Back in the Widget Editor,
-create a new class called named myTitleClass and specify some styles of your liking.
-
+- Back in the Widget Editor.
+- create a new class called named myTitleClass and specify some styles of your liking.
+```CSS
 .myTitleClass {
-  
   font-size: 25px;
   color: $sp-tagline-color;
   font-weight: bold;
-  text-decoration: underline;
-    
+  text-decoration: underline;    
 }
-Add the new class to the h2 element tag:
-
+```
+- Add the new class to the h2 element tag:
+```CSS
 <h2 class="myTitleClass">{{::options.title}}</h2>
-
-Click Save.
+```
+- Click Save.
 
 
 Lab Validation:

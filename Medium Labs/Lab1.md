@@ -10,7 +10,7 @@
 
 `Hint:` You can save the widget by pressing Command + S.
 
-- Open the test page in a new tab without a portal associated. 
+- Open the test page in a new tab without a portal associated. <br/>
 ***Remember the `$sp.do?id=<page_id>` trick?***
 
 ### Lab Validation:

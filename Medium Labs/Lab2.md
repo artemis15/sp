@@ -415,3 +415,5 @@ Add the following lines into your CSS section since we are using some of the cla
   right: 10px;
 }
 ```
+
+#### …And with that, you’ve successfully completed Lab 1

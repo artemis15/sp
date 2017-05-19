@@ -7,7 +7,8 @@ In this lab you will continue from [Real Time DataTable - Part 1](Real_Time_Data
 - Angular Provider Name: ui.utils
 - Include on page load: true
 - Save the record
-- Add the following `JS Includes` in the given order
+- Add the following `JS Includes` in the given order<br/>
+
 | Order | Source | Display Name & JS File URL|
 | :------ | :----| :-------------------------------------------------------------------|
 | 100 | URL| https://cdn.datatables.net/buttons/1.3.1/js/buttons.html5.min.js|

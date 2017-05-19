@@ -5,8 +5,7 @@
 - Click on the menu and choose Clone “Stock”. 
 - Give the new widget a name of My Stock 
 - check the Create test page 
-- Submit
-<br/>
+- Submit <br/>
 ![move to header](/assets/clone.png)<br/>
 
 `Hint:` You can save the widget by pressing Command + S.

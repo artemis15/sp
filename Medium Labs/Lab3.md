@@ -1,41 +1,26 @@
 ## Preparation
 Load, Preview & Commit the Backend Update Set:
-•	Name: SP-Enablement-HackathonRegistrationComponents.xml
+- Name: SP-Enablement-HackathonRegistrationComponents.xml
 
-This update set will provide you with the table & fields for the following labs.
-Lab 3.1: Create a Bootstrap Form 
-Create a Bootstrap form with the following fields:
-•	First Name (Text Input)
-•	Last Name (Text Input)
-•	Company (Text Input)
-•	E-Mail (Text Input)
-•	Event (Select Basic)
-•	Comments (Input Text Area)
-•	A Submit Button
+***This update set will provide you with the table & fields for the following labs.*** <br/>
+Create a Hackathon Registration Page, a Container and e.g. a 12 column layout where you will display your widget in.<br/>
+We will write the widget in the following order:<br/>
+- Build the form
+- Write the Server Script
+- Write the Client Script
+- Add AngularJS to the form
 
-Hint: Do not make your life to hard, use Bootstrap form builders to quickly create forms, e.g.: http://bootsnipp.com/forms
+# Lab 3.1: Create a Bootstrap Form 
+  - Create a Bootstrap form with the following fields:
+  - First Name (Text Input)
+  -	Last Name (Text Input)
+  -	Company (Text Input)
+  -	E-Mail (Text Input)
+  -	Event (Select Basic)
+  -	Comments (Input Text Area)
+  -	A Submit Button
 
-Lab Validation:
-Your form should look something like this.
-
-Create a Hackathon Registration Page, a Container and e.g. a 12 column layout where you will display your widget in.
-
-We will write the widget in the following order:
-1.	Build the form
-2.	Write the Server Script
-3.	Write the Client Script
-4.	Add AngularJS to the form
-Lab 3.1: Create a Bootstrap Form 
-Create a Bootstrap form with the following fields:
-•	First Name (Text Input)
-•	Last Name (Text Input)
-•	Company (Text Input)
-•	E-Mail (Text Input)
-•	Event (Select Basic)
-•	Comments (Input Text Area)
-•	A Submit Button
-
-Hint: Do not make your life to hard, use Bootstrap form builders to quickly create forms, e.g.: http://bootsnipp.com/forms
+`Hint:`Use Bootstrap form builders to quickly create forms, e.g.: http://bootsnipp.com/forms
 
 Lab Validation:
 Your form should look something like this.

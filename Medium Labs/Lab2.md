@@ -33,7 +33,6 @@ That Terms & Conditions can live directly in the Widget HTML or you can try to u
 # Lab 2.2: Writing the Server Script
 
 Before we start adding AngularJS to our form, let’s make sure we have all the data we need. <br/><br/>
-`HINT:` Do not copy/paste this code from the Box preview, open up the Word document, copy it in the correct widget field, mark everything (Cmd + A) and then format the code with Shift + Tab.<br/><br/>
 
 ## Step 1 – Loading the Events from the Event Table:
 To load events we are using some standard GlideRecord magic.<br/>
